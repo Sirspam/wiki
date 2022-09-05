@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 sidebar: auto
 ---
 
@@ -120,3 +121,19 @@ Qosmetics Community is a community focused around providing Custom models, inclu
 We are a quest-focused beat saber community server, dedicated to improving the experience for as many players as we can.
 
 [Discord](https://discord.gg/d6DyW9v) | [Website](https://www.questmodding.com/)
+=======
+sidebar: false
+---
+
+<!-- Disable header rule to hide page from search -->
+<!-- markdownlint-disable MD041 -->
+Sorry, deze pagina is nog niet vertaald.
+
+Je kan:
+
+* Overschakelen naar de Engelse versie vanuit het taal menu.
+* Wachten totdat deze pagina is vertaald.
+* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
+
+[Ga terug naar de startpagina](/nl/)
+>>>>>>> master

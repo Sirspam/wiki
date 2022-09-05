@@ -74,7 +74,7 @@ they'll be explained later down this page.
 ```
 
 #### _version
-This field describes the version of the map format we are using. Currently, Beat Saber's map format is on version `2.0.0`.
+This field describes the version of the map format we are using. Currently, Beat Saber's map info format is on version `2.0.0`.
 
 #### _songName
 This field describes the name of your song.
@@ -157,7 +157,7 @@ is a required field, even if the level does not include any 360 or 90 Degree dif
 
 #### _songTimeOffset
 This is Beat Saber's method for tackling off-sync audio. This offsets the audio in game,
-based off the value of `_songTimeOffset` in milliseconds.
+based off the value of `_songTimeOffset` in seconds.
 
 :::warning
 Hit sounds are also affected by the same offset. We recommend the mapper sync up their audio file *before* mapping, as
@@ -278,7 +278,7 @@ This is the local location to the difficulty file, which contains the difficulty
 Similar to the [`_songFilename`](#songfilename) and [`_coverImageFilename`](#coverimagefilename) from earlier, in most
 cases this is just the name and extension (always `.dat`) to the map file.
 
-When creating *new* difficulties, it is recommended that the name be a the Characteristic name for this difficulty's parent
+When creating *new* difficulties, it is recommended that the name be the Characteristic name for this difficulty's parent
 [Beatmap Set](#difficulty-beatmap-sets), followed by the [`_difficulty`](#difficulty) value. For example, this particular
 difficulty should have it's difficulty file be named `StandardExpertPlus.dat`.
 
@@ -313,18 +313,692 @@ The exact specifics of what goes in `_customData` is entirely dependent on commu
 As such, we cannot list all `_customData` fields here. You will have to do your own searching throughout the Beat Saber
 community to find map editors, tools, or mods that use this `_customData` object.
 
-## Difficulty File
-Each Difficulty Beatmap contains a corresponding file which defines the notes, obstacles, events,
-and other objects for that particular difficulty.
+## Difficulty File (v3)
+Each Difficulty Beatmap contains a corresponding file which defines the notes, obstacles, events, and other objects
+for that particular difficulty.
+
+This version was introduced in Beat Saber version 1.20.0.
 
 ### Base Object
 
 ```json
 {
-  "_version": "2.0.0",
+  "version":"3.0.0", // There must be no whitespace after :
+  "bpmEvents": [],
+  "rotationEvents": [],
+  "colorNotes": [],
+  "bombNotes": [],
+  "obstacles": [],
+  "sliders": [],
+  "burstSliders": [],
+  "waypoints": [],
+  "basicBeatmapEvents": [],
+  "colorBoostBeatmapEvents": [],
+  "lightColorEventBoxGroups": [],
+  "lightRotationEventBoxGroups": [],
+  "basicEventTypesWithKeywords": {},
+  "useNormalEventsAsCompatibleEvents": false
+}
+```
+
+#### version
+This field describes the version of the map format we are using.
+
+#### bpmEvents
+This is an array of [BPM Event](#bpm-events) objects for the map.
+
+#### rotationEvents
+This is an array of [Rotation Event](#rotation-events) objects for the map.
+
+#### colorNotes
+This is an array of [Color Note](#color-notes) objects for the map.
+
+#### bombNotes
+This is an array of [Bomb Note](#bomb-notes) objects for the map.
+
+#### obstacles
+This is an array of [Obstacle](#obstacles-1) objects for the map.
+
+#### sliders
+This is an array of [Slider](#sliders-1) objects for the map.
+
+#### burstSliders
+This is an array of [Burst Slider](#burst-sliders) objects for the map.
+
+#### waypoints
+::: tip NOTE
+This is a stub section.
+:::
+This is used to control BTS TinyTAN figures. Some information can be found in this
+[document](https://docs.google.com/spreadsheets/d/1spW7LS-RvenLQBVXJl9w_iOwqr9r_ozxYo3JUlXq9Lc).
+
+#### basicBeatmapEvents
+This is an array of [Basic Event](#basic-beatmap-events) objects for the map.
+
+#### colorBoostBeatmapEvents
+This is an array of [Boost Event](#color-boost-beatmap-events) objects for the map.
+
+#### lightColorEventBoxGroups
+This is an array of [Light Color Box Group Event](#light-color-event-box) objects for the map.
+
+#### lightRotationEventBoxGroups
+This is an array of [Light Rotation Box Group Event](#light-rotation-event-box) objects for the map.
+
+#### basicEventTypesWithKeywords
+::: tip NOTE
+This is a stub section. Documentation is a work in progress.
+:::
+  
+#### useNormalEventsAsCompatibleEvents
+This is a boolean.
+::: tip NOTE
+This is a stub section. Documentation is a work in progress.
+:::
+
+### Bpm Events
+
+```json
+{
+  "b": 10.0,
+  "m": 128.0,
+}
+```
+
+#### b
+The time, in beats, where this object reaches the player.
+
+#### m
+A float representing the new bpm. Any `b` in objects after this point will be adjusted to the new bpm.
+
+### Rotation Events
+
+```json
+{
+  "b": 10.0, // Beat
+  "e": 0,    // Event type
+  "r": 15.0, // Rotation
+}
+```
+
+#### b
+The time, in beats, where this object reaches the player.
+
+#### e
+|`e`|Result|
+|:---:|-----|
+|`0`|Early rotation. Rotates future objects, while also rotating objects at the same time.|
+|`1`|Late rotation. Rotates future objects, but ignores rotating objects at the same time.|
+
+#### r
+A float which represents clockwise rotation (as viewed from above).
+
+### Color Notes
+
+```json
+{
+  "b": 10.0, // Beat
+  "x": 1,
+  "y": 0,
+  "c": 0,    // Color
+  "d": 1,    // Direction
+  "a": 0     // Angle offset
+}
+```
+
+#### b
+The time, in beats, where this object reaches the player.
+
+#### x
+An integer number, from 0 to 3, which represents the column where this note is located.
+The far left column is located at index 0, and increases to the far right column located at index 3.
+
+#### y
+An integer number, from 0 to 2, which represents the layer where this note is located.
+The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+
+#### c
+An integer which represents the color of the note.
+|`c`|Result|
+|:---:|-----|
+|`0`|Red|
+|`1`|Blue|
+
+#### d
+This indicates the cut direction for the note.
+
+|`d`|Result|
+|:-------------------:|-------------------|
+|`0`|Up|
+|`1`|Down|
+|`2`|Left|
+|`3`|Right|
+|`4`|Up Left|
+|`5`|Up Right|
+|`6`|Down Left|
+|`7`|Down Right|
+|`8`|Any (Dot Note)|
+
+#### a
+An integer number which represents the additional counter-clockwise angle offset applied to the note's cut direction in degrees.
+This has no effect on angles created due to snapping (e.g. dot stack, slanted windows).
+
+### Bomb Notes
+
+```json
+{
+  "b": 10.0, // Beat
+  "x": 1,
+  "y": 0
+}
+```
+
+#### b
+The time, in beats, where this object reaches the player.
+
+#### x
+An integer number, from 0 to 3, which represents the column where this note is located.
+The far left column is located at index 0, and increases to the far right column located at index 3.
+
+#### y
+An integer number, from 0 to 2, which represents the layer where this note is located.
+The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+
+### Obstacles
+
+```json
+{
+  "b": 10.0, // Beat
+  "x": 1,
+  "y": 0,
+  "d": 5,    // Duration
+  "w": 1,    // Width
+  "h": 3     // Height
+}
+```
+
+#### b
+The time, in beats, where this object reaches the player.
+
+#### x
+An integer number, from 0 to 3, which represents the column where this obstacle is located.
+The far left column is located at index 0, and increases to the far right column located at index 3.
+
+#### y
+An integer number, from 0 to 2, which represents the layer where base of the obstacle is located.
+The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+|`y`|Result|
+|:-------------------:|-------------------|
+|`0`|Grounded obstacle|
+|`1`|Prone obstacle|
+|`2`|Crouch obstacle|
+
+#### d
+The time, in beats, that the obstacle extends for (duration).
+While `d` can go into negative numbers, be aware that this has some unintended effects.
+
+#### w
+An integer which which represents the width of the obstacle.
+While `w` can go into negative numbers, be aware that this has some unintended effects.
+
+#### h
+An integer numbers from 1 to 5, which represents the height of the obstacle.
+While `h` can go into negative numbers, be aware that this has some unintended effects.
+
+### Sliders
+These describe arcs. If the head or tail of an arc matches a note's time and position,
+then the arc will connect with the note and alter how the note is scored.
+
+```json
+{
+  "b": 10.0,  // Head Beat
+  "c": 0,     // Color
+  "x": 1,     // Head x
+  "y": 0,     // Head y
+  "d": 1,     // Head direction
+  "mu": 1.0,  // Head multiplier
+  "tb": 15.0, // Tail Beat
+  "tx": 2,    // Tail x
+  "ty": 2,    // Tail y
+  "tc": 1,    // Tail direction
+  "tmu": 1.0, // Tail Multiplier
+  "m": 1,     // Mid-anchor mode
+}
+```
+
+#### b
+The time, in beats, where this head of this object reaches the player.
+
+#### c
+An integer which represents the color of the note.
+|`c`|Result|
+|:---:|-----|
+|`0`|Red|
+|`1`|Blue|
+
+#### x
+An integer number, from 0 to 3, which represents the column where the head of the arc is located.
+The far left column is located at index 0, and increases to the far right column located at index 3.
+
+#### y
+An integer number, from 0 to 2, which represents the layer where the head of the arc is located.
+The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+
+#### d
+An integer number which represents the head direction of the arc.
+
+|`d`|Result|
+|:-------------------:|-------------------|
+|`0`|Up|
+|`1`|Down|
+|`2`|Left|
+|`3`|Right|
+|`4`|Up Left|
+|`5`|Up Right|
+|`6`|Down Left|
+|`7`|Down Right|
+|`8`|Any (Dot Note)|
+
+#### mu
+A float which represents how far the arc goes from the head of the arc.
+If head direction is a dot, this does nothing.
+
+#### tb
+The time, in beats, where this tail of this object reaches the player.
+
+#### tx
+An integer number, from 0 to 3, which represents the column where the tail of the arc is located.
+The far left column is located at index 0, and increases to the far right column located at index 3.
+
+#### ty
+An integer number, from 0 to 2, which represents the layer where the tail of the arc is located.
+The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+
+#### tc
+An integer number which represents the tail direction of the arc.
+
+|`tc`|Result|
+|:-------------------:|-------------------|
+|`0`|Up|
+|`1`|Down|
+|`2`|Left|
+|`3`|Right|
+|`4`|Up Left|
+|`5`|Up Right|
+|`6`|Down Left|
+|`7`|Down Right|
+|`8`|Any (Dot Note)|
+
+#### tmu
+A float which represents how far the arc goes from the tail of the arc.
+If tail direction is a dot, this does nothing.
+
+#### m
+An integer number which represents how the arc curves from the head to the mid point of the arc under certain conditions:
+
+* Head and tail `x` are equal; and
+* Head and tail cut direction are equal **OR** their angle difference is 180
+
+|`m`|Result|
+|:-------------------:|-------------------|
+|`0`|Straight|
+|`1`|Clockwise|
+|`2`|Counter-Clockwise|
+
+### Burst Sliders
+These describe chain and links. If the head of a chain matches a note's time and position,
+then the chain will connect with the note and alter how the note is scored.
+
+```json
+{
+  "b": 10.0,  // Beat
+  "x": 1,     // Head x
+  "y": 0,     // Head y
+  "c": 0,     // Color
+  "d": 1,     // Head direction
+  "tb": 15.0, // Tail Beat
+  "tx": 2,    // Tail x
+  "ty": 2,    // Tail y
+  "sc": 3,    // Segment count
+  "s": 0.5    // Squish factor
+}
+```
+
+#### b
+The time, in beats, where this head of this object reaches the player.
+
+#### c
+An integer which represents the color of the note.
+|`c`|Result|
+|:---:|-----|
+|`0`|Red|
+|`1`|Blue|
+
+#### x
+An integer number, from 0 to 3, which represents the column where the head of the arc is located.
+The far left column is located at index 0, and increases to the far right column located at index 3.
+
+#### y
+An integer number, from 0 to 2, which represents the layer where the head of the arc is located.
+The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+
+#### d
+An integer number which represents the head direction of the arc.
+
+|`d`|Result|
+|:-------------------:|-------------------|
+|`0`|Up|
+|`1`|Down|
+|`2`|Left|
+|`3`|Right|
+|`4`|Up Left|
+|`5`|Up Right|
+|`6`|Down Left|
+|`7`|Down Right|
+|`8`|~~Any (Dot Note)~~ Functions as down.|
+
+#### tb
+The time, in beats, where this tail of this object reaches the player.
+
+#### tx
+An integer number, from 0 to 3, which represents the column where the tail of the arc is located.
+The far left column is located at index 0, and increases to the far right column located at index 3.
+
+#### ty
+An integer number, from 0 to 2, which represents the layer where the tail of the arc is located.
+The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+
+#### sc
+An integer number, greater than 0, which represents the number of segments in the burst slider.
+The head counts as a segment.
+
+#### s
+A float which represents squish factor. This is the proportion of how much of the path from `(x,y)` to `(tx, ty)`
+is used by the chain. This does not alter the shape of the path.
+Values greater than 1 will extend the path beyond the specified end point.
+
+:::danger
+Do not set squish factor to 0. This will crash the game.
+:::
+
+### Basic BeatMap Events
+
+```json
+{
+  "b": 10.0, // Equivalent to _time
+  "et": 1,   // Equivalent to _type
+  "i": 1,    // Equivalent to _value
+  "f": 1.0   // Equivalent to _floatValue
+}
+```
+
+See [Events](#events-2) in v2 for information of what these equivalent properties represent.
+
+### Color Boost Beatmap Events
+
+```json
+{
+  "b": 10.0,
+  "o": true
+}
+```
+
+#### b
+The time, in beats, where this object reaches the player.
+
+#### o
+A boolean which determines whether boost lighting is on or off.  
+
+### Light Color Event Box
+
+```json
+{
+  "b": 2.0, // Beat
+  "g": 0,   // Group
+  "e": [    // Event box group
+    {
+      "f": {  // Filter
+        "f": 1, // Filter type
+        "p": 1, // Parameter 0
+        "t": 0, // Parameter 1
+        "r": 0  // Reverse
+      },
+      "w": 1.0, // Beat distribution
+      "d": 1,   // Beat distribution type
+      "r": 1.0, // Brightness distribution
+      "t": 1,   // Brightness distribution type
+      "b": 1,   // Brightness distribution affects first event
+      "e": [    // Event Data
+        {
+          "b": 0.0, // Added beat
+          "i": 0,   // Transition type from previous event state
+          "c": 1,   // Color
+          "s": 1.0, // Brightness
+          "f": 0    // Flicker frequency
+        }
+      ]
+    }
+  ]
+}
+```
+
+#### b (outer)
+The time, in beats, where this object reaches the player.
+
+##### g
+The group of this lighting event.
+
+##### e (outer)
+An array containing the different lanes in the group.
+
+##### f
+A json object containing data describes the lane filter.
+
+###### f, p, t
+|`f`|Editor Name|Result|
+|---|-----------|------|
+|`1`|Sections|`p` determines how many sections the light groups is split into <br />`t` determines which section to use|
+|`2`|Step and Offset|`p` determines how many lights to skip<br />`t` determines which light to start from|
+
+###### r
+A boolean which determines if the filter is applied in reverse order.
+
+##### w,d
+Theses values determine how the light take effect over time.
+|`d`|Editor Name|Result|
+|---|-----------|-----|
+|`1`|Wave| After `w` beats, the last step takes effect. |
+|`2`|Step| After `w` beats, the next step takes effect. |
+
+##### r, t
+These values determines the amount of additional brightness distributed over the group.
+|`t`|Editor Name|Result|
+|---|-----------|------|
+|`1`|Wave| `r` is the difference the last and first step. |
+|`2`|Step| `r` is the difference between each step. |
+
+##### b
+An integer which determines if the brightness distribution affects the first event in this lane.
+|`b`|Affects First Event|
+|---|----|
+|`0`|No|
+|`1`|Yes|
+
+##### e (inner)
+An array of event data objects which have the properties of the specified box group filters.
+
+###### b
+A float which determines the time this event takes effect relative to the start of the event box group.
+
+###### i
+An integer which determines the transition type of the event
+|`i`|Type|Result|
+|---|----|------|
+|`0`| Instant | The light instantly changes. |
+|`1`| Transition | The light transitions from the previous event to this event. |
+|`2`| Extend | The light holds the state of the previous light. |
+
+###### c
+An integer which determines the color of the light.
+|`c`|Result|
+|---|------|
+|`0`| Red  |
+|`1`| Blue |
+|`2`| White|
+
+###### s
+A float which determines the brightness of the light.
+
+###### f
+An integer which determines the frequency of the strobe (in beat time).
+0 is static light.
+
+### Light Rotation Event Box
+
+```json
+{
+  "b": 2.0, // Beat
+  "g": 0,   // Group
+  "e": [    // Event group box
+    {
+      "f": {  // Filter
+        "f": 1, // Filter type
+        "p": 1, // Parameter 0
+        "t": 0, // Parameter 1
+        "r": 0  // Reverse
+      },
+      "w": 0, // Beat distribution
+      "d": 0, // Beat distribution type
+      "s": 0, // Rotation distribution
+      "t": 0, // Rotation distribution type
+      "b": 0, // Rotation distribution affects first event
+      "a": 1, // Axis
+      "r": 1, // Reverse rotation
+      "l": [  // Event data
+        {
+          "b": 0.0, // Add beat time
+          "p": 1,   // Transition from previous event rotation behaviour
+          "e": 1,   // Ease type
+          "l": 1,   // Additional loops
+          "r": 340, // Rotation value
+          "o": 1    // Rotation direction
+        }
+      ]
+    }
+  ]
+}
+```
+
+#### b (outer)
+The time, in beats, where this object reaches the player.
+
+##### g
+The group of this rotation event.
+
+##### e (outer)
+An array containing the different lanes in the group.
+
+##### f
+A json object containing data describes the lane filter.
+
+###### f, p, t
+|`f`|Editor Name|Result|
+|---|-----------|------|
+|`1`|Sections|`p` determines how many sections the light group is split into <br />`t` determines which section to use|
+|`2`|Step and Offset|`p` determines how many lights to skip<br />`t` determines which light to start from|
+
+###### r
+A boolean which determines if the filter is applied in reverse order.
+
+##### w,d
+Theses values determine how the rotation takes effect over time.
+|`d`|Editor Name|Result|
+|---|-----------|-----|
+|`1`|Wave| After `w` beats, the last step takes effect. |
+|`2`|Step| After `w` beats, the next step takes effect. |
+
+##### s, t
+These values determines the amount of additional rotation distributed over the group.
+|`t`|Editor Name|Result|
+|---|-----------|------|
+|`1`|Wave| `s` is the difference the last and first step. |
+|`2`|Step| `s` is the difference between each step. |
+
+##### b
+A boolean which determines if the rotation distribution affects the first event in this lane.
+|`b`|Affects First Event|
+|---|----|
+|`0`|No|
+|`1`|Yes|
+
+##### a
+An integer which determines the axis of rotation.
+|`a`|Axis|
+|---|----|
+|`0`|x|
+|`1`|y|
+
+##### r
+An integer which determines if the axis of rotation is flipped.
+|`r`|Flipped|
+|---|----|
+|`0`|No|
+|`1`|Yes|
+
+##### e (inner)
+An array of event data objects which have the properties of the specified box group filters.
+
+###### b
+A float which determines the time this event takes effect relative to the start of the event box group.
+
+###### p
+An integer which determines if the previous rotation is used.
+|`i`|Type|Result|
+|---|----|------|
+|`0`| Transition | The rotation transitions from the previous event to this event. |
+|`1`| Extend | The rotation holds the state of the previous rotation. |
+
+###### l
+An integer which determines the number of additional 360 degree rotations (loops).
+
+###### e
+An integer which determines the easing of the rotation.
+| `e`|Easing|
+|----|------|
+|`-1`| None |
+| `0`| Linear |
+| `1`| EaseInQuad |
+| `2`| EaseOutQuad |
+| `3`| EaseInOutQuad |
+
+###### r
+A float which determines the amount of rotation.
+
+###### o
+An integer which determines the direction of the rotation.
+|`o`|Direction|
+|----|------|
+|`0`| Automatic |
+|`1`| Clockwise |
+|`2`| Counter-clockwise |
+
+## Difficulty File (v2)
+Each Difficulty Beatmap contains a corresponding file which defines the notes, obstacles, events,
+and other objects for that particular difficulty.
+
+Version `2.6.0` was introduced in Beat Saber version 1.20.0.  
+Version `2.5.0` was introduced in Beat Saber version 1.18.0.  
+Version `2.2.0` was introduced in Beat Saber version 1.13.1.
+
+### Base Object
+
+```json
+{
+  "_version": "2.6.0",
   "_notes": [],
+  "_sliders": [], // Introduced in version 2.6.0
   "_obstacles": [],
   "_events": [],
+  "_waypoints": [], // Introduced in version 2.2.0
   "_customData": {
     // Any custom data will go here.
     // If empty, this should be removed entirely.
@@ -333,16 +1007,26 @@ and other objects for that particular difficulty.
 ```
 
 #### _version
-This field describes the version of the map format we are using. Currently, Beat Saber's map format is on version `2.0.0`.
+This field describes the version of the map format we are using.
 
 #### _notes
-This is an array of [Note](#notes-2) objects for the map.
+This is an array of [Note](#notes-1) objects for the map.
+
+#### _sliders
+This is an array of [Slider](#sliders-3) objects for the map.
 
 #### _obstacles
-This is an array of [Obstacle](#obstacles-2) objects for the map.
+This is an array of [Obstacle](#obstacles-3) objects for the map.
 
 #### _events
-This is an array of [Event](#events-2) objects for the map.
+This is an array of [Event](#events-1) objects for the map.
+
+#### _waypoints
+::: tip NOTE
+This is a stub section.
+:::
+This is used to control BTS TinyTAN figures. Some information can be found in this
+[document](https://docs.google.com/spreadsheets/d/1spW7LS-RvenLQBVXJl9w_iOwqr9r_ozxYo3JUlXq9Lc).
 
 #### _customData
 This is an optional field that contains data unrelated to the official Beat Saber level format.
@@ -412,6 +1096,129 @@ The exact specifics of what goes in `_customData` is entirely dependent on commu
 As such, we cannot list all `_customData` fields here. You will have to do your own searching throughout the Beat Saber
 community to find map editors, tools, or mods that use this `_customData` object.
 
+### Sliders
+These describe arcs. If the head or tail of an arc matches a note's time and position, then the arc will connect with
+the note and alter how the note is scored.
+
+```json
+{
+  "_colorType": 1,
+  "_headTime": 10.0,
+  "_headLineIndex": 0,
+  "_headLineLayer": 0,
+  "_headControlPointLengthMultiplier": 1.0,
+  "_headCutDirection": 0,
+  "_tailTime": 20.0,
+  "_tailLineIndex": 1,
+  "_tailLineLayer": 1,
+  "_tailControlPointLengthMultiplier": 1.0,
+  "_tailCutDirection": 1,
+  "_sliderMidAnchorMode": 0,
+  "_customData": {
+    // Any custom data will go here.
+    // If empty, this should be removed entirely.
+  }
+}
+```
+
+#### colorType
+This indicates the color of the arc:
+
+|`_colorType`|Result|
+|:-------------------:|-------------------|
+|`0`|Left (Red) Note|
+|`1`|Right (Blue) Note|
+
+#### headTime
+The time, in beats, where this head of this object reaches the player.
+
+#### headLineIndex
+An integer number, from 0 to 3, which represents the column where the head of the arc is located.
+The far left column is located at index 0, and increases to the far right column located at index 3.
+
+#### headLineLayer
+An integer number, from 0 to 2, which represents the layer where the head of the arc is located.
+The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+
+#### headControlPointLengthMultiplier
+A float which represents how far the arc goes from the head of the arc.
+If head direction is a dot, this does nothing.
+
+#### headCutDirection
+An integer number which represents the head direction of the arc.
+
+|`_headCutDirection`|Result|
+|:-------------------:|-------------------|
+|`0`|Up|
+|`1`|Down|
+|`2`|Left|
+|`3`|Right|
+|`4`|Up Left|
+|`5`|Up Right|
+|`6`|Down Left|
+|`7`|Down Right|
+|`8`|Any (Dot Note)|
+
+#### tailTime
+The time, in beats, where this tail of this object reaches the player.
+
+#### tailLineIndex
+An integer number, from 0 to 3, which represents the column where the tail of the arc is located.
+The far left column is located at index 0, and increases to the far right column located at index 3.
+
+#### tailLineLayer
+An integer number, from 0 to 2, which represents the layer where the tail of the arc is located.
+The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+
+#### tailControlPointLengthMultiplier
+A float which represents how far the arc goes from the tail of the arc.
+If tail direction is a dot, this does nothing.
+
+#### tailCutDirection
+An integer number which represents the tail direction of the arc.
+
+|`_tailCutDirection`|Result|
+|:-------------------:|-------------------|
+|`0`|Up|
+|`1`|Down|
+|`2`|Left|
+|`3`|Right|
+|`4`|Up Left|
+|`5`|Up Right|
+|`6`|Down Left|
+|`7`|Down Right|
+|`8`|Any (Dot Note)|
+
+#### sliderMidAnchorMode
+An integer number which represents how the arc curves from the head to the mid point of the arc under certain conditions:
+
+* Head and tail `LineIndex` are equal; and
+* Head and tail `CutDirection` are equal **OR** their angle difference is 180
+
+:::warning NOTE
+Currently angle difference is NOT an absolute value. These means only half of the opposing direction pairs will meet
+these conditions. These pairs are (head -> tail):
+
+* Down -> Up
+* Right -> Left
+* DownRight -> UpLeft
+* UpRight -> DownLeft
+:::
+
+|`_sliderMidAnchorMode`|Result|
+|:-------------------:|-------------------|
+|`0`|Straight|
+|`1`|Clockwise|
+|`2`|Counter-Clockwise|
+
+#### customData
+This is an optional field that contains data unrelated to the official Beat Saber level format.
+If no custom data exists, this object should be removed entirely.
+
+The exact specifics of what goes in `_customData` is entirely dependent on community-created content that needs them.
+As such, we cannot list all `_customData` fields here. You will have to do your own searching throughout the Beat Saber
+community to find map editors, tools, or mods that use this `_customData` object.
+
 ### Obstacles
 
 ```json
@@ -466,6 +1273,7 @@ community to find map editors, tools, or mods that use this `_customData` object
   "_time": 10,
   "_type": 1,
   "_value": 3,
+  "_floatValue" : 1.00, // Introduced in version 2.5.0
   "_customData": {
     // Any custom data will go here.
     // If empty, this should be removed entirely.
@@ -487,16 +1295,20 @@ An integer number which represents what exact kind of event this object represen
 |`3`|Controls lights in the `Right Rotating Lasers` group.|
 |`4`|Controls lights in the `Center Lights` group.|
 |`5`|(Previously unused) Controls boost light colors (secondary colors).|
-|`6`|Unused.|
-|`7`|Unused.|
-|`8`|Creates one ring spin in the environment. Is not affected by [`_value`](#value).|
+|`6`|(Previously unused) Controls extra left side lights in some environments.|
+|`7`|(Previously unused) Controls extra right side lights in some environments.|
+|`8`|Creates one ring spin in the environment.|
 |`9`|Controls zoom for applicable rings. Is not affected by [`_value`](#value).|
-|`10`|(Previously unused) Official BPM Changes.|
-|`11`|Unused.|
+|`10`|(Previously unused) (Previously Official BPM Changes.)<br/>Billie environment - Controls left side lasers|
+|`11`|(Previously unused) <br/>Billie environment - Controls right side lasers.|
 |`12`|Controls rotation speed for applicable lights in `Left Rotating Lasers`.|
 |`13`|Controls rotation speed for applicable lights in `Right Rotating Lasers`.|
 |`14`|(Previously unused) 360/90 Early rotation. Rotates future objects, while also rotating objects at the same time.|
 |`15`|(Previously unused) 360/90 Late rotation. Rotates future objects, but ignores rotating objects at the same time.|
+|`16`|Interscope environment - Lowers car hydraulics<br/>Gaga environment - Controls middle left tower height|
+|`17`|Interscope environment - Raises car hydraulics<br/>Gaga environment - Controls middle right tower height|
+|`18`|Gaga environment - Controls outer left tower height|
+|`19`|Gaga environment - Controls outer right tower height|
 
 :::danger
 Just because an event type is listed as unused, does *not* mean you are freely available to use it!
@@ -507,21 +1319,31 @@ that used Custom Platforms that took advantage of the unused event types.
 :::
 
 #### _value
-Depending on the aforementioned [`_type`](#type) of the event, the `_value` of it can do different things.
+Depending on the aforementioned [`_type`](#type-2) of the event, the `_value` of it can do different things.
 
 ##### Controlling Lights
 It's default behavior is controlling brightness and color of lights, and follows this table:
 
-|`_value`|Result|
-|:-------------------:|-------------------|
-|`0`|Turns the light group off.|
-|`1`|Changes the lights to blue, and turns the lights on.|
-|`2`|Changes the lights to blue, and flashes brightly before returning to normal.|
-|`3`|Changes the lights to blue, and flashes brightly before fading to black.|
-|`4`|Unused.|
-|`5`|Changes the lights to red, and turns the lights on.|
-|`6`|Changes the lights to red, and flashes brightly before returning to normal.|
-|`7`|Changes the lights to red, and flashes brightly before fading to black.|
+|`_value`|Type|Result|
+|:------:|:---|------|
+|`0` | Off        | Turns the light group off.|
+|`1` | On         | Changes the lights to blue, and turns the lights on.|
+|`2` | Flash      | Changes the lights to blue, and flashes brightly before returning to normal.|
+|`3` | Fade       | Changes the lights to blue, and flashes brightly before fading to black.|
+|`4` | Transition | (Previously Unused.)<br/>Changes the lights to blue by fading from the current state.|
+|`5` | On         | Changes the lights to red, and turns the lights on.|
+|`6` | Flash      | Changes the lights to red, and flashes brightly before returning to normal.|
+|`7` | Fade       | Changes the lights to red, and flashes brightly before fading to black.|
+|`8` | Transition | Changes the lights to red by fading from the current state.|
+|`9` | On         | Changes the lights to white, and turns the lights on.|
+|`10`| Flash      | Changes the lights to white, and flashes brightly before returning to normal.|
+|`11`| Fade       | Changes the lights to white, and flashes brightly before fading to black.|
+|`12`| Transition | Changes the lights to white by fading from the current state.|
+
+`_value` 4 and 8 were introduced in Beat Saber version `1.18.0` (Billie Eilish patch). These transition events will only
+ transition from off, on, or other transition events. They will do nothing if the previous event is a fade or flash event.
+
+`_value` 9, 10, 11, and 12 were introduced in Beat Saver version `1.22.0` (Electronic Mixtape patch).
 
 ##### Controlling Boost Colors
 |`_value`|Result|
@@ -530,9 +1352,24 @@ It's default behavior is controlling brightness and color of lights, and follows
 |`1`|Turns the event on - switches to second pair of colors.|
 
 ##### Controlling Rings
-When the event is used to control ring spin, or ring zoom, the `_value` of the event does nothing.
+When the event is used to control ring zoom, the `_value` of the event does nothing.
 
-##### Official BPM Changes
+When the event is used to control ring spin, the `_value` only affects cars in the Interscope environment and does
+nothing in other environments.
+
+##### Controlling Cars
+|`value`|Result|
+|:-------------------:|-------------------|
+|`0`|Affects all the cars. Does not affect hydraulics.|
+|`1`|Affects all the cars.|
+|`2`|Affects the left cars.|
+|`3`|Affects the right cars.|
+|`4`|Affects the front-most cars.|
+|`5`|Affects the front-middle cars.|
+|`6`|Affects the back-middle cars.|
+|`7`|Affects the back-most cars.|
+
+##### Official BPM Changes (before version 2.5.0)
 When the event is used to control the BPM, the `_value` represents the new BPM.
 
 The new BPM does not shift internal [`_time`](#time-2) values for future objects. Instead, it essentially recalculates
@@ -574,6 +1411,17 @@ is used to add rotation equal to the following table:
 |`6`|45 Degrees Clockwise|
 |`7`|60 Degrees Clockwise|
 
+#### _floatValue
+Depending on the aforementioned [`_type`](#type-2) of the event, the `_floatValue` of it can do different things.
+
+##### Controlling Lights
+When the event is used to control lights, the `_floatValue` determines the brightness of the light.
+
+##### Official BPM Changes
+When the event is used to control the BPM, the `_floatValue` represents the new BPM.
+
+This will also alter the Note Jump Speed proportional to the change in BPM prior to Beat Saber version 1.20.0.
+
 #### _customData
 This is an optional field that contains data unrelated to the official Beat Saber level format.
 If no custom data exists, this object should be removed entirely.
@@ -583,4 +1431,6 @@ As such, we cannot list all `_customData` fields here. You will have to do your 
 community to find map editors, tools, or mods that use this `_customData` object.
 
 ## Credits
-The content on this page was authored by [Caeden117](./mapping-credits.md#caeden117).
+The content on this page was authored by [Caeden117](./mapping-credits.md#caeden117) and
+[Bullet](./mapping-credits.md#bullet) with help from [Kival Evan](./mapping-credits.md#kival-evan)
+and GalaxyMaster.

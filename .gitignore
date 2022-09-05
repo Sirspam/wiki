@@ -5,7 +5,13 @@ npm-debug.log*
 
 # Dependency directories
 node_modules
-jspm_packages
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
 # Optional npm cache directory
 .npm
@@ -20,7 +26,9 @@ jspm_packages
 wiki/.vuepress/dist
 
 # Temp files for dev build
-.temp
+.temp/
+wiki/.vuepress/.cache
+wiki/.vuepress/.temp
 
 # Visual Studio-created directory for... something?
 /.vs

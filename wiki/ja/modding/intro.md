@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Modding Intro
 _Learn how to get started writing your own PC Mods._
 
@@ -84,3 +85,20 @@ Here are some useful resources in continuing your modding career.
 * See the BSIPA Documentation for more information about the [configuration system](https://bsmg.github.io/BeatSaber-IPA-Reloaded/tags/4.1.3/articles/start-dev.html#configuring-your-plugin).
 * If you need to patch the game's code for your mod, you should use [Harmony](https://github.com/pardeike/Harmony#readme). The `0Harmony.dll` is already installed for modded games.
 * For experienced developers, you may be interested in learning about Zenject, the Dependency Injection system used heavily by Beat Saber. [SiraUtil](https://github.com/Auros/SiraUtil#readme) is a library that allows you to easily hook into this system.
+=======
+---
+sidebar: false
+---
+
+<!-- Disable header rule to hide page from search -->
+<!-- markdownlint-disable MD041 -->
+申し訳ありませんが、このページは翻訳されていません。
+
+あなたができることは。。。
+
+* 言語メニューから英語版に切り替えます。
+* そのページが翻訳されるまでお待ちください。
+* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
+
+[トップページへ戻る](/ja/)
+>>>>>>> master

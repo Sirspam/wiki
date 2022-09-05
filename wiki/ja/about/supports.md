@@ -116,8 +116,25 @@ The bot that holds it all together. Created by Megalon, recreated by lolPants, a
 A very helpful individual
 
 ---
+<<<<<<< HEAD
 
 ::: tip See Also **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
 **Modders:** [Kyle1413](./modders.md#kyle1413) | [Sirspam](./modders.md#sirspam)  
 **Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer-retired) | [Chara_](./moderators.md#chara) | [Burrito](./moderators.md#burrito) | [OneEyed](./moderators.md#oneeyed-retired)  
 **Staff:** [Assistant](./staff.md#assistant-retired) | [Eradawn](./staff.md#eradawn) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon) | [Pink](./staff.md#pink) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ) :::
+=======
+sidebar: false
+---
+
+<!-- Disable header rule to hide page from search -->
+<!-- markdownlint-disable MD041 -->
+申し訳ありませんが、このページは翻訳されていません。
+
+あなたができることは。。。
+
+* 言語メニューから英語版に切り替えます。
+* そのページが翻訳されるまでお待ちください。
+* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
+
+[トップページへ戻る](/ja/)
+>>>>>>> master

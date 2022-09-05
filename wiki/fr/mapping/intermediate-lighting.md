@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 sidebar: "false"
 prev: ./basic-lighting.md
 next: ./advanced-lighting.md
@@ -154,3 +155,18 @@ can be rather terrifying if they are afraid of heights or cause motion sickness 
 
 ## Credits
 Content on this page was contributed by [LittleAsi](./mapping-credits.md#littleasi), [Puds](./mapping-credits.md#puds), and [Bullet](./mapping-credits.md#bullet).
+=======
+sidebar: false
+---
+
+
+Désolé, cette page n'a pas encore été traduite.
+
+Vous pouvez :
+
+* basculer vers la version anglaise de cette page à partir du sélecteur de langue,
+* attendre que cette page soit traduite,
+* aider à traduire cette page et le reste du wiki depuis l'anglais en postulant [ici](https://forms.gle/e3BqA3poMjESARe76)
+
+[Retourner à la page d'accueil](/fr/)
+>>>>>>> master

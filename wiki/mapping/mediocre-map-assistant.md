@@ -226,7 +226,7 @@ Using these characters in song metadata or in bookmarks will cause problems.
 * **Audio File Name:** The name of the song file (including the extension) you have placed in
   `CustomWIPLevels > [Song Folder]`. Recommended to just name it *song.ogg* to avoid the pitfalls of special characters
 * **Preview Start Time:** Position in the song file, in seconds, of the start of the in-game menu song preview.
-  Defaults to 12s/
+  Defaults to 12s
 * **Preview Duration:** Duration, in seconds, of the in-game menu song preview. Defaults to 10s
 * **Cover Image Name:** The name of the image file (including the extension) you have placed in
   `CustomWIPLevels > [Song Folder]`. Must be perfectly square and at least 256 px
@@ -531,6 +531,12 @@ by **+1 Rabbit** to make the one time adjustment!
    ![directX Install Error](~@images/mapping/mma2-directXError.png)
       1. Download and run the [.NET Framework Repair Tool](https://docs.microsoft.com/dotnet/framework/install/repair).
       2. Restart your computer and rerun the DirectX driver installer.
+
+---
+
+### **When I open MMA2, it works fine for about a minute and then crashes with no error**
+
+* After you launch MMA2, disconnect from the internet and wait a couple minutes before reconnecting.
 
 ## Credits
 Content in this section was authored by [Helen Carnate](./mapping-credits.md#helen-carnate),

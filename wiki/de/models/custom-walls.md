@@ -1,12 +1,22 @@
 # Custom Walls
 
 ## Installation
+<<<<<<< HEAD
 :::tip HINWEIS Die Walls müssen speziell für Quest oder PC angefertigt werden und sind nicht zwischen beiden austauschbar. Für welche Plattform eine Wall bestimmt ist, erkennst du an der Dateierweiterung. `.pixie` Dateien sind für PC, während Quest `.zip` Dateien verwendet. :::
+=======
+:::tip HINWEIS
+Die Walls müssen speziell für Quest oder PC angefertigt werden und sind nicht zwischen beiden austauschbar. Für welche Plattform eine Wall bestimmt ist, erkennst du an der Dateierweiterung. `.pixie` Dateien sind für PC, während Quest `.zip` Dateien verwendet.
+:::
+>>>>>>> master
 
 ### PC Walls
 Den neuesten Custom Walls Mod findest du im [#pc-mods Channel](https://discord.gg/beatsabermods) im BSMG Discord oder im [Mod Assistant](https://github.com/Assistant/ModAssistant).
 
+<<<<<<< HEAD
 Nach der Installation solltest du einen `CustomWalls` Ordner in [deinem Installationsordner](/faq/install-folder.md) sehen. In diesem Ordner werden die `*.pixie` Dateien abgelegt.
+=======
+Nach der Installation solltest du einen `CustomWalls` Ordner in deinem [Installationsordner](/de/faq/install-folder.md) sehen. In diesem Ordner werden die `*.pixie` Dateien abgelegt.
+>>>>>>> master
 
 Du kannst mehr Walls aus dem [#pc-walls Channel](https://discord.gg/beatsabermods) im BSMG-Discord herunterladen.
 
@@ -19,7 +29,11 @@ Custom Wallf für Quest wird von der Qosmetics-Mod bereitgestellt. Die neueste V
 Innerhalb des Spiels wirst du im Hauptmenü einen `CUSTOM WALLS` Knopf unter dem `Mods` Abschnitt finden. Wenn du darauf drückst, öffnet sich das Menü, mit dem du auswählen kannst, welche Wände du verwenden möchtest. Es gibt auch zusätzliche Einstellungen, die du ändern kannst, wie z. B. die Deaktivierung der Wandrahmen.
 
 ### Quest User
+<<<<<<< HEAD
 Lade die `.qwall` Datei über das [BMBF Web Interface](/quest-modding.md#installing-mods) auf deine Quest hoch. Du kannst dann im Qosmetics-Menü im Spiel auswählen, welches Wall aktiv ist.
+=======
+Lade die Wall-Zip Datei in deine Quest über das [BMBF-Webinterface](/de/quest-modding.md#mods-installieren). Du kannst dann unter der Registerkarte Mods im BMBF auswählen, welche Wand aktiv ist.
+>>>>>>> master
 
 ## Custom Walls erstellen
 Obwohl es derzeit keine Anleitung zum Erstellen von Custom Walls gibt, ist eine solche in Arbeit.

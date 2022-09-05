@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Introductie voor modden
 _Leer hoe je jouw eigen PC mods kunt maken._
 
@@ -85,3 +86,20 @@ Hier zijn enkele nuttige hulpmiddelen om jou verder te helpen met het maken van 
 * Zie de BSIPA Documentatie voor meer informatie over het [configuratiesysteem](https://bsmg.github.io/BeatSaber-IPA-Reloaded/tags/4.1.3/articles/start-dev.html#configuring-your-plugin).
 * Als je de code van het spel moet patchen voor je mod, moet je [Harmony](https://github.com/pardeike/Harmony#readme) gebruiken. De `0Harmony.dll` is al geïnstalleerd voor gemodde spellen.
 * Voor ervaren ontwikkelaars, ben je misschien geïnteresseerd in het leren over Zenject, het Dependency Injection system dat veel gebruikt wordt door Beat Saber. [SiraUtil](https://github.com/Auros/SiraUtil#readme) is een bibliotheek waarmee je dit systeem gemakkelijk kan gebruiken.
+=======
+---
+sidebar: false
+---
+
+<!-- Disable header rule to hide page from search -->
+<!-- markdownlint-disable MD041 -->
+Sorry, deze pagina is nog niet vertaald.
+
+Je kan:
+
+* Overschakelen naar de Engelse versie vanuit het taal menu.
+* Wachten totdat deze pagina is vertaald.
+* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
+
+[Ga terug naar de startpagina](/nl/)
+>>>>>>> master

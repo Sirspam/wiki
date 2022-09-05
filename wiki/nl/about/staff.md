@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Staff
 _Of het nu gaat om projectbeheer, plugin/mod goedkeuring, het beheer van de kerndiensten, de coördinatie van gebeurtenissen of veel van de andere geheime projecten. Er is altijd veel werk te doen. De community zou niet bestaan zonder de ontelbare uren die zijn bijgedragen door deze ongelooflijke personen, geef hun dus een virtueel applaus (en help met het betalen van de diensten als u kunt)._
 
@@ -150,3 +151,20 @@ Project manager, wiki maintainer, bread baker. Despite what everyone says, I lik
 **Contributions:** Wiki Management, Moderation, Contest Management, BeatMods Approvals
 
 [Twitch](https://www.twitch.tv/williums/) | [Donate](https://ko-fi.com/williums)
+=======
+---
+sidebar: false
+---
+
+<!-- Disable header rule to hide page from search -->
+<!-- markdownlint-disable MD041 -->
+Sorry, deze pagina is nog niet vertaald.
+
+Je kan:
+
+* Overschakelen naar de Engelse versie vanuit het taal menu.
+* Wachten totdat deze pagina is vertaald.
+* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
+
+[Ga terug naar de startpagina](/nl/)
+>>>>>>> master

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 sidebar: auto
 prev: ./basic-audio.md
 next: false
@@ -233,3 +234,19 @@ Once you are done editing your audio, you will want to render it as a `.ogg` fil
 
 ## Credits
 Content in this section is derived from guides by [Nik](./mapping-credits.html#nik-n3tman), [LittleAsi](./mapping-credits.html#littleasi), and [Ris](./mapping-credits.html#ris) who adapted **Heisenberg_IRL**'s method of warping in Ableton. Additional edits by [Kolezan](./mapping-credits.html#kolezan).
+=======
+sidebar: false
+---
+
+<!-- Disable header rule to hide page from search -->
+<!-- markdownlint-disable MD041 -->
+申し訳ありませんが、このページは翻訳されていません。
+
+あなたができることは。。。
+
+* 言語メニューから英語版に切り替えます。
+* そのページが翻訳されるまでお待ちください。
+* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
+
+[トップページへ戻る](/ja/)
+>>>>>>> master

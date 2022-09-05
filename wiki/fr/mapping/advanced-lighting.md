@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 sidebar: auto
 prev: ./intermediate-lighting.md
 next: false
@@ -200,3 +201,18 @@ The internal format for a lighting event is described in the dedicated [Map Form
 
 ## Crédits
 The content on this page was authored by [LittleAsi](./mapping-credits.md#littleasi), [Puds](./mapping-credits.md#puds), [Skeelie](./mapping-credits.md#skeelie), and [Bullet](./mapping-credits.md#bullet).
+=======
+sidebar: false
+---
+
+
+Désolé, cette page n'a pas encore été traduite.
+
+Vous pouvez :
+
+* basculer vers la version anglaise de cette page à partir du sélecteur de langue,
+* attendre que cette page soit traduite,
+* aider à traduire cette page et le reste du wiki depuis l'anglais en postulant [ici](https://forms.gle/e3BqA3poMjESARe76)
+
+[Retourner à la page d'accueil](/fr/)
+>>>>>>> master

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 sidebar: auto
 prev: ./intermediate-mapping.md
 next: false
@@ -1081,3 +1082,18 @@ The exact specifics of what goes in `_customData` is entirely dependent on commu
 
 ## Credits
 The content on this page was authored by [Caeden117](./mapping-credits.md#caeden117) and [Bullet](./mapping-credits.md#bullet) with help from [Kival Evan](./mapping-credits.md#kival-evan) and GalaxyMaster.
+=======
+sidebar: false
+---
+
+
+Diese Seite wurde noch nicht übersetzt.
+
+Du kannst:
+
+* Zur englischen Version vom Sprachenmenü aus wechseln.
+* Warten bis die Seite übersetzt wurde.
+* Helfen diese Seite und den Rest des Wiki's aus dem englischen zu übersetzten indem du dich [hier bewirbst](https://forms.gle/e3BqA3poMjESARe76)!
+
+[Zurück zur Startseite](/de/)
+>>>>>>> master

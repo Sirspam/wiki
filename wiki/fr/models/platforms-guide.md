@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 sidebar: "false"
 prev: ./avatars-guide.md
 next: ./notes-guide.md
@@ -57,3 +58,18 @@ Export the platform trough the script that you previously added to the gameObjec
 ::: tip NOTE **Once you've got your new platform working**, [upload them to ModelSaber](https://modelsaber.com) if you want to share them with the world. :::
 
 ![Cat](~@images/models/platforms/Cat.png)
+=======
+sidebar: false
+---
+
+
+Désolé, cette page n'a pas encore été traduite.
+
+Vous pouvez :
+
+* basculer vers la version anglaise de cette page à partir du sélecteur de langue,
+* attendre que cette page soit traduite,
+* aider à traduire cette page et le reste du wiki depuis l'anglais en postulant [ici](https://forms.gle/e3BqA3poMjESARe76)
+
+[Retourner à la page d'accueil](/fr/)
+>>>>>>> master

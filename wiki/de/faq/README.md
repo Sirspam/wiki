@@ -13,10 +13,14 @@ Solltest du Maps manuell von BeatSaver downloaden, entpacke diese in einen eigen
 
 ### Song Verwaltungstools
 
+<<<<<<< HEAD
 The following can be used to help you manage custom songs or playlists.
 
 * [BeatList](https://github.com/ranmd9a/beatlist/releases/latest) is a desktop app to manage custom songs and playlists, maintained by **ranmd9a**.
 * [BeaterList](https://syltaris.github.io/beaterlist) is a browser based service by **zexurge** to manage playlists.
+=======
+Zurzeit gibt es keine funktionierenden Apps zur Songverwaltung.
+>>>>>>> master
 
 ## Wie installiere ich Playlists?
 
@@ -25,16 +29,26 @@ Du musst den [PlaylistManager](https://github.com/rithik-b/PlaylistManager/relea
 
 Dazu kannst du entweder:
 
+<<<<<<< HEAD
 * Use the `Install Playlist` tool in the Options tab of Mod Assistant.
 * Place the playlist file into `Beat Saber/Playlists`, select the playlist title header in-game, then hit download all songs.
+=======
+* Das `Install Playlist` Tool in den Optionen des Mod Assistant verwenden.
+* Platziere die Playlist-Datei in `Beat Saber/Playlists` und wähle diese im Spiel aus. Klicke dann auf Download.
+>>>>>>> master
 
 Du solltest die Playlist jetzt neben den Custom Levels im Spiel sehen. Der Mod unterstützt auch die Verwaltung von Playlists im Spiel.
 
 ### Quest
 Du kannst den [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) verwenden, um die Playlists deiner Quest zu verwalten. Beachte, dass ein Custom Song aufgrund Einschränkungen in BMBF nur einmal im Spiel vorhanden sein kann.
 
+<<<<<<< HEAD
 :::warning WARNUNG Für Quest User
 Das Neuladen des Ordners für Custom Songs setzt alle Einstellungen für Playlists zurück.
+=======
+:::warning WARNUNG
+Für Quest User Das Neuladen des Ordners für Custom Songs setzt alle Einstellungen für Playlists zurück.
+>>>>>>> master
 :::
 
 ## Wie erstelle ich eigene Custom Level?
@@ -44,12 +58,20 @@ Siehe [Mapping](/de/mapping/)!
 Siehe [Diesen Abschnitt](/de/pc-modding.md#manuelle-installation) in unserer Anleitung für Anfänger.
 
 ## Hat der offizielle Multiplayer eine Crossplay Funktion?
+<<<<<<< HEAD
 Cross-play between Quest and PC versions of the game is now available! All players will need to be on the latest version for this to work. Additionally, modifying the game on Quest disables official multiplayer.
+=======
+Ofiziell beschränkt sich der offizielle Multiplayer auf das Spielen mit anderen Spielern in der Shop-Version (Oculus/Steam), wo du das Spiel gekauft hast. Zusätzlich deaktiviert das Modden des Spiels des Spiels auf der Quest den offiziellen Multiplayer.
+>>>>>>> master
 
 Der BeatTogether Mod ist die aktuellste Lösung für Crossplay-Gaming zwischen den verschiedenen Plattformen. Trete dem [Discord Server](https://discord.com/invite/gezGrFG4tz) bei und sehe dir den `#install-instructions`-Channel für weitere Informationen an.
 
 ## Mein Spiel wurde aktualisiert und meine Mods funktionieren nicht mehr
+<<<<<<< HEAD
 Jedes mal, wenn das Spiel aktualisiert wird, ist es möglich *(Und sehr wahrscheinlich)* dass deine aktuellen Mods nicht mehr funktionieren und aktualisiert werden müssen. Um sicherzustellen, dass deine Installation nicht kaputt geht, wenn das Spiel mit einem neuen Update zum ersten Mal läuft, wird alles im Ordner `Plugins` automatisch in einen neuen Ordner namens `Old 1.xx.x Plugins` verschoben. **Leave those plugins/mods in there!** Please do not drag these mods back into the `Plugins` folder, as it is known to cause issues.
+=======
+Jedes mal, wenn das Spiel aktualisiert wird, ist es möglich *(Und sehr wahrscheinlich)* dass deine aktuellen Mods nicht mehr funktionieren und aktualisiert werden müssen. Um sicherzustellen, dass deine Installation nicht kaputt geht, wenn das Spiel mit einem neuen Update zum ersten Mal läuft, wird alles im Ordner `Plugins` automatisch in einen neuen Ordner namens `Old 1.xx.x Plugins` verschoben. **Lasse diese Plugins in diesem Ordner**
+>>>>>>> master
 
 Um Mods zurückzubekommen, **führe den Installer erneut aus.**  
 Das BeatMods Repository enthält nur bestätigte Mods, die auch mit der aktuellen Version funktionieren!

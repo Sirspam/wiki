@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Modders
 Zorgen ervoor dat het spel eruit ziet zoals we dat willen, een mod per keer.
 
@@ -338,3 +339,20 @@ Girl who makes AI stuff and streams with her cats. Creator of JDFixer, AccessAbi
 
 ::: tip See Also **Support:** [Pespiri](./supports.md#pespiri)  
 **Staff:** [+1 Rabbit](./staff.md#_1-rabbit) | [Caeden117](./staff.md#caeden117) | [lolPants](./staff.md#lolpants) | [Megalon](./staff.md#megalon) | [Pink](./staff.md#pink) |  [Reaxt](./staff.md#reaxt) | [Lillie](./staff.md#lillie) | [Steven](./staff.md#steven-🎀) :::
+=======
+---
+sidebar: false
+---
+
+<!-- Disable header rule to hide page from search -->
+<!-- markdownlint-disable MD041 -->
+Sorry, deze pagina is nog niet vertaald.
+
+Je kan:
+
+* Overschakelen naar de Engelse versie vanuit het taal menu.
+* Wachten totdat deze pagina is vertaald.
+* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
+
+[Ga terug naar de startpagina](/nl/)
+>>>>>>> master

@@ -8,8 +8,13 @@ Si vous voulez aider à traduire dans votre langue, vous pouvez postuler [ici](h
 ### Relecteurs
 
 * Awagi
+<<<<<<< HEAD
 * Noa
   * [Twitter](https://twitter.com/AarcNoa)
+=======
+* Jeremiidesu
+  * [Twitter](https://twitter.com/Jeremiidesu)
+>>>>>>> master
 
 ### Traducteurs
 
@@ -48,7 +53,10 @@ Si vous voulez aider à traduire dans votre langue, vous pouvez postuler [ici](h
 ### Relecteurs
 
 * Eris
+<<<<<<< HEAD
   * [Twitter](https://twitter.com/ErisApps)
+=======
+>>>>>>> master
 
 ### Traducteurs
 
@@ -69,4 +77,8 @@ Si vous voulez aider à traduire dans votre langue, vous pouvez postuler [ici](h
   * [Twitter](https://twitter.com/mikuri_kuri)
 * oxamera
 * Syrayra
+<<<<<<< HEAD
   * [Twitter](https://twitter.com/Syrayra)
+=======
+  * [Twitter](https://twitter.com/Syrayra)
+>>>>>>> master

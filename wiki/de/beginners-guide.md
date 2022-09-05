@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 - - -
 sidebar: auto description: Starte in die richtige Richtung!
 - - -
+=======
+---
+sidebar: auto 
+description: Starte in die richtige Richtung!
+---
+>>>>>>> master
 
 # Anfänger Guide
 
@@ -29,7 +36,11 @@ Anwendbare Hardware umfasst:
 Einer deiner Lieblings-Songs ist nicht verfügbar? Du hast eine Mod-Idee, die du umsetzen möchtest? Möchtest du ein Custom Modell, das du im Spiel verwenden möchtest? Dies kannst du auf zwei Arten erreichen.
 
 * Beauftrage jemanden in der Community im [Commissions Discord](https://discord.gg/e4f3WBBVnr)
+<<<<<<< HEAD
 * Erfahre, wie du es selbst machen kannst, indem du die unten stehenden Ressourcen nutzt!
+=======
+* Erfahre wie du es selbst machen kannst, indem du die unten stehenden Ressourcen verwendest!
+>>>>>>> master
 
 ### Maps erstellen
 Erfahre, wie du deine eigenen Level erstellen kannst, indem du unserer [Mapping](./mapping/) Anleitung folgst!
@@ -44,4 +55,8 @@ Lerne, wie man 3D-Modelle für das Spiel erstellt!
 * [Avatare](./models/avatars-guide.md)
 * [Plattformen](./models/platforms-guide.md)
 * [Notes](./models/notes-guide.md)
+<<<<<<< HEAD
 * **Custom Walls** Derzeit ist noch keine Anleitung verfügbar, es ist aber eine in Arbeit.
+=======
+* **Custom Walls** Zurzeit ist noch keine Anleitung verfügbar, aber eine ist in Arbeit.
+>>>>>>> master

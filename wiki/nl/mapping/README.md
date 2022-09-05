@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 sidebar: auto
 tags:
   - bsmg
@@ -448,3 +449,19 @@ This is the default error message, causes include:
 
 ## [Credits](./mapping-credits.md)
 Over *thirty* different mapping guides and tutorials have been combined into this wiki so that it can be maintained by the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content. Check out the whole list [here!](./mapping-credits.md)
+=======
+sidebar: false
+---
+
+<!-- Disable header rule to hide page from search -->
+<!-- markdownlint-disable MD041 -->
+Sorry, deze pagina is nog niet vertaald.
+
+Je kan:
+
+* Overschakelen naar de Engelse versie vanuit het taal menu.
+* Wachten totdat deze pagina is vertaald.
+* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
+
+[Ga terug naar de startpagina](/nl/)
+>>>>>>> master

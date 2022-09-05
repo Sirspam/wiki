@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Moderators（モデレーター）
 非常に大きなサーバーを維持するためには多くのモデレートが必要になります。 このチームがサーバーをクリーンにしてくれることに感謝します。
 
@@ -126,3 +127,20 @@ Literally no clue what he's doing when it comes to coding, at all, but he can fi
 **Roles:** Support, Moderator
 
 [Twitch](https://www.twitch.tv/sarpest_razor) | [Donate](https://streamelements.com/sarpest_razor/tip)
+=======
+---
+sidebar: false
+---
+
+<!-- Disable header rule to hide page from search -->
+<!-- markdownlint-disable MD041 -->
+申し訳ありませんが、このページは翻訳されていません。
+
+あなたができることは。。。
+
+* 言語メニューから英語版に切り替えます。
+* そのページが翻訳されるまでお待ちください。
+* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
+
+[トップページへ戻る](/ja/)
+>>>>>>> master

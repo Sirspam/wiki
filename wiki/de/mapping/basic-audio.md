@@ -13,6 +13,7 @@ _Wie du deine Audiodatei einrichtest und für das Mapping vorbereitest._
 Auf dieser Seite finden sowohl neue als auch erfahrene Mapper allgemeine Empfehlungen zum Einrichten einer neuen Songdatei, bevor sie mit dem Mappen beginnen. In der folgenden Schnellstartanleitung findest du Schritte, die **kritisch** sind, bevor du mit dem Mapping beginnst, und solche, die jederzeit durchgeführt werden können, wenn sie benötigt werden.
 
 ## Audio-Setup Schnellstart
+<<<<<<< HEAD
 ::: warning
 
 * Die Schritte 1-3 **MÜSSEN** abgeschlossen sein, bevor du mit dem Mapping beginnst, sonst ist deine Audio nicht mehr synchron und kann einen [*Hot Start*](./glossary.md#h) haben.
@@ -26,6 +27,22 @@ Auf dieser Seite finden sowohl neue als auch erfahrene Mapper allgemeine Empfehl
 **Jederzeit vor dem Hochladen:**
 4. [Prüfe deine Song-Lautstärke](#check-song-volume) und stelle sie je nach Bedarf [Lauter](#making-your-song-louder) oder [Leiser](#making-your-song-softer) ein
 5. Überprüfe die Länge deines Song-Outros und [kürze es bei Bedarf](#trimming-the-outro).
+=======
+::: warning WARNUNG
+
+* Die Schritte 1-3 **MÜSSEN** abgeschlossen sein, bevor du mit dem Mapping beginnst, sonst ist deine Audio nicht mehr synchron und kann einen [*Hot Start*](./glossary.md#h) haben.
+* Die Verwendung von Online-Websites zur Konvertierung von Audio in `.ogg` kann dazu führen, dass deine Audiodatei als ungültig behandelt wird und nicht vom Spiel geladen werden kann! Das Bearbeiten und Exportieren von [Audacity](https://www.audacityteam.org/) ist der einfachste Weg, um sicherzustellen, dass deine Audiodatei wie erwartet funktioniert.
+:::
+
+1. Lade [Audacity](https://www.audacityteam.org/) herunter und installiere es
+   * Installiere optional das [ffmpeg für Windows](https://manual.audacityteam.org/man/installing_ffmpeg_for_windows.html) Addon, um zusätzliche Dateitypen wie `.aac` oder `.m4a` aus iTunes zu öffnen.
+2. Finde die BPM und den Offset deines Songs, um [deinen Song zu synchronisieren](#audio-qualitat)
+3. [Exportiere deinen Song](#exportieren) als Datei im `.ogg`-Format
+
+**Jederzeit vor dem Hochladen:**  
+4. [Prüfe deine Song-Lautstärke](#songlautstarke-prufen) und stelle sie je nach Bedarf [Lauter](#mach-deinen-song-lauter) oder [Leiser](#mache-deinen-song-softer) ein.  
+5. Überprüfe die Länge deines Song-Outros und [kürze es bei Bedarf](#trimmen-des-outros).
+>>>>>>> master
 
 ## Songauswahl für neue Mapper
 Die folgenden Angaben sind Empfehlungen, **nicht** Anforderungen, und sollen dir den Einstieg ins Mapping erleichtern. Wenn du 17 Minuten von "In A Gadda Da Vida" mappen willst, dann nur zu, aber sei dir bewusst, dass du vor einer **viel** zu großen Herausforderungen stehen wirst.
@@ -76,8 +93,13 @@ In allen oben genannten Fällen musst du den Song auf eine geeignete Zeit versch
 
 Es gibt zwei Möglichkeiten, Audio zu synchronisieren:
 
+<<<<<<< HEAD
 * Die empfohlene Methode zum Synchronisieren von Songs ist die [Verwendung von Arrow Vortex](#sync-using-arrow-vortex).
 * Die alternative Methode zum Synchronisieren von Songs ist die manuelle [Verwendung einer Klickspur](#sync-using-a-click-track).
+=======
+* Die empfohlene Methode zum Synchronisieren von Songs ist die [Verwendung von Arrow Vortex](#synchronisieren-mit-arrow-vortex).
+* Die alternative Methode zum Synchronisieren von Songs ist die manuelle [Verwendung einer Klickspur](#synchronisieren-mit-einem-klick-track).
+>>>>>>> master
 
 ### Synchronisieren mit Arrow Vortex
 [Arrow Vortex](https://arrowvortex.ddrnl.com/) ist ein kostenloses Tool, um die BPM eines Songs automatisch zu analysieren. Es findet auch den Offset, der benötigt wird, um die Audio in Audacity oder deinem Map-Editor an den Beat anzupassen.
@@ -89,12 +111,28 @@ Die unten aufgeführten Schritte sind die gleichen wie in Rygers [Arrow Vortex B
    * Discord [Zip Download](https://cdn.discordapp.com/attachments/443569023951568906/662417326771273728/ArrowVortex.zip) (Empfohlene Methode)
    * Arrow Vortex Website [RAR Download](https://arrowvortex.ddrnl.com/)
    * Du benötigst zusätzliche Software wie [7zip](https://www.7-zip.org/), um `.rar` Dateien wie diese zu entpacken.
+<<<<<<< HEAD
    * Wenn sich Arrow Vortex nicht öffnet, siehe [Troubleshooting](#troubleshooting-arrow-vortex).
 2. Exportiere deinen Song als `.ogg` mit [Audacity](https://www.audacityteam.org/)
    * Die Verwendung anderer Formate (z.B. `.mp3` oder `.m4a`) fügt dem Audio eine Verzögerung hinzu, die jedes Mal variiert und nicht berücksichtigt wird, wenn du Änderungen zur Verwendung im Editor exportierst.
 
 :::danger **Dies ist ein kritischer Schritt!**  
 Wenn du keine `.ogg`-Datei verwendest oder die Exportfunktion in AV nutzt, **wird** dein Song um eine unbestimmte Zeit desynchronisiert. :::
+=======
+2. Exportiere deinen Song als `.ogg` mit [Audacity](https://www.audacityteam.org/)
+   * Die Verwendung anderer Formate (z.B. `.mp3` oder `.m4a`) fügt dem Audio eine Verzögerung hinzu, die jedes Mal variiert und nicht berücksichtigt wird, wenn du Änderungen zur Verwendung im Editor exportierst.
+
+#### Fehlerbehebung Arrow Vortex
+
+##### Die Codeausführung kann nicht fortgesetzt werden, da MSVCP120.dll nicht gefunden wurde
+
+* Installiere [vcredist_x86.exe](https://support.microsoft.com/en-us/help/4032938/update-for-visual-c-2013-redistributable-package) in deiner bevorzugten Sprache und versuche es erneut.
+
+:::danger WARNUNG
+**Dies ist ein kritischer Schritt!**  
+Wenn du keine `.ogg`-Datei verwendest oder die Exportfunktion in AV nutzt, **wird** dein Song um eine unbestimmte Zeit desynchronisiert.
+:::
+>>>>>>> master
 
 3. Ziehen die Songdatei in das AV-Fenster
 4. Gehe zum `Ansicht` Menü und klicken auf `Zeitbasiert (C-mod)`, um die Wellenform zu sehen
@@ -110,9 +148,17 @@ Wenn du keine `.ogg`-Datei verwendest oder die Exportfunktion in AV nutzt, **wir
    * Wenn nur ein einziges Ergebnis angegeben wurde und die Häkchen nicht übereinstimmen, deutet dies darauf hin, dass der Song eine variable BPM hat.
    * Wenn die Erkennung mehrere Optionen angegeben hat und die Häkchen nicht übereinstimmen, wähle die nächste Option, klicken auf die <kbd>BPM anwenden</kbd> Schaltfläche und höre erneut zu. Wenn keine der Optionen für den Song funktioniert, deutet dies darauf hin, dass er eine variable BPM hat.
 
+<<<<<<< HEAD
 :::warning HINWEIS zu variablen BPM Es wird empfohlen, dass neuere Mapper einen anderen Song wählen, da das Mappen von variablen BPM schwieriger ist. Nicht sicher, ob dein Song variabel ist? Schaue bei BSMG's `#mapping-discussion` vorbei und frage!
 
 Wenn du über die nötige Erfahrung verfügst, siehe [Erweiterte Audiobearbeitung: Variable BPM](./advanced-audio.md#variable-bpm) wie du dies berücksichtigen kannst. :::
+=======
+:::warning HINWEIS
+zu variablen BPM Es wird empfohlen, dass neuere Mapper einen anderen Song wählen, da das Mappen von variablen BPM schwieriger ist. Nicht sicher, ob dein Song variabel ist? Schaue bei BSMG's `#mapping-discussion` vorbei und frage!
+
+Wenn du über die nötige Erfahrung verfügst, siehe [Erweiterte Audiobearbeitung: Variable BPM](./advanced-audio.md#variable-bpm) wie du dies berücksichtigen kannst.
+:::
+>>>>>>> master
 
 10. Gib dem Spieler etwa zwei Sekunden Zeit, sich vorzubereiten, indem auf die Schaltfläche `Ersten Beat bewegen` klickst ![Arrow Vortex move beat button](~@images/mapping/av_movebeat.png) so oft wie nötig, um deine Startzeit in die Nähe von 2.000 Sekunden zu bringen oder den Ton, auf den du die erste Note setzen willst, auf den ersten Takt auszurichten.  
     ![Ausgerichtet am ersten Balken](~@images/mapping/av_aligned.png) ![Abwechselnd ausgerichtet am ersten Takt](~@images/mapping/av_altAligned2.png)
@@ -148,6 +194,7 @@ Nach dem Erzeugen der Stille kannst du auf die dunkle Linie in der Songspur klic
    ![Track löschen](~@images/mapping/audacity-delete_track.png)
 9. Fertig. Du kannst nun zu [Exportieren](#exportieren) oder zu [Optionale Audio Bearbeitung](#optionale-audio-bearbeitung) wechseln.
 
+<<<<<<< HEAD
 > Wenn du nicht die exakte Menge entfernen möchtest, kannst du mehr als nötig entfernen, die geänderte `.ogg` exportieren und [mit deinem Tool neu synchronisieren](#sync-using-arrow-vortex), um einen positiven Offset zu erhalten.
 
 #### Fehlerbehebung Arrow Vortex
@@ -156,6 +203,9 @@ Nach dem Erzeugen der Stille kannst du auf die dunkle Linie in der Songspur klic
 
 * Installiere [vcredist_x86.exe](https://support.microsoft.com/en-us/help/4032938/update-for-visual-c-2013-redistributable-package) in deiner bevorzugten Sprache und versuche es erneut.
   * Falls es immer noch nicht funktioniert, stelle sicher, dass du die `x86` Version am Ende der Seite herunterlädst. Nicht die `x64` Version.
+=======
+> Wenn du nicht die exakte Menge entfernen möchtest, kannst du mehr als nötig entfernen, die geänderte `.ogg` exportieren und [mit deinem Tool neu synchronisieren](#tool-assisted-bpm-calculation), um einen positiven Offset zu erhalten.
+>>>>>>> master
 
 ### Synchronisieren mit einem Klick-Track
 
@@ -183,12 +233,22 @@ Diese Klickspur ist vollständig mit den Beats im Karteneditor und im Spiel sync
 #### Synchronisiere den Song mit dem Beat
 
 1. Wähle das Zeitverschiebungswerkzeug (![Time Shift Tool](~@images/mapping/timeshift.png)).
+<<<<<<< HEAD
 2. Klicke mit der linken Maustaste auf die Songspur und halte sie gedrückt. Ziehen dann die Audio so, dass die erste(n) geplante(n) gemappte(n) Note(n) in deinem Song innerhalb der entsprechenden Sekunden (siehe Zeitleiste über der Spur) endet, um einen "Hot Start" oder ein zu langes Intro zu vermeiden (siehe <a href=#plane-deine-erste-note">Plane deine erste Note</a>, falls du das noch nicht getan hast).
+=======
+2. Klicke mit der linken Maustaste auf die Songspur und halte sie gedrückt. Ziehen dann die Audio so, dass die erste(n) geplante(n) gemappte(n) Note(n) in deinem Song innerhalb der entsprechenden Sekunden (siehe Zeitleiste über der Spur) endet, um einen "Hot Start" oder ein zu langes Intro zu vermeiden (siehe <a href='#plane-deine-erste-note'>Plane deine erste Note</a>, falls du das noch nicht getan hast).
+>>>>>>> master
 3. Lasse los, um den Ton an der neuen Position zu platzieren.
 4. Gib den Ton in dieser Position wieder. Der Song wird nicht synchron sein. Suche also den nächstgelegenen Beat in der Klickspur und richte den Song auf den Beat (Klickspur) aus, indem du ihn in kleinen Schritten zeitlich nach hinten oder vorne verschiebst. Zoome in für bessere Genauigkeit. Wiederhole das, bis es richtig klingt.
 5. Wenn du denkst, dass du die passenden Beats für die Klickspur gefunden hast, überprüfe den gesamten Song, um sicherzustellen, dass die BPM, die du hast, die richtigen sind und dass der Song während des gesamten Songs in den gleichen festen BPM ist. Wenn nicht, hast du möglicherweise die falschen BPM erhalten. Versuche in diesem Fall, die BPM (erneut) manuell zu ermitteln, siehe "Manuelle BPM-Berechnung".
 
+<<<<<<< HEAD
 ::: warning Wenn die BPM für den ersten Teil des Songs korrekt sind, sich aber plötzlich ändern oder abdriften, has tdu höchstwahrscheinlich einen Song mit variablen BPM, siehe [Erweiterte Audiobearbeitung: Variable BPM](./advanced-audio.md#variable-bpm) für weitere Informationen zu diesem Thema. :::
+=======
+::: warning WARNUNG
+Wenn die BPM für den ersten Teil des Songs korrekt sind, sich aber plötzlich ändern oder abdriften, has tdu höchstwahrscheinlich einen Song mit variablen BPM, siehe [Erweiterte Audiobearbeitung: Variable BPM](./advanced-audio.md#variable-bpm) für weitere Informationen zu diesem Thema.
+:::
+>>>>>>> master
 
 Unten siehst du, wie es aussieht, wenn die erste(n) geplante(n) gemappte(n) Note(n) (Cursorposition) nach 2 Sekunden platziert werden und die Beats des Songs mit der BPM/Klickspur synchronisiert sind.
 
@@ -221,8 +281,14 @@ Um den RMS-Wert in deinem Song zu prüfen, gehe wie folgt vor:
 2. Wähle bei noch geöffnetem Fenster "Kontrastanalyse" einen Teil des Chorus-Abschnitts (etwa 15-20 Sekunden) deines Songs aus
 3. Klicke auf eine der `Messauswahl` Buttons. (Wir müssen nur einen verwenden.)
 4. Im Feld `Volumenausgabe` findest du nun einen Wert. Vergleiche diesen Wert mit den oben empfohlenen Werten.
+<<<<<<< HEAD
 5. Wenn dieser Wert kleiner (negativer) als die empfohlenen Werte ist, siehe [Lautstärkeänderung: Mache deinen Song lauter](#mache-deinen-song-lauter).
 6. Wenn dieser Wert größer (weniger negativ) als die empfohlenen Werte ist, siehe [Lautstärkeänderung: Mache deinen Song softer](#mache-deinen-song-softer). ![Analysieren der Lautstärke mit Audacity](~@images/mapping/contrast.png)
+=======
+5. Wenn dieser Wert kleiner (negativer) als die empfohlenen Werte ist, siehe [Lautstärkeänderung: Mache deinen Song lauter](#mach-deinen-song-lauter).
+6. Wenn dieser Wert größer (weniger negativ) als die empfohlenen Werte ist, siehe [Lautstärkeänderung: Mache deinen Song softer](#mache-deinen-song-softer).  
+![Analysieren der Lautstärke mit Audacity](~@images/mapping/contrast.png)
+>>>>>>> master
 
 ### Volumen Modifikation
 Bevor du mit den nächsten Schritten der Songbearbeitung fortfährst, wird dringend empfohlen, den aktuellen Fortschritt als WAVE-Datei als Backup zu speichern. So stellst du sicher, dass du eine qualitativ hochwertige Quelle verwenden kannst, wenn du zurückgehst und einige der Bearbeitungen wiederholen musst. (Lade nicht das OGG, das du vorher exportiert hast, da es viel von der Qualität der Quelle verloren hat). Entferne die Klickspur, falls noch nicht geschehen, gehe dann ins Menü `Datei -> Exportieren -> Als WAV exportieren`, und speichere die Datei
@@ -244,11 +310,20 @@ Wenn die Wellenform jedoch stark zwischen leisen und lauten Teilen variiert, wir
 
 1. Wähle den gesamten Song aus, indem Sie auf die Song-Spur doppelklicken.
 2. Gehe zu `Effektmenü -> Kompressor`
+<<<<<<< HEAD
 3. Kopiere als Ausgangspunkt die unten stehenden Einstellungen und klicke dann auf OK. Stelle sicher, dass `Komprimieren auf Basis von Peaks` aktiviert ist. ![Komprimierung verstehen](~@images/mapping/compression.png)
 
 Hier ist ein Vergleich vor(oben) und nach(unten) dem Kompressor:![Vor und nach der Komprimierung](~@images/mapping/bna_compression.png)
 
 Hören Sie sich den Song noch einmal an und achten Sie auf unnatürliche Verzerrungen, wie z. B. Lautstärkeaussetzern nach lauten Peaks. Wenn ja, mache es wieder rückgängig (`Strg-Z`), ändere die Einstellung `Schwellenwert` auf einen lauteren Wert (weniger negativ) und wende es erneut an. Wenn du mehr über die Einstellungen erfahren möchtest, siehe hier die [Erweiterte Audiobearbeitung: Compressor](./advanced-audio.md#Kompressor) Seite.
+=======
+3. Kopiere als Ausgangspunkt die unten stehenden Einstellungen und klicke dann auf OK. Stelle sicher, dass `Komprimieren auf Basis von Peaks` aktiviert ist.  
+![Komprimierung verstehen](~@images/mapping/compression.png)
+
+Hier ist ein Vergleich vor(oben) und nach(unten) dem Kompressor:![Vor und nach der Komprimierung](~@images/mapping/bna_compression.png)
+
+Hören Sie sich den Song noch einmal an und achten Sie auf unnatürliche Verzerrungen, wie z. B. Lautstärkeaussetzern nach lauten Peaks. Wenn ja, mache es wieder rückgängig (`Strg-Z`), ändere die Einstellung `Schwellenwert` auf einen lauteren Wert (weniger negativ) und wende es erneut an. Wenn du mehr über die Einstellungen erfahren möchtest, siehe hier die [Erweiterte Audiobearbeitung: Kompressor](./advanced-audio.md#kompressor) Seite.
+>>>>>>> master
 
 #### Limiter
 Der Kompressor reduziert viele der unnötigen Spitzen und macht die wichtigeren Töne lauter. Allerdings haben wir immer noch nicht die richtige RMS-Lautstärke für den Song erreicht. Um dies zu erreichen, werden wir einen größeren Teil des Headrooms mit dem Limiter Effekt entfernen:
@@ -336,6 +411,7 @@ Um eine kompatible Ton Datei zu erzeugen, die du verwenden kannst, musst du wie 
 2. Klicke auf's Menü `Datei -> Exportieren -> Als OGG exportieren.`  
    ![Als OGG Standort exportieren](~@images/mapping/audacity-export.png)
 3. Nenne die Datei `song.ogg`.
+<<<<<<< HEAD
 4. Choose an appropriate OGG quality ([more info here](./advanced-audio.md#choosing-appropriate-ogg-export-quality)).
    * High quality source (WAVE / FLAC / MP3 / AAC) use 6-9 (unless there is a file size issue.)
    * Low quality source (YouTube or such): use 3-5
@@ -348,6 +424,18 @@ Die Song-/Audiodatei ist nun bereit, in einem beliebigen Map-Editor verwendet zu
 Audio file should not be larger than ~14 MB due to the BeatSaver 15 MB ZIP file limit. If this is the case export at a
 lower quality until the file meets the file size limit. ZIP files over 8 MB cannot be shared directly on Discord
 (without Nitro or Server Boost Level 2) for playtesting.
+=======
+4. Wähle eine geeignete OGG-Qualität ([mehr Infos hier](./advanced-audio.md#auswahl-der-geeigneten-ogg-exportqualitat)):  
+   ![Export Qualitäts-Slider](~@images/mapping/export-quality.png)
+   * Hochwertige Quellen (WAVE / FLAC / MP3 / AAC) verwenden 6-9 (es sei denn, es gibt ein Problem mit der Dateigröße)
+   * Quelle niedriger Qualität (YouTube o. ä.): verwenden 3-5
+5. Klicke Speichern.
+
+Die Song-/Audiodatei ist nun bereit, in einem beliebigen Map-Editor verwendet zu werden. Gib die gleichen BPM, die du zuvor erhalten hast, in den Map-Editor deiner Wahl ein und stelle sicher, dass du für alle Schwierigkeiten einen Offset von 0ms verwendest (da der Song bereits auf den Beat synchronisiert ist).
+
+::: warning HINWEIS
+Die Audiodatei sollte nicht größer als ~12 MB sein, da BeatSaver die ZIP-Datei auf 14,3 MB begrenzt. Die aufgelisteten 15 MB sind derzeit nicht korrekt. Sollte dies der Fall sein, exportiere mit einer niedrigeren Qualität, bis die Datei die Dateigrößengrenze erreicht. ZIP-Dateien über 8 MB können nicht direkt auf Discord (ohne Nitro oder Server Boost Level 2) für Playtests freigegeben werden.
+>>>>>>> master
 :::
 
 ## Credits

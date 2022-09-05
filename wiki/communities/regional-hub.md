@@ -85,36 +85,63 @@ Official (private) Belgian Beat Saber Community for our fellow Belgian Beat Sabe
 
 #### Dane Saber
 Official Beat Saber server for people that can pronounce "rød grød med fløde"!
+International players welcome too!
 
-[Application Form](https://forms.gle/AhgBFSK7RnRDDMHa9)
+[Discord](https://discord.gg/QNzRMukPSP)
+
+---
+
+### Finland
+
+#### Tahti Sapeli
+Finnish Beat Saber community, everyone welcome!
+
+[Discord](https://discord.gg/qCtX7yBv7J)
 
 ---
 
 ### France
 
 #### Beat Saber FR
-A private French Beat Saber community for francophone players!
+Discord server for the French Beat Saber community.
 
-[Application](https://docs.google.com/forms/d/1Ro79QYJ83gAsT6m_hpRgCNyhKNZDlEiZJ3oSh5mwTG4)
+[Discord](https://discord.gg/8cAAa7J)
 
 ---
 
 ### Germany
 
 #### German Beat Saber Community
-Official German Beat Saber Discord for German players, but people from other countries are also welcome :)
+German Beat Saber Community, JOIN US NOW! We have Magician! 😎
 
-[Discord](https://discord.gg/y4G6ruN)
+[Discord](https://discord.gg/NkYn6tkvMh)
 
 ---
 
-### The Netherlands
+### Italy
 
-#### Dutch Beat Saber Group
-The Dutch Beat Saber Group, featuring multiplayer rooms, movie nights, VRC nights, and more!
-Compare your ScoreSaber profile with other players using their custom BeatSaber Bot.
+#### Italian Beat Saber Community
+A chill and accessible place for Italian players to hang around and meet each other
 
-[Discord](https://discord.gg/sDa7xrE)
+[Discord](https://discord.gg/asdJZ7cTxe)
+
+---
+
+### Russia
+
+#### Beato Saba
+Community for Russian speaking players
+
+[Discord](https://discord.gg/5JXRY8z)
+
+---
+
+### Spain
+
+#### Beat Saber España
+Discord server for the Spanish Beat Saber community, people from other countries are welcome too :D
+
+[Discord](https://discord.com/invite/x6mChxk)
 
 ---
 
@@ -128,12 +155,13 @@ The official Swedish discord, right here!
 
 ---
 
-### Switzerland
+### The Netherlands
 
-#### SwissSaber
-Official Beat Saber Discord for Swiss players, but people from other countries are also welcome.
+#### Dutch Beat Saber Group
+The Dutch Beat Saber Group, featuring multiplayer rooms, movie nights, VRC nights, and more!
+Compare your ScoreSaber profile with other players using their custom BeatSaber Bot.
 
-[Discord](https://discord.gg/eV6SUUF)
+[Discord](https://discord.gg/sDa7xrE)
 
 ---
 

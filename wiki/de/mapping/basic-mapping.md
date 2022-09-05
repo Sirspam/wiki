@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 sidebar: auto
 prev: ./basic-audio.md
 next: ./intermediate-mapping.md
@@ -413,3 +414,18 @@ Already mentioned in detail on the [Mapping Home Page](./#playtesting) it’s im
 
 ## Credits
 Content in this section has been derived from guides by [Awfulnaut](./mapping-credits.md#awfulnaut) and [Hexagonial](./mapping-credits.md#hexagonial).
+=======
+sidebar: false
+---
+
+
+Diese Seite wurde noch nicht übersetzt.
+
+Du kannst:
+
+* Zur englischen Version vom Sprachenmenü aus wechseln.
+* Warten bis die Seite übersetzt wurde.
+* Helfen diese Seite und den Rest des Wiki's aus dem englischen zu übersetzten indem du dich [hier bewirbst](https://forms.gle/e3BqA3poMjESARe76)!
+
+[Zurück zur Startseite](/de/)
+>>>>>>> master

@@ -117,16 +117,10 @@ The steps listed below are the same as those used in Ryger’s [Arrow Vortex BPM
     (Recommended Method)
    * Arrow Vortex Website [Rar Download](https://arrowvortex.ddrnl.com/)
    * You will need additional software such as [7zip](https://www.7-zip.org/) to extract `.rar` files such as this one.
+   * If Arrow Vortex does not open see [troubleshooting](#troubleshooting-arrow-vortex).
 2. Export your song to `.ogg` using [Audacity](https://www.audacityteam.org/)
    * Using other formats (ie. `.mp3` or `.m4a`) adds a delay to the audio that varies every time and is not accounted
     for when you export your changes for use in editor.
-
-#### Troubleshooting Arrow Vortex
-
-##### The code execution cannot proceed because MSVCP120.dll was not found
-
-* Install [vcredist_x86.exe](https://support.microsoft.com/en-us/help/4032938/update-for-visual-c-2013-redistributable-package)
-in your preferred language and try again.
 
 :::danger
 **This is a critical step!**  
@@ -201,8 +195,17 @@ After generating the silence you can click the dark line in the song track to ge
 9. Done. You can now skip to [exporting](#exporting) or go to [optional audio editing](#optional-audio-editing).
 
 > If you are not comfortable with removing the exact amount, you can remove more than needed,
-> export the changed `.ogg` and [re-sync using your tool](#tool-assisted-bpm-calculation) with
+> export the changed `.ogg` and [re-sync using your tool](#sync-using-arrow-vortex) with
 > the new file to get a positive offset.
+
+#### Troubleshooting Arrow Vortex
+
+##### The code execution cannot proceed because MSVCP120.dll was not found
+
+* Install [vcredist_x86.exe](https://support.microsoft.com/en-us/help/4032938/update-for-visual-c-2013-redistributable-package)
+in your preferred language and try again.
+  * If it still does not work, make sure you are downloading the `x86` version near the bottom of the page.
+  Not the `x64` version.
 
 ### Sync using a Click Track
 
@@ -449,19 +452,19 @@ To generate a compatible sound file to use we need to do the following:
 2. Click the `File menu -> Export -> Export as OGG.`  
 ![Export As Ogg Location](~@images/mapping/audacity-export.png)
 3. Name your file `song.ogg`.
-4. Choose an appropriate OGG quality ([more info here](./advanced-audio.md#choosing-appropriate-ogg-export-quality)):  
-  ![Export Quality Slider](~@images/mapping/export-quality.png)
+4. Choose an appropriate OGG quality ([more info here](./advanced-audio.md#choosing-appropriate-ogg-export-quality)).
    * High quality source (WAVE / FLAC / MP3 / AAC) use 6-9 (unless there is a file size issue.)
    * Low quality source (YouTube or such): use 3-5
-5. Click Save.
+5. Click Save.  
+![Export Quality Slider](~@images/mapping/export-quality.png)
 
 The song/audio file is now ready to be used in any map editor. Input the same BPM you got earlier in your map editor of
 choice and make sure to use 0ms offset for all difficulties (since the song is already synced to the beat).
 
 ::: warning NOTE
-Audio file should not be larger than ~12 MB due to the BeatSaver 14.3 MB ZIP file limit. The 15 MB listed is not accurate
-at this time. If this is the case export at a lower quality until the file meets the file size limit. ZIP files over 8 MB
-cannot be shared directly on Discord (without Nitro or Server Boost Level 2) for playtesting.
+Audio file should not be larger than ~14 MB due to the BeatSaver 15 MB ZIP file limit. If this is the case export at a
+lower quality until the file meets the file size limit. ZIP files over 8 MB cannot be shared directly on Discord
+(without Nitro or Server Boost Level 2) for playtesting.
 :::
 
 ## Credits

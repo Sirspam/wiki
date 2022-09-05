@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 sidebar: "false"
 prev: ./sabers-guide.md
 next: ./platforms-guide.md
@@ -230,3 +231,18 @@ and this is what stuck. But until someone who actually knows what they're doing 
 * **Emma**, for making the first guide that led me to figuring this out, and helping with this one.
 * **Megalon**, for providing the ASMR for the video.
 * **Ella**, for making fun of me until I got gud, helping with the website design, parts of this guide, and putting up with all my dumb questions.
+=======
+sidebar: false
+---
+
+
+Désolé, cette page n'a pas encore été traduite.
+
+Vous pouvez :
+
+* basculer vers la version anglaise de cette page à partir du sélecteur de langue,
+* attendre que cette page soit traduite,
+* aider à traduire cette page et le reste du wiki depuis l'anglais en postulant [ici](https://forms.gle/e3BqA3poMjESARe76)
+
+[Retourner à la page d'accueil](/fr/)
+>>>>>>> master

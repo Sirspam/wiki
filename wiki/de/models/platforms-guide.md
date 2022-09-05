@@ -9,10 +9,14 @@ description: Emmas Leitfaden zur Erstellung von Custom Platforms!
 _Emmas Leitfaden zur Erstellung von Custom Platforms._
 
 ## Projekt
+<<<<<<< HEAD
 Open the current [Custom Platforms Project](https://github.com/affederaffe/CustomPlatforms/releases/latest) with Unity [2019.3.15f1](https://unity3d.com/get-unity/download/archive)
 
 * You need to go to the tab that says `Unity 2019.x` and scroll down to 2019.3.15. This has to be installed with [Unity Hub](https://unity3d.com/get-unity/download).
 * Need a guide on how to install? [Check out this Unity guide to Unity Hub.](https://docs.unity3d.com/Manual/LicensesAndActivation.html)
+=======
+Öffne das aktuelle [Custom Platforms Project](https://github.com/affederaffe/CustomPlatformsUnityProject/releases/) mit [Unity 2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe).
+>>>>>>> master
 
 ## Erste Schritte
 ![Custom Platform Skript](~@images/models/platforms/CustomPlatformScript.png)
@@ -43,8 +47,13 @@ Dieses Skript aktiviert blinkende Lichter. Wenn du dies auf ein leeres gameObjec
 
 Der Event-Manager ist das nützlichste Skript. Mit ihm kannst du bei jedem Beat Saber Event(auch bei unbenutzten) eine Aktion auslösen. Um ein Event hinzuzufügen, drücke die Taste `+` unterhalb von `Auslöser ()`. Ziehe das Objekt, das du manipulieren möchtest, in die soeben erstellte Box. Drücke das Dropdown-Menü auf der rechten Seite und wähle aus, was dieses Objekt tun soll, indem du zuerst die Komponente und dann die Aktion auswählst. Achte darauf, dass du nur 1 Event-Handler pro gameObject verwendest, da nur eins pro gameObject funktionieren wird.
 
+<<<<<<< HEAD
 ### Spektrogramm
 ![Spektrogramm](~@images/models/platforms/Spectrogram.png)
+=======
+### Spektogramm
+![Spektogramm](~@images/models/platforms/Spectrogram.png)
+>>>>>>> master
 
 Das Spektrogramm Skript funktioniert wie das Skript "Track Rings" und benötigt ebenfalls ein Prefab oder gameObject. Diese wird entsprechend dem Klang des Spiels und den bereitgestellten Variablen gedehnt und geschrumpft. (Auch damit habe ich noch nicht herumgespielt).
 
@@ -54,6 +63,12 @@ Das Spektrogramm Skript funktioniert wie das Skript "Track Rings" und benötigt 
 
 Exportiere die Plattform über das Skript, das du zuvor zum gameObject hinzugefügt hast, an einen Ort deiner Wahl. Vorzugsweise das Verzeichnis des Spiels `Beat Saber/CustomPlatforms`.
 
+<<<<<<< HEAD
 ::: tip HINWEIS **Wenn du deine neue Plattform zum Laufen gebracht hast**, [lade sie auf ModelSaber hoch](https://modelsaber.com), wenn du sie mit der Welt teilen möchtest. :::
+=======
+::: tip HINWEIS
+**Wenn du deine neue Plattform zum Laufen gebracht hast**, [lade sie auf ModelSaber hoch](https://modelsaber.com), wenn du sie mit der Welt teilen möchtest.
+:::
+>>>>>>> master
 
 ![Katze](~@images/models/platforms/Cat.png)

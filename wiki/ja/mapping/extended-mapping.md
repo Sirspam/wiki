@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 sidebar: auto
 prev: ./intermediate-mapping.md
 next: false
@@ -386,3 +387,19 @@ If you’re feeling adventurous, rotation events can be manually edited into you
 
 ## Credits
 Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi), [Bloodcloak](./mapping-credits.md#bloodcloak), [Spooky Ghost](./mapping-credits.md#spooky-ghost), [Caeden117](./mapping-credits.md#caeden117), [Kival Evan](./mapping-credits.md#kival-evan), [Checkthepan](./mapping-credits.md#checkthepan), and [3Stans](./mapping-credits.md#_3stans)
+=======
+sidebar: false
+---
+
+<!-- Disable header rule to hide page from search -->
+<!-- markdownlint-disable MD041 -->
+申し訳ありませんが、このページは翻訳されていません。
+
+あなたができることは。。。
+
+* 言語メニューから英語版に切り替えます。
+* そのページが翻訳されるまでお待ちください。
+* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
+
+[トップページへ戻る](/ja/)
+>>>>>>> master

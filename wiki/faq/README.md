@@ -15,10 +15,12 @@ This is the directory that the game natively reads custom maps from.
 You can also download playlists, follow mappers, find songs using advanced sorting methods and more.
 
 ### Song Management Tools
-The following are programs to be used on the desktop to help you download custom songs, with some other features as well.
 
-* [Beat Saber Downloader](https://drive.google.com/file/d/1QWedF77hWYbqcigIWa2UcpXlhqGTjwR1/view) a map downloader by Sturdyfool0.
-* [BeatList](https://github.com/Alaanor/beatlist) is an app to manage playlist and beatmaps, by Alaanor.
+The following can be used to help you manage custom songs or playlists.
+
+* [BeatList](https://github.com/ranmd9a/beatlist/releases/latest) is a desktop app to manage custom songs and playlists,
+ maintained by **ranmd9a**.
+* [BeaterList](https://syltaris.github.io/beaterlist) is a browser based service by **zexurge** to manage playlists.
 
 ## How do I install playlists?
 
@@ -47,7 +49,8 @@ See [mapping](/mapping/)!
 See [this section](/pc-modding.md#manual-installation) in the beginners guide.
 
 ## Does multiplayer have crossplay?
-Officially, multiplayer is limited to playing with other people in the store version (Oculus/Steam) you purchased.
+Cross-play between Quest and PC versions of the game is now available! All players will need to be on the latest version
+for this to work.
 Additionally, modifying the game on Quest disables official multiplayer.
 
 The BeatTogether mod is the current solution for cross-platform play between the modded game versions. Join their
@@ -57,7 +60,7 @@ The BeatTogether mod is the current solution for cross-platform play between the
 Each time the game updates it is possible *(and very likely)* that your existing mods will stop working and need to be updated.
 To make sure your install will not break when the game runs on a new update for the first time, everything
 in the `Plugins` folder is automatically moved into a new folder called `Old 1.xx.x Plugins`. **Leave those plugins/mods
-in there!**
+in there!** Please do not drag these mods back into the `Plugins` folder, as it is known to cause issues.
 
 To get mods back, simply **run the installer again.**  
 The BeatMods repository only includes mods that have been confirmed to work on the latest version of the game!

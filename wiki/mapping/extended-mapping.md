@@ -33,7 +33,7 @@ with instructions on how to setup are as follows:
   * [Setup with Beat Saber Installed on your PC](#me-setup-for-mma2-with-beat-saber-installed)
   * [Setup without Beat Saber Installed on your PC](#me-setup-for-mma2-without-beat-saber-installed) (e.g., Quest Users)
 * [Beatmapper](https://beatmapper.app/docs/mods#mapping-extensions)
-* **ChroMapper** Instructions Coming Soon!
+* [ChroMapper](https://chromapper.atlassian.net/wiki/spaces/UG/pages/4685907/Extended+Mapping)
 
 #### ME setup for MMA2 with Beat Saber Installed
 
@@ -80,9 +80,9 @@ Option 2:
 
 #### Map Setup in Mediocre Map Assistant 2
 
-1. [Open Mediocre Map Assistant 2](https://github.com/Assistant/MediocreMapAssistant2/releases/latest)
+1. [Open Mediocre Map Assistant 2](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest)
 2. In the Settings bar on the right, 3 new tick box options should be available under the Beta section:
-   * **6 Lane Mode** - Extends the number of lanes available to map blocks to to 6 from 4.
+   * **6 Lane Mode** - Extends the number of lanes available to map blocks to from 4 to 6.
     Also enables placement of walls outside of the lanes.
    * **Precision Placement** - Allows blocks, walls, and bombs to be placed at a finer resolution than the current grid.
    * **Precision Rotation** - Allows blocks to be angled at any angle instead of the default 45-degree increments.
@@ -98,30 +98,89 @@ The text you enter in the requirements has to be exact or else the features will
 
 ### Multi-Lane Mapping
 ::: tip NOTE
-This is a stub section. If you’d like to contribute, submit suggestions via
-[this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
+MMA2 only supports up to 6 lanes. If you wish to use more than 6 lanes, consider using other map editors like **ChroMapper**.
 :::  
 
-6-Lane mapping extends the playable grid to 6 x 3. It is often used with [wall mapping](#wall-mapping) to place fancy
+6 Lane Mode extends the playable grid to 6 x 3. It is often used with [wall mapping](#wall-mapping) to place fancy
 walls in the extension area while keeping the standard 4 x 3 play area clear.
 
-### Precision Placement
-::: tip NOTE
-This is a stub section. If you’d like to contribute, submit suggestions via
-[this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
-:::  
+Have you ever heard of, or even played, maps with a ridiculous amount of lanes that really make you move, such as
+[$100 Bills](https://beatsaver.com/beatmap/8bc9) with 100 lanes, or [GHOS7](https://beatsaver.com/beatmap/6136) with 8 lanes?
 
+These maps utilize multi-lane mapping! Do you want to want to make maps that also use multiple lanes? Then you've come
+to the right place!
+
+#### Mapping With More Than 4 Lanes  
+If you wish to create a good multi-lane map that is neither a challenge map nor a meme map,
+you must choose your placements wisely.
+
+#### Things To Keep In Mind When Mapping With Multiple Lanes
+
+* **Pattern Width:**
+  If you are mapping with more than the standard 4 lanes, then you are probably aiming to force or highly encourage
+  movement in your map.
+  If you are, then you should avoid patterns that may make the player feel like they are being
+  pulled apart by some evil torturer's device.
+  Patterns should avoid stretching between each side of the map simultaneously,
+  as this can be very difficult or uncomfortable to play.
+  Instead, patterns should encourage or even force the player to move or lean to a side.
+
+  |Awkward Wide Stretch | Lean/Move Wall |
+  | :----: | :----: |
+  ![Wide Pattern](~@images/mapping/wide-stream.png) | ![Lean/Move Pattern](~@images/mapping/6lane-move-wall.png)
+
+* **Emphasis:**
+  There is a lot of variety in representing emphasis in a pattern. One way of emphasizing a pattern is through width,
+  and with an extra amount of lanes, you can really take advantage of that.
+
+  ![Wide Emphasis Example](~@images/mapping/wide-emphasis-hit.png)
+
+### Precision Placement  
 Precision placement allows the mapper to place blocks anywhere within the grid, no longer limited to the 12 basic block
-positions. Often used in tandem with [Precision Rotation](#precision-rotation)
+positions. This is often used in tandem with [Precision Rotation](#precision-rotation).
+
+#### How To Use Precision Placement
+_Before continuing setup for precision placement, ensure that you have followed the steps from the [Set Up](#set-up) section._
+
+After completing those steps, enter the editor and press the `ESC` key.
+On the left side of the escape menu, you should see a precision snap option that looks like this:
+![MMA2 Precision Snap](~@images/mapping/mma2-precision-snap.png).  
+The default value is 1/1, which means that the note will snap into the squares on the grid.
+The more you increase the number, the more precise you can get and the less it directly snaps into the squares.
+You can think of it like changing your cursor precision.
+
+![Precision Placement Example](~@images/mapping/precision-placement-example1.png)
+
+#### What Can You Do With Precision Placement?
+
+* **Precise Note Placement:**
+  As the name suggests, you can place notes in really precise places on the grid.  
+  Say you want a specific pattern in your map, but it requires the note to be in a very certain spot that would not
+  be accessible with normal placement - this is where precision placement comes in handy.
+
+* **[Pauls](./glossary.md#p):**
+  You may have played a map with a Paul or Poodle (Noodle Extensions Paul) in it.
+  Although it is recommended to make Pauls with Noodle Extensions because of the tools that make it a lot easier,
+  you can still make Pauls with mapping extensions.
+
+* **Mod Charts:**
+  Although you can use precision placements to make [wall maps](#wall-mapping), you can also use it to
+  make art with notes. The map [Centipede](https://beatsaver.com/beatmap/4e8d) is an example of just that.
 
 ### Precision Rotation
-::: tip NOTE
-This is a stub section. If you’d like to contribute, submit suggestions via
-[this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
-:::  
+Precision rotation allows the mapper to rotate blocks at any angle, no longer being limited to only 45 degree increments.
+This is often used in tandem with [Precision Placement](#precision-placement).
 
-Precision rotation allows the mapper to rotate blocks at any angle, no longer limited to only 45 degrees.
-Often used in tandem with [Precision Placement](#precision-placement)
+#### What Can You Do With Precision Rotation?
+
+* **Tech Maps:**
+  You may have seen or played some tech maps that use precision placement to get very unique angles. Though uncommon,
+  precision placement can certainly get you very specific angles that you may want.
+
+* **Use With Precision Placement:**  
+  Most of what we talked about in the [Precision Placement](#precision-placement) section
+  can also be used alongside precision placement, whether it be for making a specific Paul or Poodle,
+  or a really cool looking mod chart utilizing notes as its main focus.
 
 ### Wall Mapping
 ::: tip NOTE
@@ -191,8 +250,8 @@ Test frequently and try to keep the wall-count down to keep your experience acce
 While you could playtest your map ingame every time you make changes, this will be unpractically in the long run.
 Luckily there are some mods to help you out.
 
-* [FPFCToggle](https://github.com/DeadlyKitten/FPFCToggle) - lets you fly around the map without vr
-* [MusicEscape](https://github.com/DeadlyKitten/MusicEscape) - lets you quit to menu and pause-menu with your keyboard
+* **SiraUtil** - Allows camera movement while a map is playing when using FPFC. See [In-game with FPFC](./basic-lighting#in-game-with-fpfc)
+for setup and usage.
 * [ReLoader](https://github.com/Kylemc1413/ReLoader) - hot reloads the map
 * [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) - change Song time, playback speed and more from the
   pause menu
@@ -201,6 +260,8 @@ Luckily there are some mods to help you out.
 These characteristics (with the exception of 360°/90° mode) take you beyond official characteristics like OneSaber or
 NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the
 `Info.dat` file.
+
+You may find the [Map Format Page](./map-format.md) page to be useful in this process.
 
 ### To Add a New Characteristic
 
@@ -298,10 +359,17 @@ block the player’s view.
 ### Editing 360°/90° Maps
 There are multiple ways to map for 360°/90° mode. The following sections cover some pros and cons of each method:
 
-1. [Official Level Editor](#official-level-editor) (in-game)
-2. [Mediocre Map Assistant 2](#mediocre-map-assistant-2)
-3. [ChroMapper](#chromapper) (in closed beta)
+1. [ChroMapper](#chromapper)
+2. [Official Level Editor](#official-level-editor) (in-game)
+3. [Mediocre Map Assistant 2](#mediocre-map-assistant-2)
 4. [JSON/DAT Editing](#json-dat-editing)
+
+#### ChroMapper
+ChroMapper, now in open Beta, natively supports 360°/90° mapping. See detailed support for extended mapping on the
+[ChroMapper Wiki](https://chromapper.atlassian.net/wiki/spaces/UG/pages/4685907/Extended+Mapping)
+
+* **Pro:** Natively supports 360°/90° mapping
+* **Pro:** Better visualisation of 360°/90° mapping.
 
 #### Official Level Editor
 The official editor is accessible to all PCVR users to natively map 360°/90° levels with the least amount
@@ -353,12 +421,6 @@ time you have to make any changes in the editor. Always create backup in any cas
 Do not open a 360°/90° map containing event type 14 in MMA2 as it converts the value into BPM changes, which end up
 crashing the program or triggering weird behavior.
 :::
-
-#### ChroMapper
-
-* **Pro:** Natively supports 360°/90° mapping
-* **Pro:** Better visualisation of 360°/90° mapping.
-* **Con:** In closed beta and not openly available yet.
 
 #### JSON/DAT Editing
 If you’re feeling adventurous, rotation events can be manually edited into your `difficulty.dat` files. Just like with
@@ -439,4 +501,4 @@ via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eE
 Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi),
 [Bloodcloak](./mapping-credits.md#bloodcloak), [Spooky Ghost](./mapping-credits.md#spooky-ghost),
 [Caeden117](./mapping-credits.md#caeden117), [Kival Evan](./mapping-credits.md#kival-evan),
-and [Checkthepan](./mapping-credits.md#checkthepan).
+[Checkthepan](./mapping-credits.md#checkthepan), and [3Stans](./mapping-credits.md#_3stans)

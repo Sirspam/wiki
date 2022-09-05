@@ -50,7 +50,7 @@ Has large feet, maybe??
 
 [GitHub](https://github.com/bigfoott) | [Twitch](https://www.twitch.tv/bigfooott) | [Donate](https://streamlabs.com/bigfooott)
 
-## brian
+## brian (Retired)
 Creator of CustomUI, making the creation of new UI components a breeze for modders. He's also created some of the most
 useful streaming tools used today, including taking over CameraPlus in xyonico's absence and the widely used
 Enhanced Stream Chat mod. This man wants more hip hop songs, get on it people!
@@ -58,6 +58,23 @@ Enhanced Stream Chat mod. This man wants more hip hop songs, get on it people!
 **Contributions:** CustomUI, CameraPlus, Enhanced Stream Chat, StreamCore, SongRequestManager, Hidden Blocks, SyncSaber
 
 [GitHub](https://github.com/brian91292) | [Donate](https://ko-fi.com/brian91292)
+
+## ckosmic
+Creator of CustomEnergyBars and SpectroSaber! Modding the funny cut block music game is cool. Also if you create any
+content for my mods I will probably remember you on my deathbed.
+
+**Roles:** Modder
+**Contributions:** CustomEnergyBars, SpectroSaber
+
+[GitHub](https://github.com/ckosmic) | [Donate](https://paypal.me/ckosmic)
+
+## Cubic
+Does server-side code for BeatTogether multiplayer servers and quest modding. Mainly multiplayer stuff.
+
+**Roles:** Modder
+**Contributions:** MultiplayerCore (quest), MultiplayerQuestensions, BeatTogether servers
+
+[GitHub](https://github.com/cubicgraphics) | [Donate](https://ko-fi.com/cubicgraphics)
 
 ## DaNike
 Creator of the custom-tailored version of IPA (illusion plugin architecture) BSIPA, a mod injector to allow Beat Saber
@@ -80,7 +97,15 @@ Ended up maintaining a wild variety of mods after adopting them from their origi
 **Roles:** Modder
 **Contributions:** MorePrecisePlayerHeight, HitScoreVisualizer, ChatCore, EnhancedStreamChat, ...
 
-[GitHub](https://github.com/erisapps) | [Donate](https://ko-fi.com/erisapps)
+[GitHub](https://github.com/erisapps) | [Donate with Patreon](https://www.patreon.com/erisapps) | [Donate with Ko-fi](https://ko-fi.com/erisapps)
+
+## Exomanz
+Rainbows? Rainbows.
+
+**Roles:** Modder
+**Contributions:** UITweaks, MenuSaberColors
+
+[GitHub](https://github.com/Exomanz) | [Donate](https://ko-fi.com/exo_manz)
 
 ## Goobie
 Maintainer of the mods that help you play with friends the right way.
@@ -225,6 +250,14 @@ If you've ever played darth maul mode, you have this guy to thank.
 
 [GitHub](https://github.com/PureDark)
 
+## Raemien
+Behind some content creation improvements for Quest and experimental PC mods. Responsible for numerous duct tape bodges.
+
+**Roles:** Modder
+**Contributions:** MRCPlus, CustomBackgrounds, ARCompanion, Burnout, Puro, MouseSaber, DebrisTweaks
+
+[GitHub](https://github.com/Raemien) | [Patreon](https://www.patreon.com/Raemien) | [Ko-Fi](https://ko-fi.com/raemien)
+
 ## raftario
 does things sometimes ????
 
@@ -232,6 +265,24 @@ does things sometimes ????
 **Contributions:** Misc Quest stuff, BeatMods
 
 [GitHub](https://github.com/raftario)
+
+## Raine
+girl who writes weird code, decided to rewrite ModelSaber
+
+**Roles:** Modder
+**Contributions:** AccSaber and Quest LeaderboardCore
+
+[GitHub](https://github.com/raineio) | [Ko-Fi](https://ko-fi.com/rainymods)
+
+## RedBrumbler
+It's pronounced Cosmetics, but spelled with a Q.
+
+Sabers, Bloqs, Walls, you use em, I make em work.
+
+**Roles:** Modder, Support, 3D Artists
+**Contributions:** Qosmetics, Custom Pillows (quest), Inverted arrows, AntiVertigo, Scribble, Songbrowser
+
+[GitHub](https://github.com/RedBrumbler) | [PayPal](https://paypal.me/RedBrumblerOfficial) | [Patreon](https://www.patreon.com/Qosmetics)
 
 ## Rolo
 Creator of the Custom Platforms plugin and pumpkin carving extrordinaire.
@@ -262,12 +313,13 @@ Our own LIV insider and creator of Saber Tailor and the original Custom Colors p
 [GitHub](https://github.com/sc2ad) | [Twitch](https://www.twitch.tv/sc2ad) | [PayPal](https://paypal.me/sc2ad) | [Ko-Fi](https://ko-fi.com/sc2ad_support)
 
 ## Shadnix
-Current maintainer of Saber Tailor
+Current maintainer of Saber Tailor and Particle Overdrive. Made some other small things that since have become part of
+the base game options.
 
 **Roles:** Modder
-**Contributions:** Saber Tailor, Level Pack Mover
+**Contributions:** Saber Tailor, Particle Overdrive, Level Pack Panel Mover, NoteSpawnEffectRemover, AdaptiveSFXRemover
 
-[GitHub](https://github.com/Shadnix-was-taken)
+[GitHub](https://github.com/Shadnix-was-taken) | [Twitch](https://www.twitch.tv/shadnix)
 
 ## Shoko84
 Making sure we're all nice and hydrated after cutting the blocks.
@@ -276,6 +328,15 @@ Making sure we're all nice and hydrated after cutting the blocks.
 **Contributions:** Custom Exit, Drink Water Mod
 
 [GitHub](https://github.com/Shoko84) | [Twitch](https://www.twitch.tv/shoko84) | [Donate](https://streamlabs.com/shoko84)
+
+## Sirspam
+Cat girl enthusiast
+*(a little bit goofy)* ❤️
+
+**Roles:** Modder, Support
+**Contributions:** Nya, Greetings, MenuPillars, MultiCode-inator
+
+[GitHub](https://www.github.com/Sirspam) | [Twitch](https://www.twitch.tv/sirspam_) | [Twitter](https://www.twitter.com/Sirspamalot555)
 
 ## SkyKiwi
 The madman who started Chroma and Chromatoggle. He added things to the game that suggests that his head isn't screwed on
@@ -333,11 +394,19 @@ He's since moved on to develop other VR games, like [Waltz of the Wizard](https:
 
 [GitHub](https://github.com/xyonico/) | [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RRQ2MBEEEW63A)
 
+## Zephyr
+Girl who makes AI stuff and streams with her cats. Creator of JDFixer, AccessAbility, Chirality and more.
+
+**Roles:** Modder
+**Contributions:** JDFixer, AccessAbility, Chirality, PlayFirst(SubmitLater), Caterpillars
+
+[GitHub](https://github.com/zeph-yr) | [Twitch](https://www.twitch.tv/xeph_yr)
+
 ---
 
 ::: tip See Also
 **Support:** [Pespiri](./supports.md#pespiri)  
-**Moderator:** [Caeden117](./moderators.md#caeden117)  
-**Staff:** [+1 Rabbit](./staff.md#_1-rabbit) | [lolPants](./staff.md#lolpants) | [Megalon](./staff.md#megalon) |
-  [Reaxt](./staff.md#reaxt) | [Lillie](./staff.md#lillie) | [Steven](./staff.md#steven-🎀)
+**Moderators:** [rui2015](./moderators.md#rui2015)  
+**Staff:** [+1 Rabbit](./staff.md#_1-rabbit) | [Caeden117](./staff.md#caeden117) | [lolPants](./staff.md#lolpants) |
+[Megalon](./staff.md#megalon) | [Pink](./staff.md#pink) |  [Reaxt](./staff.md#reaxt) | [Lillie](./staff.md#lillie) | [Steven](./staff.md#steven-🎀)
 :::

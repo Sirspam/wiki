@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 sidebar: auto
 prev: ./basic-mapping.md
 next: ./extended-mapping.md
@@ -216,3 +217,18 @@ See this guide by Sykes [What swing is, and how "shuffle" will make your mapping
 
 ## Credits
 Content in this section was authored by [Checkthepan](./mapping-credits.md#checkthepan), [CyanSnow](./mapping-credits.md#cyansnow), [Uninstaller](./mapping-credits.md#uninstaller), [Skyler Wallace](./mapping-credits.md#skyler-wallace), [Kolezan](./mapping-credits.md#kolezan), [Pyrowarfare](./mapping-credits.md#pyrowarfare), [DarkGrisen](./mapping-credits.md#darkgrisen) and [Vaser888](./mapping-credits.md#Vaser888).
+=======
+sidebar: false
+---
+
+
+Diese Seite wurde noch nicht übersetzt.
+
+Du kannst:
+
+* Zur englischen Version vom Sprachenmenü aus wechseln.
+* Warten bis die Seite übersetzt wurde.
+* Helfen diese Seite und den Rest des Wiki's aus dem englischen zu übersetzten indem du dich [hier bewirbst](https://forms.gle/e3BqA3poMjESARe76)!
+
+[Zurück zur Startseite](/de/)
+>>>>>>> master

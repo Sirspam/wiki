@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 sidebar: "false"
 description: List of all the people who contributed to the Mapping Resources!
 ---
@@ -157,3 +158,19 @@ Ranking team member that authored a guide on modding maps for ranked.
 ## Vaser888
 A testplayer that just likes helping out the community.  
 [BeatSaver](https://beatsaver.com/uploader/5f63fb45103cbc00068ee060) | [BeastSaber](https://bsaber.com/members/vaser888/)
+=======
+sidebar: false
+---
+
+<!-- Disable header rule to hide page from search -->
+<!-- markdownlint-disable MD041 -->
+申し訳ありませんが、このページは翻訳されていません。
+
+あなたができることは。。。
+
+* 言語メニューから英語版に切り替えます。
+* そのページが翻訳されるまでお待ちください。
+* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
+
+[トップページへ戻る](/ja/)
+>>>>>>> master

@@ -136,7 +136,7 @@ A common question people seem to have when they get a new score worth, for examp
 not getting **+100 pp** on their total amount of performance points. As explained earlier, since the effect of the curve
 on your plays increases the further you go down your list, when you make a new play, it takes the place of an older play
 which makes all the plays that are under go down 1 place in the list. Even if you are getting **+100 pp** from this new play,
-all your lower plays are weighed down even more then before so you lose a certain amount of PP on them.
+all your lower plays are weighed down even more than before so you lose a certain amount of PP on them.
 This is why when getting a new play or making a better play on a map, you will never (one exception) get the same amount
 of PP on your total amount of performance points.
 
@@ -175,14 +175,20 @@ With this said, here is a list of all the modifiers in the game, their effects o
 | Modifier | Description |
 | - | - |
 | No Fail (0.00/-0.50) | Acts as a safety net letting you continue playing if you fail. As of version 1.13.2, this modifier applies the score penalty only if you lose all of your health during the song. |
-| No Obstacles (-0.05) | Removes all of the obstacles (walls) from the map. |
+| No Walls (-0.05) | Removes all of the obstacles (walls) from the map. |
 | No Bombs (-0.10) | Removes all of the bombs from the map. |
+| No Arrows (-0.30) | All notes become dot notes, meaning you can hit them in any direction! |
 | Slower Song (-0.30) | Slows down the song to 85% of the original speed. |
-| Insta Fail (0.00) | Makes you fail on the first miss you make. |
-| Battery Energy (0.00) | Stops the health bar from replenishing. This limits the total amount of misses and bad cuts you can have before failing. |
+| 1 Life (0.00) | Makes you fail on the first miss you make. |
+| 4 Lives (0.00) | Stops the health bar from replenishing. This limits the total amount of misses and bad cuts you can have before failing. |
 | Disappearing Arrows (+0.07) | Makes the arrows disappear from the note as they approach you. You still need to remember the direction as you need to cut in the correct direction as always. |
 | Faster Song (+0.08) | Speeds up the song to 120% of the original speed. |
+| Super Fast Song (+0.10) | Speeds up the song to 150% of the original speed. |
 | Ghost Notes (+0.11) | Notes are invisible and the arrows disappear shortly before you hit them, similarly to Disappearing Arrows. |
+| Pro Mode (0.0) | Changes the hitboxes to match the notes precisely. |
+| Strict Angles (0.0) | Tolarace for a good cut angle is reduced |
+| Small Notes (0.0) | Changes the notes to 50% normal size |
+| Zen Mode (-100) | No notes, walls, or bombs. Just the music and the lights! |
 <!-- markdownlint-enable MD013 -->
 
 ## Grips

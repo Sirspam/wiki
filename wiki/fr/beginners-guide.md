@@ -1,11 +1,22 @@
+<<<<<<< HEAD
 - - -
 sidebar: auto description: Commencez au bon endroit !
 - - -
+=======
+---
+sidebar: auto 
+description: Commencez au bon endroit !
+---
+>>>>>>> master
 
 # Guide du Débutant
 
 ## Modder votre jeu
+<<<<<<< HEAD
 Beat Saber est disponible sur PC et Oculus Quest. La scène du modding étant différente sur les deux plateformes, le guide du débutant est séparé en deux : [Modding sur PC](#pc-modding) et [Modding sur Quest](#quest-modding).
+=======
+Beat Saber est disponible sur PC et Oculus Quest. La scène du modding étant différente sur les deux plateformes, le guide du débutant est séparé en deux : [Modding sur PC](#modding-sur-pc) et [Modding sur Quest](#modding-sur-quest).
+>>>>>>> master
 
 ### Modding sur PC
 Si vous utilisez SteamVR ou la version du Store Oculus Rift (sur PC), suivez le [guide de modding sur PC](./pc-modding.md).

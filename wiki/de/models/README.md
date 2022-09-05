@@ -17,8 +17,12 @@ Alle benutzerdefinierten Modell-Plugins wurden separat von verschiedenen Leuten 
 [ModelSaber](https://modelsaber.com/) ist die aktuelle Quelle für Saber, Avatare, Notenblöcke und Plattformen. Es enthält Vorschaubilder und OneClick&trade; Installationslinks.
 
 ::: tip BEMERKUNG
+<<<<<<< HEAD
 Alle Modelle werden manuell genehmigt, bevor sie auf der Seite erscheinen.
 Bitte lade keine bereits existierenden Modelle erneut auf die Webseite.
+=======
+Alle Modelle werden manuell genehmigt, bevor sie auf der Seite erscheinen. Bitte lade keine bereits existierenden Modelle erneut auf die Webseite
+>>>>>>> master
 :::
 
 ### Discord

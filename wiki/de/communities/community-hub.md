@@ -14,6 +14,7 @@ Eine Community für alle Diskussionen und Veranstaltungen rund um das Thema Accu
 
 ---
 
+<<<<<<< HEAD
 ## Acc Champ Community
 We are an Acc focused community that plans to be the new hub for Acc related events, training, and a new ranking system to help give specific info on each player's strengths and weaknesses in Acc categories. We also hold a custom campaign for those wanting to test their acc abilities against difficult requirements.
 
@@ -23,6 +24,10 @@ We are an Acc focused community that plans to be the new hub for Acc related eve
 
 ## BeatKhana
 Wir sind BeatKhana, eine Beat Saber Community, die sich darauf konzentriert, Turniere voranzutreiben! Was machen wir?
+=======
+## BeatKhana
+Wir sind BeatKhana, eine Beat Saber Community die sich darauf konzentriert Turniere voranzutreiben! Was machen sie?
+>>>>>>> master
 
 * Wir aktualisieren und kündigen kommende Online-Turniere an und geben dir alle Informationen, die du benötigst
 * Archivierung alter Turniere, damit du sie immer wieder finden kannst
@@ -34,6 +39,7 @@ Wir sind BeatKhana, eine Beat Saber Community, die sich darauf konzentriert, Tur
 
 ---
 
+<<<<<<< HEAD
 ## Beat Saber Clan Hub
 Beat Saber Clan Hub ist die Stelle für alles, was mit Clans zu tun hat. Wenn ihr einem Clan beitreten oder einen gründen wollt, ist dies der Server für dich!
 
@@ -43,11 +49,16 @@ Beat Saber Clan Hub ist die Stelle für alles, was mit Clans zu tun hat. Wenn ih
 
 ## Beat Saber Commissions
 Du hast ein Modell, eine Map oder einen Mod, den du gerne fertiggestellt hättest? Nehm hier Kontakt mit den Profis auf.
+=======
+## Beat Saber Commissions
+Du hast ein Modell, eine Map oder einen Mod, den du gerne fertiggestellt hättest? Hier kannst du dich mit Fachleuten in Verbindung setzen.
+>>>>>>> master
 
 [Discord](https://discord.gg/e4f3WBBVnr)
 
 ---
 
+<<<<<<< HEAD
 ## Beat Saber League
 A League-style tournament for Beat Saber!
 
@@ -66,16 +77,34 @@ Welcome to the Beat Saber Legacy Group! Here we come together to relive the old 
 The BeatSaver discord provides a centralized location for site support, content reports, bug reports, and developer discussions related to the main repository of custom maps.
 
 [Discord](https://discord.gg/rjVDapkMmj) | [Website](https://beatsaver.com/)
+=======
+## Beat Saber Events
+Ein Ort zum Planen, Posten, Diskutieren und Erhalten von Benachrichtigungen für Veranstaltungen in deiner Umgebung.
+
+[Discord](https://discord.gg/q92brWG)
+
+---
+
+## Beat Saber League
+Ein Turnier im Liga-Stil für Beat Saber!
+
+[Discord](https://discord.gg/rNmazdz) | [Website](https://beatsaberleague.com/)
+>>>>>>> master
 
 ---
 
 ## BeatTogether Community
+<<<<<<< HEAD
 Community for the BeatTogether mod. This mod allows crossplay between PC platforms and Quest. This is a place to discuss the mod and follow its progress and releases!
+=======
+Community für den BeatTogether Mod. Dieser Mod erlaubt Crossplay zwischen PC Plattformen und Quest. Dies ist ein Ort um über Mods zu diskutieren und seine Fortschritte und Veröffentlichungen zu verfolgen!
+>>>>>>> master
 
 [Discord](https://discord.com/invite/gezGrFG4tz)
 
 ---
 
+<<<<<<< HEAD
 ## ChroMapper
 ChroMapper is a community maintained map editor for Beat Saber. Built from the ground up, ChroMapper brings Beat Saber mapping to the next level with new visuals, graphics, and tools.
 
@@ -83,18 +112,27 @@ ChroMapper is a community maintained map editor for Beat Saber. Built from the g
 
 ## Cube Community
 Beat Saber gameplay spotlights, scoring guides, clip compilations, community events and more!
+=======
+## Cube Community
+Beat Saber Gameplay-Spotlights, Scoring Guides, Clip-Compilations, Community-Events und mehr!
+>>>>>>> master
 
 [Discord](https://discord.gg/dwe8mbC) | [YouTube](https://youtube.com/CubeCommunity)
 
 ---
 
 ## KPOP Beat Saber
+<<<<<<< HEAD
 Hi! We are a small community dedicated to mapping songs for Beat Saber. Bonus points if it's a Kpop song. But we welcome anyone who is interested in mapping or wants feedback! We also update the server with Kpop themed sabers and recent Kpop maps.
+=======
+Hi! Wir sind eine kleine Community, die sich der Zuordnung von Songs für Beat Saber widmet. Bonus Punkte, wenn es sich um einen Kpop-Song handelt. Aber wir freuen uns über jeden, der sich für das Mapping interessiert oder Feedback wünscht! Wir aktualisieren den Server auch mit Kpop Themen-Sabern und aktuellen Kpop-Maps.
+>>>>>>> master
 
 [Discord](https://discord.gg/c9uHGYP)
 
 ---
 
+<<<<<<< HEAD
 ## Saber Factory
 Welcome to the Saber Factory server! Here you find all resources dedicated to the Saber Factory mod. Get help with the usage and creation of content, keep in touch with new updates, leave suggestions and much more.
 
@@ -104,19 +142,31 @@ Welcome to the Saber Factory server! Here you find all resources dedicated to th
 
 ## ScoreSaber
 Custom leaderboards and global ranking!
+=======
+## ScoreSaber
+Benutzerdefinierte Rangliste und Globales Ranking!
+>>>>>>> master
 
 [Discord](https://discord.gg/WpuDMwU) | [Twitter](https://twitter.com/scoresaber)
 
 ---
 
 ## Qosmetics Community
+<<<<<<< HEAD
 Qosmetics Community is a community focused around providing Custom models, including sabers bloqs and walls to the quest! We are striving to improve and grow the community of the Quest Custom Content to a whole new level. Come play your way!
+=======
+Qosmetics Community ist eine Community, die sich auf die Bereitstellung von Custom-Modellen, einschließlich Sabern, Bloqs und Walls auf die Suche macht! Wir sind bestrebt, die Community der Quest Custom Content auf eine ganz neue Ebene zu erweitern und zu verbessern. Komm und spielen auf deiner Art!
+>>>>>>> master
 
 [Discord](https://discord.gg/NXnPYEh)
 
 ---
 
 ## QuestBoard
+<<<<<<< HEAD
 We are a quest-focused beat saber community server, dedicated to improving the experience for as many players as we can.
+=======
+Wir sind ein Quest-fokussierter Beat Saber Community Server, der sich der Verbesserung der Erfahrung für so viele Spieler wie möglich widmet.
+>>>>>>> master
 
 [Discord](https://discord.gg/d6DyW9v) | [Website](https://www.questmodding.com/)

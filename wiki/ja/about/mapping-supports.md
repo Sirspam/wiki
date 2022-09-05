@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mapping Supports
 The Mapping Support role is a symbol of thanks. Thanks for the thousands of messages sent in the mapping discussion channel and time spent building and maintaining the mapping resources to help people learn how to make maps. We don't typically give this role out, but when we do it's because someone has gone above and beyond for the server.
 
@@ -44,3 +45,20 @@ First time ChroMapper contributor and MMA2 maintainer. Might finish a map one da
 **Moderators:** [Pyrowarfare](./moderators.md#pyrowarfare-retired)  
 **Staff:** [Bloodcloak](./staff.md#bloodcloak)  
 :::
+=======
+---
+sidebar: false
+---
+
+<!-- Disable header rule to hide page from search -->
+<!-- markdownlint-disable MD041 -->
+申し訳ありませんが、このページは翻訳されていません。
+
+あなたができることは。。。
+
+* 言語メニューから英語版に切り替えます。
+* そのページが翻訳されるまでお待ちください。
+* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
+
+[トップページへ戻る](/ja/)
+>>>>>>> master

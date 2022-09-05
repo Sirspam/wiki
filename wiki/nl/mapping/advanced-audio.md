@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 sidebar: auto
 prev: ./basic-audio.md
 next: false
@@ -229,3 +230,19 @@ Zodra je klaar bent met bewerken van je audio, wil je het renderen als een `.ogg
 
 ## Bijdragen
 Inhoud in deze sectie wordt afgeleid van handleidingen door [Nik](./mapping-credits.html#nik-n3tman), [LittleAsi](./mapping-credits.html#littleasi), en [Ris](./mapping-credits.html#ris) die **Heisenberg_IRL**s methode hebben aangepast over het warpen in Ableton. Extra bijdragen van [Kolezan](./mapping-credits.html#kolezan).
+=======
+sidebar: false
+---
+
+<!-- Disable header rule to hide page from search -->
+<!-- markdownlint-disable MD041 -->
+Sorry, deze pagina is nog niet vertaald.
+
+Je kan:
+
+* Overschakelen naar de Engelse versie vanuit het taal menu.
+* Wachten totdat deze pagina is vertaald.
+* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
+
+[Ga terug naar de startpagina](/nl/)
+>>>>>>> master

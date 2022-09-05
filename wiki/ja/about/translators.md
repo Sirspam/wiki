@@ -59,9 +59,15 @@ wikiのコンテンツを翻訳してくださる勤勉な人々。 時間を割
 * RedBrumbler
 * Rusty69
 
+<<<<<<< HEAD
 ## Japanese | 日本語
 
 ### 翻訳
+=======
+## 日本語
+
+### Translators
+>>>>>>> master
 
 * azarashinomori
 * Korp13

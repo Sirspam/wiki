@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 sidebar: auto
 description: List of all the people who contributed to the Mapping Resources!
 ---
@@ -157,3 +158,18 @@ Ranking team member that authored a guide on modding maps for ranked.
 ## Vaser888
 A testplayer that just likes helping out the community.  
 [BeatSaver](https://beatsaver.com/uploader/5f63fb45103cbc00068ee060) | [BeastSaber](https://bsaber.com/members/vaser888/)
+=======
+sidebar: false
+---
+
+
+Désolé, cette page n'a pas encore été traduite.
+
+Vous pouvez :
+
+* basculer vers la version anglaise de cette page à partir du sélecteur de langue,
+* attendre que cette page soit traduite,
+* aider à traduire cette page et le reste du wiki depuis l'anglais en postulant [ici](https://forms.gle/e3BqA3poMjESARe76)
+
+[Retourner à la page d'accueil](/fr/)
+>>>>>>> master

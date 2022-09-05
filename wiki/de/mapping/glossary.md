@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 sidebar: auto
 description: The dictionary of most mapping lingo.
 ---
@@ -270,3 +271,18 @@ let us know in #mapping-discussion!
 | **Window Slider**                                                                  | A 3-long [Slider](#s) with the center [Note](#n) removed to allow for better vision.                                                                                                                                                                                     |
 | **WIP**                                                                            | Abbreviation of "Work-In-Progress", meaning not yet finished. WIP maps must be played in either party mode or practice mode until released to prevent stray [ScoreSaber](#s) leaderboards from being created for each revision.                                          |
 | **Wrist Reset**                                                                    | The action of [Resetting](#r) only your wrist due to a sequence of [Notes](#n) that require a large twist of the wrist.                                                                                                                                                  |
+=======
+sidebar: false
+---
+
+
+Diese Seite wurde noch nicht übersetzt.
+
+Du kannst:
+
+* Zur englischen Version vom Sprachenmenü aus wechseln.
+* Warten bis die Seite übersetzt wurde.
+* Helfen diese Seite und den Rest des Wiki's aus dem englischen zu übersetzten indem du dich [hier bewirbst](https://forms.gle/e3BqA3poMjESARe76)!
+
+[Zurück zur Startseite](/de/)
+>>>>>>> master
