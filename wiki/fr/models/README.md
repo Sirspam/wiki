@@ -17,12 +17,8 @@ Tous les mods permettant l'utilisation de modèles personnalisés ont été cré
 [ModelSaber](https://modelsaber.com/) est la source actuelle pour les sabres, avatars, bloqs et plateformes. Le site inclut la prévisualisation d'images et les liens d'installation OneClick&trade;.
 
 ::: tip NOTE
-<<<<<<< HEAD
 Tous les modèles sont approuvés manuellement avant leur apparition sur le site.
 Veuillez ne pas republier des modèles déjà existants sur le site.
-=======
-Tous les modèles sont approuvés manuellement avant leur apparition sur le site. Veuillez ne pas republier des modèles déjà existants sur le site.
->>>>>>> master
 :::
 
 ### Discord

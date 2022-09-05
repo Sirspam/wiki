@@ -6,40 +6,40 @@ sidebar: auto
 
 ## 前言
 
-::: danger 免责声明 在使用 Mod 前，你必须知道:
+::: danger 免责声明 在使用 Mod 前，请知悉：
 
-* 您可能会遇到在原版游戏中不存在的问题。 99.9%的bug、崩溃和卡顿是由 Mod 造成的。
-* Mod 可能会因游戏更新而无法使用，这很正常。发生这种情况时，你应该耐心等待并尊重用爱发电的Mod作者们。
-* 游戏开发商Beat Games没有故意阻止使用Mod。 开发商更新游戏会对游戏代码作出改动，这有时会让Mod无法使用，但并不是有意阻止玩家使用Mod。
+* 您可能会遇到在原版游戏中不存在的问题。 99.9% 的 bug 、崩溃和卡顿都是由 Mod 造成的。
+* 游戏更新会使旧版本游戏的 Mod 暂时无法使用，直到 Mod 适配。这很正常。你应当尊重用爱发电的 Mod 作者。
+* 游戏开发商 Beat Games 没有阻止玩家使用 Mod 。 开发商更新游戏时会对游戏代码作出改动。这有时会让 Mod 无法使用，但并不是其有意阻止玩家使用 Mod 。
 
-不要因为 Mod 相关的问题而攻击游戏开发者，因为 Mod 作者和游戏开发者是两个独立的团体。 心胸大度一点。 :::
+不要因为 Mod 相关的问题而攻击游戏开发者，Mod 开发者和游戏开发者是两个独立的团体。 「孟子曰：君子所以异于人者，以其存心也。君子以仁存心，以礼存心。仁者爱人，有礼者敬人。爱人者人恒爱之，敬人者人恒敬之。」 ——《离娄章句下·第二十八节》 :::
 
-:::warning 安装时注意 节奏光剑 **从不** 要求您使用管理员权限运行。
+:::warning 安装时请注意 节奏光剑 **永远不会** 要求您使用管理员权限运行。
 
 如果您已经下载并安装了 Mod 并且看到获取用户权限控制的提示， **不要** 点击接受，然后反馈举报。 因为您安装的是恶意 Mod！
 
 请只在激活/禁用 Mod Assistant 中的 OneClick™一键安装 功能时同意使用管理员权限。 程序在关联 OneClick™一键安装 链接时需要管理员权限。
 
-如果你不确定你是否安装了恶意Mod，***请向我们的Discord社区求助***。 :::
+如果你不确定你是否安装了恶意Mod，***可以向我们的Discord社区求助***。 :::
 
-节奏光剑原生支持自定义歌曲，如果你只是想要这个功能的话并不需要安装Mod！ 安装 `SongCore (歌曲核心)` Mod是不错的选择，因为这个 Mod 不仅为原生游戏增加了一些额外功能并降低了加载时间，还作为游戏内下载 (in-game downloader)，自定义排行榜 (custom leaderboards)，歌曲列表 (playlists) 等 Mod 的依赖项。
+PC 端 节奏光剑原生支持自定义歌曲，如果你只是想要自定义歌曲，那你不需要安装 Mod ！ 安装 `SongCore` Mod 是个不错的选择。`SongCore` 为原生游戏增加了一些额外功能，降低了加载时间。`SongCore` 也是游戏内歌曲下载器（In-game Downloader），自定义排行榜（Custom Leaderboards），歌曲列表（Playlists）等 Mod 的依赖项。
 
-::: warning This guide is for PC-modding on Windows.  
-If you have a Quest, see the [Quest Modding page](/quest-modding.md).  
-If you're on Linux, check out the [Linux page](./linux-modding.md) or [Beataroni](https://github.com/geefr/beatsaber-linux-goodies/#readme) :::
+::: warning 该指南仅适用于 PC 端节奏光剑。  
+如果您正在寻找 Quest 的 Mod 文档，请移步 [Quest 端 Mod](/quest-modding.md) 页面。  
+如果您使用 Linux 系统，参见 [Linux 页](./linux-modding.md) 或 [Beataroni](https://github.com/geefr/beatsaber-linux-goodies/#readme) :::
 
-If you run into problems at any point, please head to the [support page](./support/) and see if you can identify what went wrong before asking in the Discord server. 很有可能你遇到的问题就在那页里！
+如果你在教程中遇到困难，在提问前可以在 [支持页](./support/) 碰碰运气。 也许它可以帮你解决问题！
 
-::: warning 我在YouTube上看了教程视频，但是还是没法运行。 这些视频教了您什么？ 我们 BSMG **非常** 反对使用 Mod 视频教程。 我们经常发现过时的，不完整的，误导性的或者不正确的信息。
+::: warning 我在B站上找了视频教程，但似乎没法用？ 这些视频都教了您些什么？ BSMG **强烈** 反对使用视频教程。 在用户反馈的视频中，我们几乎总是能看到一些过时、不完整、误导性的、以及不正确信息的身影。
 
-相反，你应该参考我们在Wiki上的指南或者在 [BSMG Discord 社区](https://discord.gg/beatsabermods) 中寻求帮助。 :::
+相反，你应该参考我们在 Wiki 上的指南或者在 [BSMG Discord](https://discord.gg/beatsabermods) 中寻求帮助。 :::
 
-## 安装器
+## Mod 安装器
 
 ### Mod Assistant
-> **这是目前最推荐的 Mod 安装器**
+> **这是目前我们最推荐的 Mod 安装器。**
 
-在安装 Mod 之前，__**至少运行一次游戏****。 当你在重装游戏时也需要这么做。
+在安装 Mod 之前，请__**至少运行一次游戏****。 重装游戏后也是这样。
 
 这是一个操作简单的节奏光剑 Mod 安装器。它类似于 Mod 管理器，但是有例如移除 Mod 或者版本检查等额外功能！ 前往 [Assistant 的 GitHub](https://github.com/Assistant/ModAssistant/releases/latest) 下载
 
@@ -55,7 +55,7 @@ If you run into problems at any point, please head to the [support page](./suppo
 该文件夹位于您的游戏安装目录: `Beat Saber/Beat Saber_Data/CustomLevels` :::
 
 ### 游戏内下载
-`BeatSaver 下载器 (BeatSaver Downloader)` Mod 可以让你在游戏中的`MODS`面板中使用 `更多歌曲 (MORE SONGS)` 按钮下载歌曲。 它会直接从 [BeatSaver](https://beatsaver.com) 下载歌曲
+`BeatSaver 下载器 (BeatSaver Downloader)` Mod 可以让你在游戏中的`MODS`面板中使用 `更多歌曲 (MORE SONGS)` 按钮下载歌曲。 它会直接从 [BeatSaver](https://beatsaver.com) 下载歌曲。
 
 ### Beatsaver
 [BeatSaver](https://beatsaver.com) 是玩家社区建立的自定义歌曲主仓库。 很多其他的工具或者网站提供了更多下载自定义歌曲的功能，但是这个网站就是这些歌曲存储的地方。 从网站上下载的歌曲需要解压缩到 `Beat Saber/Beat Saber_Data/CustomLevels`文件夹。 你也可以使用游戏内下载 Mod或者 Mod Assistant 的 OneClick™一键安装 功能。

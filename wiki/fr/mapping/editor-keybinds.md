@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: auto
 description: The list of keyboard shortcuts for modern community editors!
 ---
@@ -132,18 +131,3 @@ An advanced tool that allows you to view and edit a selected object as it will a
 
 ## Credits
 Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi), [Caeden117](./mapping-credits.md#caeden117), and [Bloodcloak](./mapping-credits.md#bloodcloak). Idea by [Helen Carnate](./mapping-credits.md#helen-carnate).
-=======
-sidebar: false
----
-
-
-Désolé, cette page n'a pas encore été traduite.
-
-Vous pouvez :
-
-* basculer vers la version anglaise de cette page à partir du sélecteur de langue,
-* attendre que cette page soit traduite,
-* aider à traduire cette page et le reste du wiki depuis l'anglais en postulant [ici](https://forms.gle/e3BqA3poMjESARe76)
-
-[Retourner à la page d'accueil](/fr/)
->>>>>>> master

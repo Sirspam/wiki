@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Over ons
 Vraag je je soms af wie je favoriete mod of het mod installatie programma heeft gemaakt? Deze pagina vertelt je een beetje over enkele van de belangrijkste Beat Saber community contributors. De community zou niet bestaan zonder het bloed, zweten en tranen van deze geweldige vrijwilligers.
 
@@ -42,20 +41,3 @@ Winnaars van wedstrijden/evenementen die gehouden worden/zijn gehouden in de dis
 
 ## Over deze Wiki
 Dit is een wiki voor alle dingen die te maken hebben met het modden van het spel Beat Saber. Het was oorspronkelijk gemaakt om de `#beginners-guide` en `#faq` kanalen van de [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods) te vervangen.
-=======
----
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-Sorry, deze pagina is nog niet vertaald.
-
-Je kan:
-
-* Overschakelen naar de Engelse versie vanuit het taal menu.
-* Wachten totdat deze pagina is vertaald.
-* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
-
-[Ga terug naar de startpagina](/nl/)
->>>>>>> master

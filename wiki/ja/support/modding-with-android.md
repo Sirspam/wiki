@@ -4,7 +4,6 @@ sidebar: auto
 
 # AndroidでQuestにModを導入する
 
-<<<<<<< HEAD
 :::warning 警告 BMBFをインストールすると公式のマルチプレイモードや公式のリーダーボードへのスコアの送信、リプレイの記録ができなくなります。 もしModが導入された状態でマルチプレイを行いたい場合は`Beat Together`と`MultiQuestensions`が必要になります。これはPCとQuestのクロスプレイを可能にします。また、両方とものカスタムソングで遊ぶことができます。 ディスコードの[Beat Saber Modding Group](discord.gg/beatsabermods)の`#quest-mods`チャンネルもしくは[Questboard](https://questmodding.com)のサイトで入手できます。
 
 ランク付けされた曲からパフォーマンスポイント(PP)を得るためには、 [ScoreSaber](https://new.scoresaber.com/quest) modが必要です。 [このリンク](https://new.scoresaber.com/quest) では、 ScoreSaberのホームページに移動して設定する方法が書いてあります。 Scoresaberは公式のリーダーボードを置き換えるものではなく、カスタム曲のリーダーボードだけが追加されます。
@@ -18,25 +17,6 @@ sidebar: auto
 * [携帯電話のセットアップ](#setup-your-phone)
 * [Android端末でBMBFをインストールする](#installing-bmbf-with-your-phone)
 * [Beat Saberのセットアップ](#setup-beat-saber)
-=======
-:::warning 警告
-BMBFをインストールすると公式のマルチプレイモードや公式のリーダーボードへのスコアの送信、リプレイの記録ができなくなります。 もしModが導入された状態でマルチプレイを行いたい場合は`Beat Together`が必要になります。これはPCとQuestのクロスプレイを可能にします。また、両方とものカスタムソングで遊ぶことができます。 ディスコードの[Beat Saber Modding Group](discord.gg/beatsabermods)の`#quest-mods`チャンネルもしくは[Questboard](https://questmodding.com)のサイトで入手できます。
-
-ランク付けされた曲からパフォーマンスポイント(PP)を得るためには、 [ScoreSaber](https://new.scoresaber.com/quest) modが必要です。 [このリンク](https://new.scoresaber.com/quest) では、 ScoreSaberのホームページに移動して設定する方法が書いてあります。 Scoresaberは公式のリーダーボードを置き換えるものではなく、カスタム曲のリーダーボードだけが追加されます。
-
-**注意** [ScoreSaber Discord](https://discord.gg/WpuDMwU)のサーバーでModが現在のゲームバージョンで使えるかチェックしてください。
-:::
-
-::: tip
-BMBFをインストールする推奨方法は、[SideQuest を PC](/ja/quest-modding.md#sidequestでbmbfをインストールする)でインストールすることです。 この方法はPCを利用できない場合のみ利用してください。
-:::
-
-* [準備するもの](#準備するもの)
-* [Questで開発者モードを有効にする。](#questで開発者モードを有効にする)
-* [携帯電話のセットアップ](#携帯電話のセットアップ)
-* [Android端末でBMBFをインストールする](#端末にbmbfをインストールする)
-* [Beat Saberのセットアップ](#beat-saberのセットアップ)
->>>>>>> master
 
 ## 準備するもの
 
@@ -70,13 +50,7 @@ BMBFをインストールする推奨方法は、[SideQuest を PC](/ja/quest-mo
 
 ２つ目のアカウント（Oculus開発者アカウント）が必要になります。そこにあなたのFacebookのアカウントに作成した組織を追加します。 少し手間がかかります。
 
-<<<<<<< HEAD
 :::tip すでに組織を持っている友達がいて、その友達があなたをそしきに追加したら、２つ目のアカウントを作成する必要はありません もし可能なら[組織にアカウントを追加する](#add-yourself-to-the-organization)に従って 、代わりにあなたのFacebookアカウントを使ってください。 :::
-=======
-:::tip
-すでに組織を持っている友達がいて、その友達があなたをそしきに追加したら、２つ目のアカウントを作成する必要はありません もし可能なら[組織にアカウントを追加する](#add-yourself-to-the-organization)に従って 、代わりにあなたのFacebookアカウントを使ってください。
-:::
->>>>>>> master
 
 #### 新しく開発者アカウントを作成する
 
@@ -104,19 +78,11 @@ BMBFをインストールする推奨方法は、[SideQuest を PC](/ja/quest-mo
 
 ![EnableDevMode](~@images/beginners-guide/EnableDevMode.png)
 
-<<<<<<< HEAD
 次に[携帯電話のセットアップ](#setup-your-phone)を参照してください。
 
 ## 携帯電話のセットアップ
 
 1. [Bugjaeger app](https://play.google.com/store/apps/details?id=side.quest.mobile)をGoogleストアからダウンロードします。
-=======
-次に[携帯電話のセットアップ](#携帯電話のセットアップ)を参照してください。
-
-## 携帯電話のセットアップ
-
-1. [SideQuest app](https://play.google.com/store/apps/details?id=side.quest.mobile)をGoogleストアからダウンロードします。
->>>>>>> master
 2. 開発者モードを有効にする。
     1. Androidの設定をひらく
     2. 「デバイス情報」を開きます。
@@ -128,11 +94,7 @@ BMBFをインストールする推奨方法は、[SideQuest を PC](/ja/quest-mo
     3. USBのデバッグを有効にします
 
 ### 端末にBMBFをインストールする
-<<<<<<< HEAD
 :::warning
-=======
-:::warning 注意
->>>>>>> master
 Modを入れる前に、ビートセイバーを一度起動して一つの曲をプレイしてください。そのあとすぐにゲームを終了しても大丈夫です。
 :::
 
@@ -153,8 +115,4 @@ BMBFを正常にインストールし終えたら、クエストのライブラ�
 
 インストールプロセス中に Restore App ポップアップが表示されることがありますが、そのときは Close をクリックしてください。 この警告は海賊版を防止するために表示されるものなので、正規版を購入している場合は無視をしてもかまいません。
 
-<<<<<<< HEAD
 これで、Modのインストールの[主要なMod](/quest-modding.md#core-mods)の手順を PCと同じ方法で実行できます。
-=======
-これで、Modのインストールの[主要なMod](/jp/quest-modding.md#コアmod)の手順を PCと同じ方法で実行できます。
->>>>>>> master

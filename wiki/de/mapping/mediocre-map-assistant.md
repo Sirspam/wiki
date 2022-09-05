@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: auto
 description: Wichtige Informationen, um mit dem Mediocre Map Assistant 2 zu starten
 tags:
@@ -395,18 +394,3 @@ When you’re ready, click the Stat Panel button to open an incredibly helpful i
 
 ## Credits
 Content in this section was authored by [Helen Carnate](./mapping-credits.md#helen-carnate), [Bloodcloak](./mapping-credits.md#bloodcloak), and [Gabmiral](./mapping-credits.md#gabmiral).
-=======
-sidebar: false
----
-
-
-Diese Seite wurde noch nicht übersetzt.
-
-Du kannst:
-
-* Zur englischen Version vom Sprachenmenü aus wechseln.
-* Warten bis die Seite übersetzt wurde.
-* Helfen diese Seite und den Rest des Wiki's aus dem englischen zu übersetzten indem du dich [hier bewirbst](https://forms.gle/e3BqA3poMjESARe76)!
-
-[Zurück zur Startseite](/de/)
->>>>>>> master

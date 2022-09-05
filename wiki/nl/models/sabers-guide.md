@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: auto
 next: ./avatars-guide.md
 description: MissRaynor's gids voor het maken van eigen zwaarden!
@@ -160,19 +159,3 @@ Nu zullen je materialen een `Custom Colors` selectievakje moeten hebben in plaat
 Op dezelfde manier, als je een niet-Beat Saber shader wilt gebruiken op een zwaard en je wilt dat het correct word weergegeven in het spel, dan moet je het `Alpha` kanaal er uit halen.
 
 Elke shader is verschillend, dus er is geen universele manier om dit aan te pakken. Als je niet zeker weet hoe dit moet, voel je vrij om het te bespreken in het #pc-3d-modeling kanaal in de [Beat Saber Modding Group](https://discord.gg/beatsabermods).
-=======
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-Sorry, deze pagina is nog niet vertaald.
-
-Je kan:
-
-* Overschakelen naar de Engelse versie vanuit het taal menu.
-* Wachten totdat deze pagina is vertaald.
-* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
-
-[Ga terug naar de startpagina](/nl/)
->>>>>>> master

@@ -74,25 +74,8 @@ Tons and tons of Full Body Tracking support!
 [YouTube](https://www.youtube.com/channel/UCIH4NTKdVNjnJpfuMrk71Fw) | [Patreon](https://www.patreon.com/yuukisaves) | [Ko-Fi](https://ko-fi.com/supportyuuki)
 
 ---
-<<<<<<< HEAD
 
 <!-- markdownlint-disable MD013 -->
 ::: tip See Also **Support:** [Emma](./supports.md#emma)  
 **Moderators:** [DeeJay](./moderators.md#deejay) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink)  
 **Staff:** [Assistant](./staff.md#assistant) | [Bobbie](./staff.md#bobbie) | [Pink](./staff.md#pink) :::
-=======
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-申し訳ありませんが、このページは翻訳されていません。
-
-あなたができることは。。。
-
-* 言語メニューから英語版に切り替えます。
-* そのページが翻訳されるまでお待ちください。
-* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
-
-[トップページへ戻る](/ja/)
->>>>>>> master

@@ -335,23 +335,7 @@ Girl who makes AI stuff and streams with her cats. Creator of JDFixer, AccessAbi
 [GitHub](https://github.com/zeph-yr) | [Twitch](https://www.twitch.tv/xeph_yr)
 
 ---
-<<<<<<< HEAD
 
 ::: tip See Also **Support:** [Pespiri](./supports.md#pespiri)  
+**Moderators:** [rui2015](./moderators.md#rui2015)  
 **Staff:** [+1 Rabbit](./staff.md#_1-rabbit) | [Caeden117](./staff.md#caeden117) | [lolPants](./staff.md#lolpants) | [Megalon](./staff.md#megalon) | [Pink](./staff.md#pink) |  [Reaxt](./staff.md#reaxt) | [Lillie](./staff.md#lillie) | [Steven](./staff.md#steven-🎀) :::
-=======
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-申し訳ありませんが、このページは翻訳されていません。
-
-あなたができることは。。。
-
-* 言語メニューから英語版に切り替えます。
-* そのページが翻訳されるまでお待ちください。
-* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
-
-[トップページへ戻る](/ja/)
->>>>>>> master

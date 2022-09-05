@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: "false"
 description: The list of keyboard shortcuts for modern community editors!
 ---
@@ -132,19 +131,3 @@ An advanced tool that allows you to view and edit a selected object as it will a
 
 ## Credits
 Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi), [Caeden117](./mapping-credits.md#caeden117), and [Bloodcloak](./mapping-credits.md#bloodcloak). Idea by [Helen Carnate](./mapping-credits.md#helen-carnate).
-=======
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-申し訳ありませんが、このページは翻訳されていません。
-
-あなたができることは。。。
-
-* 言語メニューから英語版に切り替えます。
-* そのページが翻訳されるまでお待ちください。
-* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
-
-[トップページへ戻る](/ja/)
->>>>>>> master

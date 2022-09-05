@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # カスタムアバター
 
 ## インストール方法
@@ -23,20 +22,3 @@
 [Assistant's Avatar Guide](./avatars-guide.md)はアバターの作り方を丁寧に解説しています。
 
 このガイドには[Megalonによる短いビデオ](./avatars-guide.md#videos)がありますが、このビデオは概略を説明するもので、ビデオだけでなくガイドも読むことをお勧めします。
-=======
----
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-申し訳ありませんが、このページは翻訳されていません。
-
-あなたができることは。。。
-
-* 言語メニューから英語版に切り替えます。
-* そのページが翻訳されるまでお待ちください。
-* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
-
-[トップページへ戻る](/ja/)
->>>>>>> master

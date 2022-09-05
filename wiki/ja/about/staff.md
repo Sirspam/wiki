@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Staff
 _プロジェクトの管理、プラグインの承認、中枢サービスの管理、イベントの調整、そのほか多くの見えないプロジェクトなどたくさんのタスクがあります。 この素晴らしい個人が貢献した膨大な時間がなければ、このコミュニティは存在しないでしょう。 彼らに感謝をしましょう。(そして、可能なら支援をお願いします)_
 
@@ -151,20 +150,3 @@ Project manager, wiki maintainer, bread baker. Despite what everyone says, I lik
 **Contributions:** Wiki Management, Moderation, Contest Management, BeatMods Approvals
 
 [Twitch](https://www.twitch.tv/williums/) | [Donate](https://ko-fi.com/williums)
-=======
----
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-申し訳ありませんが、このページは翻訳されていません。
-
-あなたができることは。。。
-
-* 言語メニューから英語版に切り替えます。
-* そのページが翻訳されるまでお待ちください。
-* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
-
-[トップページへ戻る](/ja/)
->>>>>>> master

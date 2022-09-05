@@ -26,16 +26,11 @@ Von Sabern zu Noten, eigene Modelle waren immer ein beliebter Aspekt von gemodde
 ### Mapper
 Jeder deiner Lieblingssongs wird über viele Stunden von einem talentierten Mapper sorgfältig erstellt und getestet. So sehr wir sie auch gerne hier einbeziehen würden, gibt es VIEL zu viele von ihnen um sie hier zu zeigen. Wenn du die Maps von jemandem magst, gib diesen einen Daumen nach oben im Spiel, schreibe ein Review auf [BeastSaber](https://bsaber.com), oder sage es Ihm persönlich! Sie werden es wirklich schätzen.
 
-<<<<<<< HEAD
 > Des weiteren gibt es einen Community Discord-Server, durch den du dich mit Mappern oder Künstlern in Verbindung setzen kannst, falls du etwas in Auftrag geben möchtest. Wir raten dir, dich dazu im [Beat Saber Commissions Server](https://discord.gg/e4f3WBBVnr) umzuschauen.
-=======
-> Des Weiteren gibt es einen inoffiziellen Discord-Server der Community, durch den du dich mit Mappern oder Künstlern in Verbindung setzen kannst, falls du etwas in Auftrag geben möchtest. Wir raten dir, dich dazu im [Beat Saber Commissions server](https://discord.gg/e4f3WBBVnr) umzuschauen.
->>>>>>> master
 
 ### [Mitwirkende für Mapping-Ressourcen ("Mapping Resources Contributors")](/de/mapping/mapping-credits.md)
 Eine Gruppe erfahrener Mapper, die sich die Zeit genommen haben, ihr Wissen aufzuschreiben und zu veröffentlichen, um anderen dabei zu helfen, anzufangen oder sich zu verbessern. Schau dir gerne deren Maps an und unterstütze sie!
 
-<<<<<<< HEAD
 ### [Übersetzer](./translators.md)
 Die fleißigen Leute, die sich die Zeit genommen haben, den Inhalt des Wiki's in ihre eigenen Sprachen zu übersetzen. Ein herzliches Dankeschön für eure Zeit! Die auf dieser Seite aufgeführten sind für Sprachen, die derzeit auf der Website verfügbar sind.
 
@@ -43,12 +38,6 @@ Wenn du in deiner Sprache mithelfen möchtest, kannst du dich [als Übersetzer b
 
 ### [Event Gewinner](./event-winner.md)
 Gewinner vergangener Wettbewerbe/Events, die auf dem Discord-Server stattgefunden haben. Bleibe für jetzige oder zukünftige Events auf dem Laufenden mit dem `#server-announcements`-Kanal!
-=======
-### [Translators](./translators.md)
-
-### [Event Gewinner](./event-winner.md)
-Gewinner vergangener Wettbewerbe oder anderen Events, die im Discord-Server stattgefunden haben. Bleibe für jetzige oder zukünftige Events auf dem Laufenden mit dem `#server-announcements`-Kanal!
->>>>>>> master
 
 ## Über dieses Wiki
 Dies ist ein Wiki für alle Dinge, die mit dem Modding des Spiels Beat Saber zu tun haben. Ursprünglich wurde es erstellt, um die`#beginners-guide` und `#faq` Kanäle des [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods) zu ersetzen.

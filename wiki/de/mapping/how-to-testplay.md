@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: auto
 description: Learn how to get started testing other mappers maps!
 ---
@@ -133,18 +132,3 @@ This can vary greatly depending on many different factors. A new mapper’s firs
 
 ## Credits
 Content in this section was authored by [Pyrowarfare](./mapping-credits.md#pyrowarfare) and [Vaser888](./mapping-credits.md#Vaser888).
-=======
-sidebar: false
----
-
-
-Diese Seite wurde noch nicht übersetzt.
-
-Du kannst:
-
-* Zur englischen Version vom Sprachenmenü aus wechseln.
-* Warten bis die Seite übersetzt wurde.
-* Helfen diese Seite und den Rest des Wiki's aus dem englischen zu übersetzten indem du dich [hier bewirbst](https://forms.gle/e3BqA3poMjESARe76)!
-
-[Zurück zur Startseite](/de/)
->>>>>>> master

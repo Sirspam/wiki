@@ -4,7 +4,11 @@
 :::tip NOTE Sabers need to be made specifically for Quest or PC and are not interchangeable between the two. You can tell which platform a saber is for by the file extension. `.saber` files are for PC while Quest uses `.zip` or `.qsaber` files. :::
 
 ### PC Sabers
-The latest mod for Custom Sabers is now called Saber Factory, and can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG Discord or in [Mod Assistant](https://github.com/Assistant/ModAssistant). Run Mod Assistant, select the Saber Factory mod, and click Install. Une fois installée, vous pouvez trouver un dossier nommé `CustomSabers` dans votre [dossier d'installation](/fr/faq/install-folder.md), c'est ici que vous placerez les fichiers `*.saber` que vous souhaitez utiliser.
+The latest mod for Custom Sabers is now called Saber Factory, and can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG Discord or in [Mod Assistant](https://github.com/Assistant/ModAssistant). Run Mod Assistant, select the Saber Factory mod, and click Install.
+
+If it is not available in the above sources, you can visit the [SaberFactory Discord](https://discord.gg/PjD7WcChH3) for more information or check the [GitHub Page](https://github.com/ToniMacaroni/SaberFactory/releases) for the mod. Once you have downloaded the mod, put the mod in [your install folder](/faq/install-folder.md) to install it.
+
+Once the mod is installed you will see a folder called `CustomSabers` in [your install folder](/faq/install-folder.md), this is where you should place the `*.saber` files you want to use.
 
 You can download more sabers on [ModelSaber](https://modelsaber.com/Sabers/).
 
@@ -16,7 +20,7 @@ Custom Sabers for Quest are provided by the Qosmetics mod. The latest version ca
 ## Utilisation
 
 ### PC Users
-Inside the game in the main menu you will see on the left a `CUSTOM SABERS` or `SABER FACTORY` button under the `Mods` section. Cliquer dessus ouvre un menu qui vous permet de sélectionner quels sabres vous souhaitez utiliser.
+Inside the game in the main menu you will see on the left a `CUSTOM SABERS` or `SABER FACTORY` button under the `Mods` section. Pressing it will open up the menu you can use to select which sabers you want to use.
 
 ### Quest Users
 Upload the `.qsaber` file to your Quest using the [BMBF Web Interface](/quest-modding.md#installing-mods). You can then select which saber is active from the Qosmetics menu in-game.

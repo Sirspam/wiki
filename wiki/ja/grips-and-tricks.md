@@ -6,11 +6,7 @@ sidebar: auto
 _ブロックを切るときの便利なまとめ_
 
 ## ランキングを上げるためのチュートリアル
-<<<<<<< HEAD
 PPを取るためのTeknozFRによる記事 [ランキング & スコアリングガイド](./ranking-guide)
-=======
-PPを取るためのTeknozFRによる記事 [ランキング & スコアリングガイド](./ranking-guide.md)
->>>>>>> master
 
 ## スコアを上げるには
 得点の仕組みについては、 [CubeCommunity YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) のビデオをご覧ください。
@@ -42,13 +38,7 @@ PPを取るためのTeknozFRによる記事 [ランキング & スコアリン�
 
 *このセクションは、Beat Saber Canadian discordのTekの書き込みによります。*
 
-<<<<<<< HEAD
 ::: tip 曲は [ScoreSaber Discord](https://discord.gg/WpuDMwU) のチームによってランク付けされています。 このサーバーをフォローすると、更新を確認できます。 :::
-=======
-::: tip
-曲は [ScoreSaber Discord](https://discord.gg/WpuDMwU) のチームによってランク付けされています。 このサーバーをフォローすると、更新を確認できます。
-:::
->>>>>>> master
 
 ## 握り方
 Cubeコミュニティでは、Oculus Touch controller(CV1) やVive Wandsの人気のあるグリップをいくつか紹介するビデオを制作しました。

@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: auto
 prev: ./basic-audio.md
 next: false
@@ -235,17 +234,3 @@ Once you are done editing your audio, you will want to render it as a `.ogg` fil
 
 ## Crédits
 Content in this section is derived from guides by [Nik](./mapping-credits.html#nik-n3tman), [LittleAsi](./mapping-credits.html#littleasi), and [Ris](./mapping-credits.html#ris) who adapted **Heisenberg_IRL**'s method of warping in Ableton. Additional edits by [Kolezan](./mapping-credits.html#kolezan).
-=======
-sidebar: false
----
-
-Désolé, cette page n'a pas encore été traduite.
-
-Vous pouvez :
-
-* basculer vers la version anglaise de cette page à partir du sélecteur de langue,
-* attendre que cette page soit traduite,
-* aider à traduire cette page et le reste du wiki depuis l'anglais en postulant [ici](https://forms.gle/e3BqA3poMjESARe76)
-
-[Retourner à la page d'accueil](/fr/)
->>>>>>> master

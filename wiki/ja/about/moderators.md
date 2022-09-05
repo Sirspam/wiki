@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Moderators（モデレーター）
 非常に大きなサーバーを維持するためには多くのモデレートが必要になります。 このチームがサーバーをクリーンにしてくれることに感謝します。
 
@@ -49,6 +48,13 @@ All they can say is that the R in Kuru stands for Rat
 > My dad worked for years as an admin, but he got laid off when bots took over. He came home that night and told me we had to move into the van, since we couldn't afford rent anymore, then he beat the shit out of me with jumper cables. Shitposting should be legal.
 
 **Roles:** Moderator
+
+## rui2015
+Has no creativity and doesn't know what to put here. Is a cool person though.
+
+**Roles:** Moderator, Modder, Support
+
+[GitHub](https://github.com/FranciscoRibeiro03) | [Ko-Fi](https://ko-fi.com/rui2015) | [PayPal](https://paypal.me/rui2015)
 
 ## Shad
 "Every channel is just #pc-mod-support"
@@ -127,20 +133,3 @@ Literally no clue what he's doing when it comes to coding, at all, but he can fi
 **Roles:** Support, Moderator
 
 [Twitch](https://www.twitch.tv/sarpest_razor) | [Donate](https://streamelements.com/sarpest_razor/tip)
-=======
----
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-申し訳ありませんが、このページは翻訳されていません。
-
-あなたができることは。。。
-
-* 言語メニューから英語版に切り替えます。
-* そのページが翻訳されるまでお待ちください。
-* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
-
-[トップページへ戻る](/ja/)
->>>>>>> master

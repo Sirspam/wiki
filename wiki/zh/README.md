@@ -1,22 +1,22 @@
 ---
 home: true
 heroText: BSMG Wiki
-tagline: Welcome to the Beat Saber Modding Group Wiki!
+tagline: 欢迎来到 Beat Saber Modding Group 文档！
 description: 欢迎来到 Beat Saber Modding Group Wiki ！
 actions:
   - 
-    text: Beginners Guide →
+    text: 新手指南 →
     link: ./beginners-guide.md
     type: secondary
-footer: Copyright © 2019-2022 Beat Saber Modding Group | Licensed under CC BY-NC-SA 4.0
+footer: 版权所有 © 2019-2022 Beat Saber Modding Group | 以 知识共享许可协议 CC BY-NC-SA 4.0 分发
 tags:
   - bsmg
-  - beat saber
-  - modding
-  - wiki
-  - support
-  - help
-  - how are beat maps make?
+  - 节奏光剑
+  - 节奏光剑谱
+  - 文档
+  - 技术支持
+  - 帮助
+  - 节奏光剑曲谱制作
 ---
 
 <!-- markdownlint-disable MD041 -->
@@ -25,17 +25,17 @@ tags:
 
 ::: feature 快速开始
 
-* [PC 端 Mod](./pc-modding.md)
-* [Quest 端 Mod](./quest-modding.md)
+* [PC 平台 Mod](./pc-modding.md)
+* [Quest 平台 Mod](./quest-modding.md)
 * [故障排查](./support/)
-* [提示和技巧](./grips-and-tricks.md)
-* [排名和打分指南](./ranking-guide.md)
+* [光剑](./grips-and-tricks.md)
+* [提高分数排名指南](./ranking-guide.md)
 :::
 
 ::: feature 制作新内容
 
 * [Mod 作者指南](/modding/)
-* [谱面资源](/mapping/)
+* [图谱资源](/mapping/)
 * [3D 模型指南](/models/)
 :::
 
@@ -51,29 +51,29 @@ tags:
 
 ---
 
-<h2 class='noborder'>External Links</h2>
+<h2 class='noborder'>友情链接</h2>
 <!-- markdownlint-enable MD033 -->
 
-* [加入 Discord 服务器！](https://discord.gg/beatsabermods)
+* [加入 BSMG Discord ！](https://discord.gg/beatsabermods)
 * [联系我们](https://bsmg.dev/contact) - 为你提供支持、赞助我们、 申诉 Discord 禁言或黑名单、 举报用户等。
-* [BSMG Patreon](https://www.patreon.com/beatsabermods) - 赞助 BSMG 服务!
+* [BSMG Patreon](https://www.patreon.com/beatsabermods) - 在 Patreon 上赞助 BSMG
 
 ---
 
-* [BeatMods](https://beatmods.com) - Repository of PC mods that are reflected in installers like Mod Assistant
-* [BeatSaver](https://beatsaver.com/) - Download custom songs here
-* [BeastSaber](https://bsaber.com/) - Reviews, articles, playlists, and more!
-* [ModelSaber](https://modelsaber.com/) - Download PC custom sabers, avatars, bloqs, and platforms!
+* [BeatMods](https://beatmods.com) - PC Mod 仓库，为 Mod Assistant 等工具提供 Mod 下载渠道。
+* [BeatSaver](https://beatsaver.com/) - 歌曲下载网站
+* [BeastSaber](https://bsaber.com/) - 在这里看到歌曲评价、文章和歌曲列表等！
+* [ModelSaber](https://modelsaber.com/) - 为你的 PC 版节奏光剑下载自定义光剑模型、虚拟形象、方块以及场景！
 
 ---
 
-* [Qosmetics Discord](https://discord.gg/qosmetics) - Download Quest custom sabers, walls, and bloqs!
-* [QuestBoard Hub](https://discord.gg/d6DyW9v) - The Discord for all things about Quest BeatSaber!
-* [ScoreSaber](https://scoresaber.com/) - Custom map leaderboards
-* [Steam Store Page](https://store.steampowered.com/app/620980/Beat_Saber/)
-* [Oculus Store Page](https://www.oculus.com/experiences/rift/1304877726278670/)
+* [ModelSaber](https://modelsaber.com/) - 为你的 Quest 版节奏光剑下载自定义光剑模型、墙壁以及方块！
+* [QuestBoard Hub](https://discord.gg/d6DyW9v) - 你想知道的关于 Quest 节奏光剑的一切，都在这里！
+* [ScoreSaber](https://scoresaber.com/) - 自定义曲谱的积分榜！
+* [Steam 上的 PC 版节奏光剑](https://store.steampowered.com/app/620980/Beat_Saber/)
+* [Oculus 上的 PC 版节奏光剑](https://www.oculus.com/experiences/rift/1304877726278670/)
 
 ---
 
-* [Contribution Page](https://docs.google.com/document/d/1r6IP6l3uo8rc__GxfLkpaToxheeXotdYaKEj3oWB2js/edit?usp=sharing) - A how-to guide on contributing to the wiki.
-* [Apply to Help Translate the Wiki!](https://forms.gle/e3BqA3poMjESARe76) - Localize the wiki to your language!
+* [贡献页面](https://docs.google.com/document/d/1r6IP6l3uo8rc__GxfLkpaToxheeXotdYaKEj3oWB2js/edit?usp=sharing) - 为 BSMG 说明文档做点贡献？
+* [帮助翻译 BSMG 文档](https://forms.gle/e3BqA3poMjESARe76) - 将 BSMG 翻译到你的语言！

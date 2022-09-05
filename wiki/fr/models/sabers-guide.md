@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: auto
 next: ./avatars-guide.md
 description: MissRaynor's guide to making Custom Sabers!
@@ -169,18 +168,3 @@ Now your materials should have a nice `Custom Colors` checkbox instead of custom
 Similarly, if you want to import a non-beatsaber shader to use it on a saber and want it to display correctly ingame, you need to strip the `Alpha` channel out.
 
 Each shader is different, so there's no universal approach to doing this. If you're not sure exactly how to do this, feel free to discuss the process in #pc-3d-modeling in the [Beat Saber Modding Group](https://discord.gg/beatsabermods).
-=======
-sidebar: false
----
-
-
-Désolé, cette page n'a pas encore été traduite.
-
-Vous pouvez :
-
-* basculer vers la version anglaise de cette page à partir du sélecteur de langue,
-* attendre que cette page soit traduite,
-* aider à traduire cette page et le reste du wiki depuis l'anglais en postulant [ici](https://forms.gle/e3BqA3poMjESARe76)
-
-[Retourner à la page d'accueil](/fr/)
->>>>>>> master

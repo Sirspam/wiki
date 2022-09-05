@@ -27,18 +27,22 @@ Er spielt gerne Beat Saber. Er hilft auch gerne Leuten ihre Probleme zu beheben,
 
 **Rollen:** Support
 
+## KodenameKRAK
+"Maybe in a couple years I could think of something to put here"
+
+**Roles:** Support
+
 ## Kolezan
-Er wird dir beibringen deine Plugins und deine schrecklich schräge erste Map zu reparieren. Das haben wir alle schon erlebt.
+He'll teach you to fix your mods and your terribly off-beat first map. We've all been there.
 
-**Rollen:** Support, Mapping Support, Mapper
+**Roles:** Support, Mapping Support, Mapper
 
-[Twitch](https://www.twitch.tv/kolezan) | [Spenden](https://paypal.me/kolezan)
+[Twitch](https://www.twitch.tv/kolezan) | [Donate](https://paypal.me/kolezan)
 
-<<<<<<< HEAD
 ## Luna
 She's often forgetful, but happy to help
 
-**Rollen:** Support
+**Roles:** Support
 
 ## male
 is too uncreative to think of a bio
@@ -49,22 +53,10 @@ is too uncreative to think of a bio
 He'll give me his bio later today, or so he says.
 
 **Roles:** Support, Modder
-=======
-## OneEyed
-2 Wahrheiten und eine Lüge: Pink cute, CMB fühlend, OneEyed hat gute Rechtschreibung
-
-**Rollen:** Support
-
-## Pespiri
-Er wird mir später seine Biografie geben, sagt er zumindest.
-
-**Rollen:** Support, Modder
->>>>>>> master
 
 [GitHub](https://github.com/pespiri)
 
 ## Radevirot
-<<<<<<< HEAD
 This guy came out of nowhere and started helping in support saying it was some kind of addiction, what a loon.
 
 **Roles:** Support
@@ -83,37 +75,14 @@ I really like to help people. Yeah that's all.
 
 **Roles:** Support
 
-## rui2015
-Has no creativity and doesn't know what to put here. Is a cool person though.
-
-**Roles:** Support
-
 ## Sands
 He has no life and he's pretty dumb but he can help with your bmbf and that's all that matters right?
 
 **Roles:** Support
-=======
-Dieser Typ kam aus dem nichts und fing an zu helfen indem er sagte, es sei eine Art von Sucht. Was für ein Spinner.
-
-**Rollen:** Support
-
-[Twitter](https://twitter.com/Radevirot) | [Spenden](paypal.me/Radevirot)
-
-## rui2015
-Hat keine Kreativität und weiß nicht, was man hier schreiben soll. Ist jedoch ein cooler Mensch.
-
-**Rollen:** Support
-
-## Sands
-Er hat kein Leben und ist ziemlich dumm aber er kann mit deinem BMBF helfen und das ist alles was zählt, richtig?
-
-**Rollen:** Support
->>>>>>> master
 
 [YouTube](https://www.youtube.com/channel/UCiZEAQOgVABYs1-u3psPezg)
 
 ## Simme63
-<<<<<<< HEAD
 "Coke Head"
 
 **Roles:** Support
@@ -137,6 +106,11 @@ I decided I wanted to help one day, and have been slightly addicted ever since.
 
 **Roles:** Support
 
+## X
+🐸 🎉 _I don't know what to put here_
+
+**Roles:** Support
+
 ## Channel Monitor Bot
 The bot that holds it all together. Created by Megalon, recreated by lolPants, and personified by Rolo!
 
@@ -149,37 +123,6 @@ A very helpful individual
 ---
 
 ::: tip See Also **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
-**Modders:** [Kyle1413](./modders.md#kyle1413) | [Sirspam](./modders.md#sirspam)  
+**Modders:** [Kyle1413](./modders.md#kyle1413) | [Sirspam](./modders.md#sirspam) | [rui2015](./moderators.md#rui2015)  
 **Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer-retired) | [Chara_](./moderators.md#chara) | [Burrito](./moderators.md#burrito) | [OneEyed](./moderators.md#oneeyed-retired)  
 **Staff:** [Assistant](./staff.md#assistant-retired) | [Eradawn](./staff.md#eradawn) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon) | [Pink](./staff.md#pink) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ) :::
-=======
-"Koks Kopf"
-
-**Rollen:** Support
-
-## Quadrate
-Ich schwöre bei Beat Saber und helfe einfach Boulders zu fragen!
-
-**Rollen:** Support
-
-[YouTube](https://www.youtube.com/channel/UCaQ7PLj4AqGHZnqQVjc_XBQ)
-
-## Toblersto
-Ich habe entschlossen eines Tages zu helfen und bin seither etwas süchtig geworden.
-
-**Rollen:** Support
-
-## Channel Monitor Bot
-Der Bot, der alles zusammenhält. Erschaffen von Megalon, neu erschaffen von lolPants und verkörpert von Rolo!
-
-[Merch!](https://www.redbubble.com/people/megalon-gaming/portfolio)
-
----
-
-::: tip Siehe auch
-**3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
-**Modder:** [Kyle1413](./modders.md#kyle1413)  
-**Moderatoren:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink) | [Chara_](./moderators.md#chara) | [Eradawn](./moderators.md#eradawn)  
-**Staff:** [Assistant](./staff.md#assistant) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ)
-:::
->>>>>>> master

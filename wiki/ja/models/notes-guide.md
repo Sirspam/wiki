@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: "false"
 prev: ./platforms-guide.md
 description: Bobbieのカスタムノーツ作成ガイド
@@ -307,19 +306,3 @@ Remember to apply these changes to all of the notes in your CustomNote!
 :::
 
 ![Adding a disable note color on gameobject component](~@images/models/notes/54.png)
-=======
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-申し訳ありませんが、このページは翻訳されていません。
-
-あなたができることは。。。
-
-* 言語メニューから英語版に切り替えます。
-* そのページが翻訳されるまでお待ちください。
-* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
-
-[トップページへ戻る](/ja/)
->>>>>>> master

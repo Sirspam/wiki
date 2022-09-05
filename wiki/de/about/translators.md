@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Übersetzer
 Die fleißigen Leute, die sich die Zeit genommen haben, den Inhalt des Wiki's in ihre eigenen Sprachen zu übersetzen. Ein herzliches Dankeschön für eure Zeit! Die auf dieser Seite aufgeführten sind für Sprachen, die derzeit auf der Website verfügbar sind.
 
@@ -16,22 +15,6 @@ Wenn du in deiner Sprache mithelfen möchtest, kannst du dich [als Übersetzer b
 
 * COZAX
 * Cyborg
-=======
-# Translators
-
-## French | Français
-
-### Proofreaders
-
-* Awagi
-* Jeremiidesu
-  * [Twitter](https://twitter.com/Jeremiidesu)
-
-### Translators
-
-* COZAX
-* Cyborger
->>>>>>> master
 * ghertz
 * leochr
 * megamaz
@@ -41,20 +24,13 @@ Wenn du in deiner Sprache mithelfen möchtest, kannst du dich [als Übersetzer b
 * Pryd
 * risi
 
-<<<<<<< HEAD
 ## Deutsch (German)
 
 ### Korrekturleser
-=======
-## German | Deutsch
-
-### Proofreaders
->>>>>>> master
 
 * Gregi
   * [Twitch](https://www.twitch.tv/grregi) | [Youtube](https://www.youtube.com/user/gregiplays)
 
-<<<<<<< HEAD
 ### Übersetzer
 
 * ComputerElite
@@ -70,32 +46,11 @@ Wenn du in deiner Sprache mithelfen möchtest, kannst du dich [als Übersetzer b
 ## Niederländisch (Nederlands)
 
 ### Korrekturleser
-=======
-### Translators
-
-* ComputerElite  
-* CookieDLX  
-* Jen (Br3uker)  
-* Raviolimann69  
-* RobertR11  
-* SasSao  
-* Syskoh  
-* Trolav
-  * [Twitter](twitter.com/Trolav1)
-
-## Dutch | Nederlands
-
-### Proofreaders
->>>>>>> master
 
 * Eris
   * [Twitter](https://twitter.com/ErisApps)
 
-<<<<<<< HEAD
 ### Übersetzer
-=======
-### Translators
->>>>>>> master
 
 * boulders2000
 * Jestro
@@ -114,8 +69,4 @@ Wenn du in deiner Sprache mithelfen möchtest, kannst du dich [als Übersetzer b
   * [Twitter](https://twitter.com/mikuri_kuri)
 * oxamera
 * Syrayra
-<<<<<<< HEAD
   * [Twitter](https://twitter.com/Syrayra)
-=======
-  * [Twitter](https://twitter.com/Syrayra)
->>>>>>> master

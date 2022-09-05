@@ -6,18 +6,12 @@ sidebar: auto
 
 ## はじめに
 
-<<<<<<< HEAD
 ::: danger 注意 しっかりと理解してからModを利用しましょう
-=======
-::: danger 注意
-しっかりと理解してからModを利用しましょう
->>>>>>> master
 
 * 初期設定（バニラ）には存在しない問題が発生する可能性があります。 99.9％のバグ、クラッシュや遅延はMODによるものです。
 * Modはゲームのアップデートによって動かなくなる可能性があります。このようなことが起きた場合は忍耐強く、敬意をもって待ちましょう。Mod作成者はボランティアです。
 * Beat Gamesは、意図的にMODを破壊しようとはしていません。 コードベースで動作することを想定しているので、Modを壊すこともありますが、Modを排除しようとはしません。
 
-<<<<<<< HEAD
 Modに関連する問題でゲーム開発者を非難しないでください。 ただのクレーマーになってはいけません。 :::
 
 :::warning 安全にModを利用するために ビートセイバーは**絶対に** 管理者権限を要求することはありません。
@@ -60,57 +54,6 @@ Mod managerに似たシンプルなBeat Saber Modインストーラですが、M
 ::: warning 定期的に `CustomLevels` フォルダのバックアップをしておくことをお勧めします。アップデートによってリセットされたときに役に立つ可能性があります。
 
 このフォルダはゲームインストールにあります: `Beat Saber/Beat Saber_Data/CustomLevel` :::
-=======
-Modに関連する問題でゲーム開発者を非難しないでください。 ただのクレーマーになってはいけません。
-:::
-
-:::warning 安全にModを利用するために ビートセイバーは**絶対に** 管理者権限を要求することはありません。
-
-もしModをダウンロードやインストールする際にユーザーの管理権限に関するポップが表示された場合**決して**「了承する」をクリックしないでください。そして報告してください。 あなたがインストールしようとしたものは悪意のあるModです。
-
-唯一承認して良いケースは、ModAssistantでOneClick™インストール機能の有効/無効を切り替える時のみです。 OneClick™インストールのリンクをPC上で処理出来るように、ModAssistantをPCに登録する際、管理者権限が必要となります。
-
-もしインストールしたModが悪意のあるものかどうかわからない場合は、***私たちのディスコードで誰かに聞いてみてください***
-:::
-
-Beat Saberはカスタム曲をサポートしているので、カスタム曲をプレイするだけならば必要なModは多くはないです！ `SongCore` をインストールするのが賢明なアイデアです。 このModはベースゲームの機能を拡張し、ロード時間を改善し、ゲーム内ダウンローダーやリーダーボード、プレイリストのような他のMODと連携します。
-
-::: warning 警告
-このガイドはWindows PC用のガイドです。  
-Oculus Questをお使いの方は[Quest用Mod](./quest-modding.md)を参照してください。  
-もしLinuxをお使いの場合は[Linux用Modガイド](./modding/linux.md) もしくは [Beataroni](https://github.com/geefr/beatsaber-linux-goodies/#readme)を参照してください。
-:::
-
-問題に遭遇した場合 [サポート ページ](./support) に行き、Discordサーバーで質問する前に何が間違っているのかを確認することができます。 解決法はそのページにある可能性があります！
-
-:::warning Youtubeのビデオチュートリアルを見たのですが、うまくいかず困っています。 どうすればいいですか？
-BSMGはビデオでのチュートリアルを利用しないことを**強く**お勧めします。 多くの場合、それらは 時代遅れであるか、不完全で誤っているか、正しくない情報が含まれていることがあります。
-
-代わりに、ここで書かれたガイドに従うか、 [BSMG Discord](https://discord.gg/beatsabermods) のヘルプを参照してください。
-:::
-
-## インストーラー
-
-### Mod Assistant
-> **これは現在推奨されるMODインストーラーです。**
-
-ゲームにModを導入する前に、__**少なくとも一度は**** ゲームを実行してください！ これはゲームの再インストール時にも同じことが言えます。
-
-Mod managerに似たシンプルなBeat Saber Modインストーラですが、Modの除去やバージョンチェックなどの追加機能があります! [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest) からダウンロードできます。
-
-![Mod Assistant](~@images/beginners-guide/modassistant.png)
-
-## どうすればカスタム曲を追加できますか？
-::: tip
-譜面の探し方「すべての曲から」「レート順」「ダウンロード数」「プレイ数」によってソートできます。ここにあるほとんどの曲は「よいマップの作り方ガイド」ができる前に作られたものです。 2019年後半から今の間にリリースされた曲をダウンロードして、最高のカスタムマップを体験してみてください。
-:::
-
-::: warning 警告
-定期的に `CustomLevels` フォルダのバックアップをしておくことをお勧めします。アップデートによってリセットされたときに役に立つ可能性があります。
-
-このフォルダはゲームインストールにあります: `Beat Saber/Beat Saber_Data/CustomLevel`
-:::
->>>>>>> master
 
 ### ゲーム内ダウンローダー
 `BeatSaver Downloader` プラグインを使用すると、 `MODS` メニュー画面の `SONG` メニューボタンを使用してゲーム内でマップをダウンロードできます。 [BeatSaver](https://beatsaver.com)からも直接マップをインストールできます。
@@ -154,7 +97,6 @@ _Beat Saberはどこにインストールされていますか？_
 | Oculus | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
 
 ## 手動でのインストール
-<<<<<<< HEAD
 ModインストーラはModをインストールするための推奨方法です。 この[セクション](#installers) を参照してください。 ゲームにパッチが適用されていて、インストーラーで利用できないプラグインをインストールする必要がある場合は、ステップ 4 に進んでください。
 
 ::: warning 安全にModをインストールするために `#pc-mods`などで入手できる検証されていないModをインストールすることはリスクを伴います。普通のModを装った悪意のあるModも存在します。
@@ -162,28 +104,13 @@ ModインストーラはModをインストールするための推奨方法で�
 ビートセイバーは**決して**管理者権限を要求しません。
 
 もしModをダウンロードやインストールする際にユーザーの管理権限に関するポップが表示された場合**決して**「了承する」をクリックしないでください。そして報告してください。 もしインストールしたModが悪意のあるものかどうかわからない場合は、***私たちのディスコードで誰かに聞いてみてください*** :::
-=======
-ModインストーラはModをインストールするための推奨方法です。 この[セクション](#インストーラー) を参照してください。 ゲームにパッチが適用されていて、インストーラーで利用できないプラグインをインストールする必要がある場合は、ステップ 4 に進んでください。
-
-::: warning 安全にModをインストールするために `#pc-mods`などで入手できる検証されていないModをインストールすることはリスクを伴います。
-普通のModを装った悪意のあるModも存在します。
-
-ビートセイバーは**決して**管理者権限を要求しません。
-
-もしModをダウンロードやインストールする際にユーザーの管理権限に関するポップが表示された場合**決して**「了承する」をクリックしないでください。そして報告してください。 もしインストールしたModが悪意のあるものかどうかわからない場合は、***私たちのディスコードで誰かに聞いてみてください***
-:::
->>>>>>> master
 
 ゲームにModを導入する前に、**少なくとも一度**は ゲームを実行してください！ これはゲームの再インストール時にも同じことが言えます。
 
 ### BSIPAのインストール
 
 1. [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases) をダウンロード。
-<<<<<<< HEAD
 2. [installフォルダ](#install-folder) を設定し、BSIPAの中身を解凍します。 ![Directory Clean](~@images/beginners-guide/directory-clean.png "Directory Clean") ![Directory Ipa](~@images/beginners-guide/directory-ipa.png "Directory Ipa")
-=======
-2. [インストール-フォルダ](#インストール-フォルダ) を設定し、BSIPAの中身を解凍します。 ![Directory Clean](~@images/beginners-guide/directory-clean.png "Directory Clean") ![Directory Ipa](~@images/beginners-guide/directory-ipa.png "Directory Ipa")
->>>>>>> master
 3. IPA.exeをダブルクリックしてゲームにパッチを適用します。 ゲーム開始時に `プラグイン` フォルダ内のMODがロードされるようになります。 エラーがある場合は、おそらくステップ2を正しく実行できていません。 ![Directory Patched](~@images/beginners-guide/directory-patched.png "Directory Patched")
 
 ### Modをインストール
@@ -208,21 +135,12 @@ ModインストーラはModをインストールするための推奨方法で�
 ## より多くのことが知りたい方へ
 
 * [持ち方とコツ](./grips-and-tricks.md)
-<<<<<<< HEAD
 * [マッピング](/mapping/)
 * [カスタムセイバー](/models/custom-sabers.md)
 * [カスタムアバター](/models/custom-avatars.md)
 * [カスタムプラットフォーム](/models/custom-platforms.md)
 * [カスタムでのマルチプレイ](https://discord.com/invite/gezGrFG4tz)
 * [Modを作る](/modding/)
-=======
-* [マッピング](/ja/mapping/)
-* [カスタムセイバー](/ja/models/custom-sabers.md)
-* [カスタムアバター](/ja/models/custom-avatars.md)
-* [カスタムプラットフォーム](/ja/models/custom-platforms.md)
-* [カスタムでのマルチプレイ](https://discord.com/invite/gezGrFG4tz)
-* [Modを作る](/ja/modding/)
->>>>>>> master
 
 ## 質問がありますか？
 [BSMG Discord](https://discord.gg/beatsabermods) のサポートチャンネルをご覧ください！

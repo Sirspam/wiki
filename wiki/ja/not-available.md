@@ -16,9 +16,5 @@ sidebar: false
 
 言語このページの改善にご協力ください!  
 最終更新日  
-<<<<<<< HEAD
 ホーム   
-=======
-ホーム
->>>>>>> master
 BSMG Discord

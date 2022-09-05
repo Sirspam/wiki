@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: auto
 description: De lijst met sneltoetsen voor moderne community editors!
 ---
@@ -132,19 +131,3 @@ Een geavanceerd programma waarmee je het geselecteerde object kunt bekijken en b
 
 ## Bijdragen
 Inhoud in deze sectie is geschreven door [The Good Boi](./mapping-credits.md#the-good-boi), [Caeden117](./mapping-credits.md#caeden117) en [Bloodcloak](./mapping-credits.md#bloodcloak). Idee van [Helen Carnate](./mapping-credits.md#helen-carnate).
-=======
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-Sorry, deze pagina is nog niet vertaald.
-
-Je kan:
-
-* Overschakelen naar de Engelse versie vanuit het taal menu.
-* Wachten totdat deze pagina is vertaald.
-* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
-
-[Ga terug naar de startpagina](/nl/)
->>>>>>> master

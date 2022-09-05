@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: auto
 description: Het woordenboek van de meeste level makers termen.
 ---
@@ -271,19 +270,3 @@ let us know in #mapping-discussion!
 | **Window Slider**                                                                  | A 3-long [Slider](#s) with the center [Note](#n) removed to allow for better vision.                                                                                                                                                                                         |
 | **WIP**                                                                            | Abbreviation of "Work-In-Progress", meaning not yet finished. WIP maps must be played in either party mode or practice mode until released to prevent stray [ScoreSaber](#s) leaderboards from being created for each revision.                                              |
 | **Wrist Reset**                                                                    | The action of [Resetting](#r) only your wrist due to a sequence of [Notes](#n) that require a large twist of the wrist.                                                                                                                                                      |
-=======
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-Sorry, deze pagina is nog niet vertaald.
-
-Je kan:
-
-* Overschakelen naar de Engelse versie vanuit het taal menu.
-* Wachten totdat deze pagina is vertaald.
-* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
-
-[Ga terug naar de startpagina](/nl/)
->>>>>>> master

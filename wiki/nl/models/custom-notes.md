@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Custom Notes
 
 ## Installatie
@@ -27,20 +26,3 @@ Upload het `.qbloq` bestand naar jouw Quest via het [BMBF Web Interface](/quest-
 [Bobbie's Bloq Guide](./notes-guide.md) is een goede gids voor het maken van custom blokken vanuit een bestaand model.
 
 Merk op dat deze handleiding niet gaat over het 3D modelleren van de blokken. Hiervoor raden we aan om wat handleidingen voor [Blender](https://www.blender.org/) te bekijken!
-=======
----
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-Sorry, deze pagina is nog niet vertaald.
-
-Je kan:
-
-* Overschakelen naar de Engelse versie vanuit het taal menu.
-* Wachten totdat deze pagina is vertaald.
-* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
-
-[Ga terug naar de startpagina](/nl/)
->>>>>>> master

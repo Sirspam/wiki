@@ -30,11 +30,7 @@ Nous sommes BeatKhana, une communauté Beat Saber concentrée sur l'avancée des
 * Hébergeons nos propres tournois
 * Gérons une agréable communauté Beat Saber
 
-<<<<<<< HEAD
 [Discord](https://discord.gg/5NjfSAC)
-=======
-[Discord](https://discord.gg/e4f3WBBVnr) (serveur anglophone)
->>>>>>> master
 
 ---
 

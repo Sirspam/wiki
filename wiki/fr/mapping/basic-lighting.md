@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: auto
 prev: ./basic-mapping.md
 next: ./intermediate-lighting.md
@@ -190,18 +189,3 @@ After installing the mods and adding the launch parameter you can then now move 
 
 ## Credits
 Content in this section was authored by [LittleAsi](./mapping-credits.md#littleasi) and [Kolezan](./mapping-credits.md#kolezan) or derived from guides by [Puds](./mapping-credits.md#puds) and [MandyNasty](./mapping-credits.md#mandynasty). With visual media contributions from [Aeroluna](./mapping-credits.md#aeroluna) and [Bullet](./mapping-credits.md#bullet).
-=======
-sidebar: false
----
-
-
-Désolé, cette page n'a pas encore été traduite.
-
-Vous pouvez :
-
-* basculer vers la version anglaise de cette page à partir du sélecteur de langue,
-* attendre que cette page soit traduite,
-* aider à traduire cette page et le reste du wiki depuis l'anglais en postulant [ici](https://forms.gle/e3BqA3poMjESARe76)
-
-[Retourner à la page d'accueil](/fr/)
->>>>>>> master

@@ -44,12 +44,12 @@
 见新手指南中的 [这一节](/pc-modding.md#manual-installation)。
 
 ## 多人联机可以跨平台游戏吗？
-Cross-play between Quest and PC versions of the game is now available! All players will need to be on the latest version for this to work. Additionally, modifying the game on Quest disables official multiplayer.
+Quest 和 PC 版节奏光剑之间的联机已经推出！ 所有玩家都使用最新版本，就可以跨版本联机。 另外，在 Quest 端节奏光剑安装 Mod 将会禁用官方多人联机功能。
 
-一起摇摆(BeatTogether) Mod 是目前支持在打了Mod游戏版本间跨平台游戏的解决方法。 加入他们的 [Discord 服务器](https://discord.com/invite/gezGrFG4tz) 看看 `#install-instructions` 频道查看更多信息。
+一起摇摆（BeatTogether） Mod 是目前支持在打了 Mod 的游戏版本间跨平台游戏的解决方法。 加入他们的 [Discord 服务器 ](https://discord.com/invite/gezGrFG4tz)，查看 `#install-instructions` 频道以获得更多信息。
 
 ## 游戏更新导致Mod全部失效？
-每次游戏更新时，旧版的 Mod 也 *（很可能）* 无法使用并且需要更新。 为了防止游戏在更新后第一次启动时不会发生问题，所有在 `Plugins` 文件夹里的文件会被自动移动到名为 `Old 1.xx.x Plugins` 的新文件中。 **Leave those plugins/mods in there!** Please do not drag these mods back into the `Plugins` folder, as it is known to cause issues.
+每次游戏更新时，旧版的 Mod 也 *（很可能）* 无法使用并且需要更新。 为了防止游戏在更新后第一次启动时不会发生问题，所有在 `Plugins` 文件夹里的文件会被自动移动到名为 `Old 1.xx.x Plugins` 的新文件中。 ** 将这些插件 / Mod 留在那里！**请不要将这些模组拖回 `Plugins` 文件夹，因为它们很可能造成兼容性问题。
 
 要想重新安装Mod的话，只需要**再次运行安装器。**  
 BeatMods 仓库只包括了已经确认可以能运行在最新版游戏的Mod！

@@ -76,7 +76,7 @@ Cube Community 制作了一些视频，展示了一些适用于 Oculus Touch 控
 这也适用于 Oculus 的传感器。
 
 ## Touch 控制器电池断连
-你在玩节奏光剑的时候，挥动所使的力可能会让 Touch 控制器中的弹簧压缩导致短时断电。 这个情况发生时，你可以看到你的光剑没法追踪但是还在旋转。 为了减少这种情况的发生，ragesaq 建议在电池舱中加入额外的弹簧来减少电池断链情况的发生，详情请见这个 [Reddit 帖子](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)。
+你在玩节奏光剑的时候，挥动所使的力可能会让 Touch 控制器中的弹簧压缩导致短时断电。 这个情况发生时，你可以看到你的光剑没法追踪但是还在旋转。 为了减少这种情况的发生，ragesaq 建议在电池仓中加入额外的弹簧来减少电池断链情况的发生，详情请见这个 [Reddit 帖子](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)。
 
 ## 也可以考虑
 ![也可以考虑](~@images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)

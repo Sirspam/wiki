@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 - - -
 sidebar: auto description: Learn how to create your own mods!
 - - -
@@ -7,9 +6,9 @@ sidebar: auto description: Learn how to create your own mods!
 
 ビートセイバーはmodを_**サポートしていません**_。
 
-Development for [PC](#pc-mod-development) and [Quest standalone](#quest-mod-development) are two vastly different workflows.
+[PC](#pc-mod-development) と [クエストスタンドアロン](#quest-mod-development) の開発は、大幅に異なる2つのワークフローです。
 
-## PC Mod Development
+## PC版のMod開発
 
 ### Modの導入
 ほとんどのModは[BSIPA (Beat Saber Illusion Plugin Architecture)](https://github.com/nike4613/BeatSaber-IPA-Reloaded/)を利用してゲームにModを導入しています。そのほかのツールなどもこのソフトを利用しています。
@@ -19,21 +18,21 @@ Development for [PC](#pc-mod-development) and [Quest standalone](#quest-mod-deve
 ### プロジェクトのセットアップ
 ビートセイバーのModの作製に興味があるがVisual Studioなどで使うテンプレートを持っていない場合は[はじめのセットアップ](./pc-mod-dev-intro.md)に従ってください。
 
-#### Ready to go?
-Unityやそのほか関連するツールを以下の[リンク](#other-links)を参照してください。 If you have any questions, the best place to ask is in the `#pc-mod-dev` channel on the [BSMG Discord](https://discord.gg/beatsabermods)
+#### 準備はいいですか?
+Unityやそのほか関連するツールを以下の[リンク](#other-links)を参照してください。 質問があれば [BSMG Discord](https://discord.gg/beatsabermods)の`#pc-mod-dev`チャンネルでお尋ねください。
 
-### Launch args
-Helpful launch arguments that will make modding / debugging easier.
+### 引数の設定
+Modの導入とデバッグをより簡単にする便利な引数を設定します。
 
 <!-- markdownlint-disable MD013 -->
-| Argument&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description                                                                                                                                                                                                           |
-| -------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `--verbose`                                                                                  | Enables the output log window for IPA. This will show the debug console that mods use.                                                                                                                                |
-| `fpfc`                                                                                       | "First Person Flying Controller"<br /><br />This allows you to use WASD and the mouse to navigate around the menu in game. This makes testing much easier, because you don't have to put on your headset! |
-| `-vrmode oculus`                                                                             | If you are running Beat Saber through Steam, this allows you to play the game on an Oculus headset.                                                                                                                   |
+| 引数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 説明                                                                                                                                             |
+| -------------------------------------------------------------------------------- |:---------------------------------------------------------------------------------------------------------------------------------------------- |
+| `--verbose`                                                                      | IPAのログ出力ウィンドウを有効にします。 ここには、Modのデバッグコンソールが表示されます。                                                                                               |
+| `fpfc`                                                                           | "First Person Flying Controller（一人称でのコントローラ）"<br /><br />これにより、ゲーム内でWASDとマウスを使用してメニューを操作できます。 ヘッドセットを装着しなくても良くなるため、テストがとても簡単になります！ |
+| `-vrmode oculus`                                                                 | BeatSaberをSteamで起動している場合、このオプションによってOculusのヘッドセットでゲームがプレイできます。                                                                                 |
 <!-- markdownlint-enable MD013 -->
 
-### Other Links
+### その他のリンク
 
 * [BeatMods](https://beatmods.com)
 * [BeatMod承認ガイドライン（英語）](https://docs.google.com/document/d/15RBVesZdS-U94AvesJ2DJqcnAtgh9E2PZOcbjrQle5Y/edit?usp=sharing)
@@ -42,30 +41,13 @@ Helpful launch arguments that will make modding / debugging easier.
 * [Harmony](https://github.com/pardeike/Harmony)
 * [Beat Saber IPA](https://bsmg.github.io/BeatSaber-IPA-Reloaded/)
 
-## Quest Mod Development
+## Quest版のMod開発
 
-The following guide covers most of the concepts you will need for creating mods for the Quest. This includes but is not limited to:
+次のガイドでは、クエストの Mod を作成するために必要な概念のほとんどを説明します。 このサービスに含まれる機能例は以下の通りです:
 
-* Hooking
-* Configuration using `config-utils`
-* Manual configuration
-* User Interfaces using `questui` or `QUC`
+* フック
+* `config-utils` を使用した設定
+* 手動設定
+* `questui` または `QUC` を使用したユーザーインターフェイス
 
-Visit the [Quest Mod Development Intro](./quest-mod-dev-intro.md) page for more information on getting started!
-=======
----
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-申し訳ありませんが、このページは翻訳されていません。
-
-あなたができることは。。。
-
-* 言語メニューから英語版に切り替えます。
-* そのページが翻訳されるまでお待ちください。
-* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
-
-[トップページへ戻る](/ja/)
->>>>>>> master
+始めるための詳細については、 [クエストMod開発入門](./quest-mod-dev-intro.md) ページをご覧ください！

@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: "false"
 prev: ./basic-audio.md
 next: ./intermediate-mapping.md
@@ -58,7 +57,7 @@ Japanese (日本語/にほんご), Kaomoji (٩(◕‿◕｡)۶), 中国語 (汉�
 **ボムに関する注意事項:**
 
 * ボムの当たり判定は、ブロックの当たり判定よりも小さく、ボムの見た目よりも小さいです。
-* ボムは照明の効果がない時はとても見づらくなります。 爆弾を配置するときは十分に明るいことを確認してください。 詳細は [基本的な照明効果](./basic-lighting.md) を参照してください。
+* ボムは照明の効果がない時はとても見づらくなります。 ボムを配置するときは十分に明るいことを確認してください。 詳細は [基本的な照明効果](./basic-lighting.md) を参照してください。
 * ボムはプレイヤーを通過した後でもあたる可能性があります。
 
 ### ブロックの配置
@@ -81,15 +80,15 @@ Japanese (日本語/にほんご), Kaomoji (٩(◕‿◕｡)۶), 中国語 (汉�
 | ![1/1 Cursor precision screenshot](~@images/mapping/1-1_precision.png) | ![1/2 Cursor precision screenshot](~@images/mapping/1-2_precision.png) | ![1/3 Cursor precision screenshot](~@images/mapping/1-3_precision.jpg) | ![1/4 Cursor precision screenshot](~@images/mapping/1-4_precision.png) |
 |                               1拍に1ブロックずつ                               |                              1/2拍に1ブロックずつ                              |                              1/3拍に1ブロックずつ                              |                              1/4拍に1ブロックずつ                              |
 
-When timing out your map you’ll want to double check EARLY that the waveform in your editor is lined up with the major lines of the editor track. If your waveform isn't lined up, revisit the [Basic Audio Setup](./basic-audio.md) page of the wiki for tips.
+曲のタイミングがあってるかを確認するときに、エディタ上の波形から目視でダブルチェックを行ってください。 もし波形がエディタの線とずれている場合は、[基本の音響設定](./basic-audio.md)から設定しなおしてください。
 
 ::: danger CAUTION  
-If your waveform isn’t lined up it will make it **very** difficult to place blocks in time with the music. Get this right before you start or risk remapping later! :::
+波形があっていない場合、 音楽に合わせてブロックを配置するのが **非常に**困難になります。 マッピングを始める前に確認しないと、作り直しになる危険があります。 :::
 
-|                                Audio Not Lined Up                                |                                  Audio Properly Synced                                  |
+|                                    波形があっていない                                     |                                        波形があっている                                         |
 |:--------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|
 | ![Editor view with audio not properly synced](~@images/mapping/audio-broken.png) | ![Editor view with audio synced to the editor track](~@images/mapping/audio-synced.png) |
-|                Needs audio edits, start offset, or has wrong bpm                 |                                  You’re ready to map!                                   |
+|                     音源の調整が間違っているかスタートが間違っている、BPMが違う可能性があります。                     |                                         準備完了です！                                         |
 
 ### 音取り
 マッピングはまず「音取り」ノーツを置くことから始めましょう。 「ドットノーツ」を置くことで音取りが適切であるか、どこを強調するべきかがわかりやすくなります。ノーツ配置を考える**前に**行うことをお勧めします。 エディタのヒットサウンドがビートに合っていることを確認してください。
@@ -127,14 +126,14 @@ Mapping consistently does NOT always mean to copy/paste/mirror, though there are
 ### ビジョンブロック
 Vision blocks are any patterns that obscure the player’s vision and make it difficult to sight read a map, if not outright uncomfortable. The primary cause of vision blocks is use of the middle two positions of the track, but there’s risk of a block any time the middle row is used.
 
-**Vision blocks can be avoided by:**
+**ビジョンブロックは次の方法で回避できます：**
 
-* Not using the center two positions of the track or
-* Ensuring that blocks following anything in the middle row are either far enough away or in another position to the right or left of the block.
-* Making sure that your player is pushed to the side with either obstacles or patterns so the center positions no longer completely block the player.
+* トラックの中央2か所にノーツを置かない
+* 中段にあるノーツが後ろと十分に離れているか、あるいは別の列にあるかを確認する
+* プレイヤーを壁やノーツ配置で横に移動させることで、中央のノーツがビジョンにならないことを確認してください。
 
 <!-- markdownlint-disable MD013 -->
-|                            Ideal Block Placement                             |                       Vision Block Placement                        |
+|                                    理想的な配置                                    |                             ビジョンのノーツ配置                              |
 |:----------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
 |          ![No Vision Blocks](~@images/mapping/no-vision-blocks.jpg)          |           ![Face Notes](~@images/mapping/face-notes.jpg)            |
 | When you’re getting started, stick<br />to the perimeter of the track. | These are called face notes.<br />Avoid them as a new mapper. |
@@ -209,7 +208,7 @@ When proper flow is achieved the player should be physically capable of getting 
 These are called forbidden patterns for a reason. There is no reason in the world to use these because they're dangerous to either the player's hardware, the player's joints, or they go against the scoring system. You may have played maps that included these but that doesn't make them ok.
 
 #### Handclaps
-|                             Illustration                             |                               Editor View                               | Explanation                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                  図                                   |                                 エディタビュー                                 | 説明                                                                                                                                                                                                                                                                                                                                                                                           |
 |:--------------------------------------------------------------------:|:-----------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Illustration of a handclap](~@images/mapping/controller-smash.png) | ![Editor view of a handclap](~@images/mapping/controller-smash-alt.png) | Pointing blocks at each other may cause the player to smash their controllers together when playing for max points. Don’t do it, no exceptions.<br /><br />Note: Different VR sets have different controllers. Vive wands are much bigger than Oculus touch controllers and Index knuckles... don’t put your players’ hardware at risk! *AKA Controller clash, Controller smash* |
 
@@ -419,19 +418,3 @@ Already mentioned in detail on the [Mapping Home Page](./#playtesting) it’s im
 
 ## Credits
 Content in this section has been derived from guides by [Awfulnaut](./mapping-credits.md#awfulnaut) and [Hexagonial](./mapping-credits.md#hexagonial).
-=======
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-申し訳ありませんが、このページは翻訳されていません。
-
-あなたができることは。。。
-
-* 言語メニューから英語版に切り替えます。
-* そのページが翻訳されるまでお待ちください。
-* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
-
-[トップページへ戻る](/ja/)
->>>>>>> master

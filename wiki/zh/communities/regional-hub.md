@@ -2,8 +2,8 @@
 sidebar: auto
 ---
 
-# Regional Hub
-A list of other regional communities outside of the Beat Saber Modding Group.
+# 地区相关的社区
+此处列出了 Beat Saber Modding Group 以外的一些地区性社区（为保证最准确的信息更新，本页暂不翻译）。
 
 ---
 

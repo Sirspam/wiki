@@ -32,7 +32,9 @@ Håll din spelarea fri från hinder, ha tillräckligt med utrymme under spelet, 
 
 ![Tillåt tillräckligt utrymme runt dig](~@images/health-and-safety/allow-adequate-room-around-you.png "Tillåt tillräckligt utrymme runt dig")
 
-::: warning OBS! Beat Saber är inte tillgängligt för Nintendo Wii, denna bild används endast för informativa ändamål. :::
+::: warning OBS!
+Beat Saber är inte tillgängligt för Nintendo Wii, denna bild används endast för informativa ändamål.
+:::
 
 ## Ett kort meddelande från TammyMatty
 För att minska risken för fysiska skador, kom alltid ihåg att stretcha före och efter att ha spelat Beat Saber. Vänligen överväg följande:

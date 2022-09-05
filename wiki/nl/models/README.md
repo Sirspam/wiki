@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 description: Installatie, gebruik en creatie gidsen voor model mods!
 ---
 
@@ -30,19 +29,3 @@ Wil je leren hoe je je eigen modellen maakt? Bekijk een van onze handleidingen h
 * [De Custom Platforms gids.](./platforms-guide.md)
 * [De Custom Blokken gids.](./notes-guide.md)
 * [De gids voor het maken van Quest modellen.](https://github.com/RedBrumbler/Qosmetics/wiki)
-=======
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-Sorry, deze pagina is nog niet vertaald.
-
-Je kan:
-
-* Overschakelen naar de Engelse versie vanuit het taal menu.
-* Wachten totdat deze pagina is vertaald.
-* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
-
-[Ga terug naar de startpagina](/nl/)
->>>>>>> master

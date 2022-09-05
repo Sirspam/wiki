@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: "false"
 tags:
   - bsmg
@@ -105,15 +104,15 @@ MMA2 は、ChroMapper のベータ版が完成するまでマッピングコミ�
 公式のエディタはBeat Games によって開発されており、Steam VRとOculus PC版であらかじめインストールされています。
 
 :::tip Info Coming Soon
-Check back later for information on the new 3D official editor that supports the new note types and lighting system!
+新しいノーツとライティングシステムをサポートする公式エディタについては、後で確認してください!
 :::
 
 #### 公式エディターからコミュニティエディターへの移行
 :::warning NOTE
-These instructions are for the old 2D editor that was retired since Beat Saber version 1.8.0
+以下の手順は、Beat Saber バージョン 1.8.0 以前の古い2Dエディタ用です。
 :::
 
-Although it is recommended to start setup again following the [Quick Start](#mapping-quick-start) guides with a [Community Editor](#community-editors), it is possible to transfer your work in the Official Editor over.
+[ コミュニティエディタ](#community-editors) を使用して[クイックスタート](#mapping-quick-start)ガイドに従って再度セットアップを開始することをお勧めします。公式のエディタにも互換性があります。
 
 1. [コミュニティエディタ](#community-editors)をインストールします。
 2. `CustomLevels`にあなたの譜面を入れます。
@@ -131,14 +130,14 @@ Although it is recommended to start setup again following the [Quick Start](#map
         * フォルダに `.wav`ファイルは不要です。
 5. コミュニティエディターでマップを開き、曲ファイル名を `song.ogg` に変更し、保存ボタンをクリックします。
 
-You are now ready to continue editing your map!
+譜面を作成する準備ができました！
 
 ### データ損失防止とクラウドストレージ
-Updating your game may remove all Custom Level data, one way you can prevent complete data loss is with [Symbolic Links!](https://en.wikipedia.org/wiki/Symbolic_link) This allows you to store your maps in a different place on your computer, such as a folder synchronized to the cloud, and mirror them in the game directory. The link created will not delete your maps if it is removed due to updating or uninstalling the game however, recursive deletion will remove your maps.
+ゲームをアップデートするとカスタム曲がすべてなくなることがあります。これを防ぐために [Symbolic Links](https://ja.wikipedia.org/wiki/ソフトリンク)を使うという方法があります。これは譜面情報をコンピュータの別の場所にも保存します。例えば、クラウドと同期されたファイルをゲーム内で使用することができます。 アップデートやアンインストールによりマップが削除された場合でも、作成されたリンクは削除されません。 元のファイルを削除することで譜面を削除します。
 
-Using a cloud storage folder is useful if you jump between multiple computers or extra security for your files in case of storage disk corruption.
+クラウドストレージフォルダを使用することで、複数のコンピュータ間で操作する場合やストレージディスクが破損したときなどに便利です。
 
-The following instructions are for Windows 10 and 11.
+以下の手順はWindows 10および11の場合のものです。
 
 1. 現在のレベルフォルダを新しい場所に移動します。 (`Ctrl + c` の代わりに `Ctrl + x`)
    * これがクラウド上のファイルである場合は、オフラインで利用できるようにフォルダを設定してください!
@@ -146,48 +145,48 @@ The following instructions are for Windows 10 and 11.
 3. 場合によってはパラメータを調整するコマンドを実行します。  
      
    `mklink /j "Path to Beat Saber Install folder" "Path to New Location"`
-    * Heres an example command:  
+    * リンク例:  
       `mklink /j "C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels" "C:\Users\cmb\CloudStorage\CustomLevels"`
 
-If it's on a network drive, replace `/j` with `/D`. Note that you will need to open command prompt as administrator for this to succeed.
+ネットワークドライブ上にある場合は、 `/j` を `/D` に置き換えます。 この方法を実行するにはコマンドプロンプトを開く必要があることに注意してください。
 
 ### 追加のマッピングツール
 
 * [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit**  
-  A convenient way to see how your map might look in game without the game.
+  ゲームを起動しなくても譜面がどのように見えるのかを確かめる便利なソフトです。
 * [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit**  
-  A suite of tools for mappers that includes:
-  * **Schema Fixer:** Easily fix maps made in Mediocre Mapper Mk4.1 and Mk5 for upload to BeatSaver.
-  * **Tempo Changer:** Change the BPM of an entire map and shift block placements accordingly.
-  * **Offset Remover:** Removes editor offset and snaps notes/obstacles/events to common precisions to try and mitigate floating point error.
-  * **Note Sorter:** Sorts unordered notes/obstacles/events in the map file to fix stack spawning.
-  * **Copy Timing:** Moves notes in one difficulty based on another within a certain window. Useful to apply small timing changes across all difficulties for specific sounds.
-  * **Copy Lighting:** Copies all of the lights, with the option to include/exclude custom events from one difficulty to all other difficulties.
-  * **Map Diff:** Compare between two versions of a map. Useful for testplayers and Ranking Team members to see if any changes were made.
+  譜面作成における便利なツールが含まれています。
+  * **Schema Fixer:** Mediocre Mapper Mk4.1 と Mk5 で作成したマップを簡単に修正して、BeatSaver にアップロードします。
+  * **Tempo Changer:** マップ全体の BPM を変更し、それに応じて配置をシフトします。
+  * **Offset Remover:** 浮動小数点誤差を軽減するために、エディタのオフセットを削除し、ノーツ/ボム、壁/イベントを適切な位置に移動します。
+  * **Note Soter:** スタックを修正するために、マップファイル内の乱雑になっているノート/壁/イベントをソートします。
+  * **Copy Timing:**特定のノーツを他の難易度にコピーします。 すべての難易度にわたってある音に対してタイミングを少しだけずらしたい時などに便利です。
+  * **Copy Lighting:** 1つの難易度からほかの難易度すべてにカスタムイベントとすべてのライティングをコピーします。
+  * **Map Diff:** 譜面バージョンの比較。 テストプレイやランキングチームでどこに変更が加えられたかを見るときに便利です。
 * [Parity Checker](https://galaxymaster2.github.io/bs-parity/) by **GalaxyMaster**  
-  An error checker tool that focuses on finding issues with parity in a map.
+  譜面でパリティエラーを見つけることができるツール。
 * [Map Check](https://kivalevan.github.io/BeatSaber-MapCheck/) by **Kival Evan**  
-  An error checker tool that is much more versatile than the one built into MMA2.
+  MMA2に組み込まれているものよりも汎用性の高いエラーチェッカーツール。
 * [noodleLister](https://github.com/bloodcloak/noodleLister#readme) by **Bloodcloak**  
-  Easily compile a game playlist from a txt file containing BeatSaver map keys.
+  BeatSaberの譜面を譜面のキーコマンドが入ったテキストファイルから簡単にプレリストへ変換できます。
 
 #### レガシーツール
-These tools may no longer be supported, compatible with the latest software, or relevant with current practices, but could still fulfill a niche use case.
+これらのツールはサポートされてはいませんが、現行のバージョンと互換性があり特定のケースで役に立つことがあります。
 
 * [BeatMerge](https://github.com/ZelonGames/BeatMerge#readme) by **DarkGrisen**  
-  Ever thought that it is a lot of annoying work to make big maps with other people or to perfectly cut the audio files so you can merge them manually later? This tool allows you to merge two or more maps into one single super long map.
+  他の譜面作者と一緒に大きなマップをつくるときに音源をきれいに張り合わせる作業を手動で行うのはわずらわしくないですか？ このツールは複数のマップを一つの大きなマップにしてくれます。
 * [Cinder](https://github.com/zhaey/cinder#readme) by **zhaey**  
-  Python program that converts stepmania `.sm` files to Beat Saber `.dat` files for timing notes.
+  Phythonで書かれた`.sm`ファイルをBeatSaberの`.dat`ファイルへと変換します。
 * [BeatMapper Tools](https://beatmappertools.com/) by **Darkuni**  
-  A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps.
-* [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t) by **Fayhe**  
-  Video guide on using the timing feature of osu!'s editor to find map bpm.
+  Mediocre MapperやMediocre Mapper Assistant 2のユーザーが簡単に変換や、テストプレイ、zipファイルの作成をすることができるツール.
+* [osu! のBPMを調整するためのチュートリアルビデオ](https://www.youtube.com/watch?v=nIX0koHzW8c&t) by **Fayhe**  
+  osu!のエディタを用いてBPMを検出する方法を紹介するビデオ
 
 ### 便利なMod
-Here are some mods that might make your mapping workflow a little easier.
+ここには譜面作成をすこし楽にするツールがあります。
 
 * [SiraUtil](./basic-lighting.md#in-game-with-fpfc) by **auros**  
-  With the First Person Flying Controller (FPFC) launch parameter, this allows you to control the game while a map is playing with your keyboard and mouse without using a headset. See the section in [Basic Lighting](./basic-lighting.md#in-game-with-fpfc) for links to the mods and how to set it up.
+  第一人称視点フライングコントローラー（FPFC）のパラメータを設定して、キーボードやマウスを使ってゲームのプレイ中に視点操作ができます。 Mod へのリンクや設定方法については、 [Basic Lighting](./basic-lighting.md#in-game-with-fpfc) のセクションを参照してください。
 * [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) by **Kyle1413**  
   Mod for Beat Saber to control playback speed, seek through songs and set up looping sections. Install the latest version from [Mod Assistant](https://github.com/Assistant/ModAssistant#readme)!
 * [ReLoader](https://github.com/Kylemc1413/ReLoader) by **Kyle1413**  
@@ -231,9 +230,9 @@ Maps that meet specific [Ranking Criteria](https://scoresaber.com/criteria) and 
 If you're finding it difficult to muster up the courage to upload your map, or are finding it emotionally taxing coping with a lack of downloads or a lot of dislikes, you're not alone. Many mappers have experienced these feelings. You can read more about it on the [Coping with Mapping Anxiety](./mapping-anxiety.md) page.
 
 ## 照明効果
-A map is not finished until some form of lighting is included. Lighting can range from very basic to incredibly detailed using additional mods to enable more features.
+ライティングをつけるまでマップは完成していません。 ライティングはとても簡単な方法から追加のModを使うことでより細やかに設定することもできます。
 
-### [**基本的な照明効果**](./basic-lighting.md)
+### [**基本的なライティング**](./basic-lighting.md)
 Learn the various aspects to lighting your map manually
 
 ### [**中級者向けライティング**](./intermediate-lighting.md)
@@ -449,19 +448,3 @@ This is the default error message, causes include:
 
 ## [クレジット](./mapping-credits.md)
 Over *thirty* different mapping guides and tutorials have been combined into this wiki so that it can be maintained by the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content. Check out the whole list [here!](./mapping-credits.md)
-=======
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-申し訳ありませんが、このページは翻訳されていません。
-
-あなたができることは。。。
-
-* 言語メニューから英語版に切り替えます。
-* そのページが翻訳されるまでお待ちください。
-* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
-
-[トップページへ戻る](/ja/)
->>>>>>> master

@@ -2,8 +2,8 @@
 sidebar: auto
 ---
 
-# Community Hub
-A list of other communities outside of the Beat Saber Modding Group.
+# 社区中心
+此处列出了 Beat Saber Modding Group 以外的一些社区（为保证最准确的信息更新，本页暂不翻译）。
 
 ---
 

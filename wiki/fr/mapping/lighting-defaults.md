@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: auto
 prev: ./basic-lighting.md
 description: A list of the default color palettes used in each environment.
@@ -1322,18 +1321,3 @@ These are not the full list of changes made to colors over Beat Saber's history.
 
 ## Credits
 Content in this section was authored by [Bullet](./mapping-credits.md#bullet) with the use of [Aeroluna](./mapping-credits.md#aeroluna)'s PrintColorScheme mod.
-=======
-sidebar: false
----
-
-
-Désolé, cette page n'a pas encore été traduite.
-
-Vous pouvez :
-
-* basculer vers la version anglaise de cette page à partir du sélecteur de langue,
-* attendre que cette page soit traduite,
-* aider à traduire cette page et le reste du wiki depuis l'anglais en postulant [ici](https://forms.gle/e3BqA3poMjESARe76)
-
-[Retourner à la page d'accueil](/fr/)
->>>>>>> master

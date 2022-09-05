@@ -16,7 +16,10 @@ Alla custom modell-moddar skapades ursprungligen separat av olika personer. Varj
 ### ModelSaber
 [ModelSaber](https://modelsaber.com/) är det nuvarande arkivet för sablar, avatarer, bloq och plattformar. Den innehåller förhandsgranskningsbilder och länkar till OneClick&trade;-installationer.
 
-::: tip OBS! Alla modeller måste godkändas manuellt innan de syns på webbplatsen. Vänligen ladda inte upp redan befintliga modeller på nytt till webbplatsen. :::
+::: tip OBS!
+Alla modeller måste godkändas manuellt innan de syns på webbplatsen.
+Vänligen ladda inte upp redan befintliga modeller på nytt till webbplatsen.
+:::
 
 ### Discord
 En oorganiserad lista _(möjligtvis med fler saker)_ finner du i kanalen `#pc-models` i [BSMGs Discord](https://discord.gg/beatsabermods) för PC och i [Qosmetics Discord](https://discord.gg/qosmetics) för Quest.

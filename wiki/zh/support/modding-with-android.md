@@ -2,15 +2,15 @@
 sidebar: auto
 ---
 
-# Quest Modding with Android
+# 使用 Android 设备为 Quest 端节奏光剑安装 Mod
 
-:::warning Installing BMBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the base game leaderboards. If you would like to play modded multiplayer, you need the `Beat Together` and `MultiQuestensions` mods, which enables cross-play between PC and modded Quests and allows for custom songs to be played. The mod can be found in the [Beat Saber Modding Group](discord.gg/beatsabermods) in `#quest-mods` or on the [Questboard](https://questmodding.com) site.
+:::warning 安装 BMBF 后，你的游戏将不再能连接到官方的多人游戏服务器，并且原版排行榜将无法使用。 如果在安装 Mod 后你还是想联机，请安装 `Beat Together` 和 `MultiQuestensions`。这两个 Mod 分别支持跨平台联机和自定义歌曲联机。 这两个 Mod 可以在 [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods) 的 `#quest-mods` 频道，或 [ QuestModding ](https://questmodding.com) 网站上找到。
 
-To get leaderboards on custom songs and to be able to get Performance Points (PP) from ranked songs you need the [ScoreSaber](https://new.scoresaber.com/quest) mod. [This link](https://new.scoresaber.com/quest) will take you to the ScoreSaber page to set it up. ScoreSaber does not replace the base game leaderboards, it only adds leaderboards for custom songs.
+想要自定义歌曲的排行榜，并想从 Ranked 的歌曲中获得性能点（Performance Points, PP），您将需要 [ScoreSaber](https://new.scoresaber.com/quest) Mod 。 要设置 ScoreSaber，请移步 [ScoreSaber Quest 安装 ](https://new.scoresaber.com/quest) 页面。 ScoreSaber 不会替换原版歌曲的排行榜。ScoreSaber 只能为自定义歌曲添加排行榜。
 
-**Note:** Check the updates channel in the [ScoreSaber Discord](https://discord.gg/WpuDMwU) to see if the mod is available for the current game version. :::
+** 注意：** 请查看 [ScoreSaber Discord 的 updates 频道 ](https://discord.gg/WpuDMwU) 以确认当前游戏版本的模组是否可用。 :::
 
-::: tip NOTE The recommended way to install BMBF is with [SideQuest on a PC](/quest-modding.md#installing-bmbf-with-sidequest). This method should only be used if you do not have access to a PC. :::
+::: 提示 推荐的安装 BMBF 的方式，是 [通过 PC 安装 BMBF](/quest-modding.md#installing-bmbf-with-sidequest)。 此方法只应该在您无法使用 PC 时尝试。 :::
 
 * [Requirements](#requirements)
 * [Enable Developer mode on your Quest](#how-to-enable-developer-mode-on-the-oculus-quest)

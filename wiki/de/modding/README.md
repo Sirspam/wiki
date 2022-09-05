@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 - - -
 sidebar: auto description: Learn how to create your own mods!
 - - -
@@ -52,19 +51,3 @@ The following guide covers most of the concepts you will need for creating mods 
 * User Interfaces using `questui` or `QUC`
 
 Visit the [Quest Mod Development Intro](./quest-mod-dev-intro.md) page for more information on getting started!
-=======
----
-sidebar: false
----
-
-
-Diese Seite wurde noch nicht übersetzt.
-
-Du kannst:
-
-* Zur englischen Version vom Sprachenmenü aus wechseln.
-* Warten bis die Seite übersetzt wurde.
-* Helfen diese Seite und den Rest des Wiki's aus dem englischen zu übersetzten indem du dich [hier bewirbst](https://forms.gle/e3BqA3poMjESARe76)!
-
-[Zurück zur Startseite](/de/)
->>>>>>> master

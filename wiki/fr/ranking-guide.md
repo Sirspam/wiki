@@ -7,13 +7,7 @@ sidebar: auto
 
 *Merci beaucoup à Flee pour avoir corrigé les erreurs grammaticales et fourni des informations utiles.*
 
-<<<<<<< HEAD
 :::warning AVIS DE NON-RESPONSABILITÉ Ce guide a originalement été écrit le 7 février 2019. Il a été mis à jour plusieurs fois mais certaines informations peuvent être inexactes ou manquantes. Si vous constatez des informations manquantes ou erronées, vous pouvez ouvrir une demande de fusion (Pull Request) sur le [dépôt GitHub du présent wiki (en anglais)](https://github.com/bsmg/wiki#readme) ou envoyer un message à teknoz#6900 sur Discord (en anglais également). :::
-=======
-:::warning AVIS DE NON-RESPONSABILITÉ 
-Ce guide a originalement été écrit le 7 février 2019. Il a été mis à jour plusieurs fois mais certaines informations peuvent être inexactes ou manquantes. Si vous constatez des informations manquantes ou erronées, vous pouvez ouvrir une demande de fusion (Pull Request) sur le [dépôt GitHub du présent wiki (en anglais)](https://github.com/bsmg/wiki#readme) ou envoyer un message à teknoz#6900 sur Discord (en anglais également). 
-:::
->>>>>>> master
 
 ## Précision et score
 
@@ -93,7 +87,7 @@ Voici un exemple de fonctionnement de la courbe :
 | *244pp* -> | **219pp**  (89.9% du PP brut) |
 
 ### Pourquoi mon nombre total de PP n'augmente-t-il pas autant qu'avec le nombre de PP ajustés que j'ai obtenu sur mon nouveau score ?
-Une question récurrente que les gens semblent se poser lorsqu'ils reçoivent un nouveau score est que, par exemple, s'ils obtiennent **100 PP ajustés**, pourquoi ne gagnent-ils pas **+100 PP** sur leur montant total de PP. Comme expliqué plus tôt, puisque l'effet de la courbe sur vos parties ne fait qu'augmenter au fur et à mesure que vous descendez dans la liste, lorsque vous effectuez une nouvelle partie, celle-ci prend la place d'un autre jeu plus ancien qui fait que toutes les parties en dessous descendent d'une place dans la liste. Donc, même si vous gagnez **+100 PP** dans cette nouvelle partie, toutes celles inférieures sont réajustées à la baisse et vous y perdez une certaine quantité de PP. C'est pourquoi lorsque vous jouez une nouvelle chansons ou améliorez votre score sur une ancienne chanson, vous n'allez jamais (hors exception) recevoir le même montant de PP sur votre total de points de performance.
+Une question récurrente que les gens semblent se poser lorsqu'ils reçoivent un nouveau score est que, par exemple, s'ils obtiennent **100 PP ajustés**, pourquoi ne gagnent-ils pas **+100 PP** sur leur montant total de PP. Comme expliqué plus tôt, puisque l'effet de la courbe sur vos parties ne fait qu'augmenter au fur et à mesure que vous descendez dans la liste, lorsque vous effectuez une nouvelle partie, celle-ci prend la place d'un autre jeu plus ancien qui fait que toutes les parties en dessous descendent d'une place dans la liste. Even if you are getting **+100 pp** from this new play, all your lower plays are weighed down even more than before so you lose a certain amount of PP on them. C'est pourquoi lorsque vous jouez une nouvelle chansons ou améliorez votre score sur une ancienne chanson, vous n'allez jamais (hors exception) recevoir le même montant de PP sur votre total de points de performance.
 
 L'unique exception possible est si vous obtenez une meilleure précision que votre meilleur score actuel. Puisque votre meilleur score n'est pas affecté par la courbe, ce qui signifie qu'aucune de vos musiques ne changera de place dans votre liste, aucune répercussion en perte de PP n'aura lieu sur vos autres parties. Un exemple pour cela serait que si votre meilleure score soit sur Avalanche avec **250 PP** et que vous y réussissiez à améliorer votre précision et que ce score vaille désormais **260 PP**, vous obtiendrez **+10 PP** sur votre montant total de PP.
 
@@ -113,7 +107,6 @@ Ceci étant dit, voici une liste des modificateurs disponibles dans le jeu, leur
 | Modificateur                | Description                                                                                                                                                                                                              |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | No Fail (0.00/-0.50)        | Agit comme un filet de sécurité vous permettant de continuer à jouer si vous échouez. Depuis la version 1.13.2, ce modificateur n'applique la pénalité de score que si vous perdez toute votre santé pendant la chanson. |
-<<<<<<< HEAD
 | No Walls (-0.05)            | Retire tous les obstacles (murs) du niveau.                                                                                                                                                                              |
 | No Bombs (-0.10)            | Retire toutes les bombes du niveau.                                                                                                                                                                                      |
 | No Arrows (-0.30)           | All notes become dot notes, meaning you can hit them in any direction!                                                                                                                                                   |
@@ -128,16 +121,6 @@ Ceci étant dit, voici une liste des modificateurs disponibles dans le jeu, leur
 | Strict Angles (0.0)         | Tolarace for a good cut angle is reduced                                                                                                                                                                                 |
 | Small Notes (0.0)           | Changes the notes to 50% normal size                                                                                                                                                                                     |
 | Zen Mode (-100)             | No notes, walls, or bombs. Just the music and the lights!                                                                                                                                                                |
-=======
-| No Obstacles (-0.05)        | Retire tous les obstacles (murs) du niveau.                                                                                                                                                                              |
-| No Bombs (-0.10)            | Retire toutes les bombes du niveau.                                                                                                                                                                                      |
-| Slower Song (-0.30)         | Ralentit la musique à 85% de la vitesse originale.                                                                                                                                                                       |
-| Insta Fail (0.00)           | Fait perdre le joueur dès la première erreur.                                                                                                                                                                            |
-| Battery Energy (0.00)       | Empêche la barre de vie de se régénérer. Limite le nombre total d'erreurs avant d'échouer la partie.                                                                                                                     |
-| Disappearing Arrows (+0.07) | Fait disparaître les flèches des notes lorsqu'elles s'approchent de vous. Il est toujours nécessaire de se souvenir de la direction dans laquelle la note doit être coupée.                                              |
-| Faster Song (+0.08)         | Accélère la musique à 120% de la vitesse originale.                                                                                                                                                                      |
-| Ghost Notes (+0.11)         | Fait disparaître les notes et leurs flèches avant que vous ne deviez les frapper, comme avec Disappearing Arrows.                                                                                                        |
->>>>>>> master
 <!-- markdownlint-enable MD013 -->
 
 ## Prises

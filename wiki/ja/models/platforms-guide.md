@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: "false"
 prev: ./avatars-guide.md
 next: ./notes-guide.md
@@ -58,19 +57,3 @@ Export the platform trough the script that you previously added to the gameObjec
 ::: tip NOTE **Once you've got your new platform working**, [upload them to ModelSaber](https://modelsaber.com) if you want to share them with the world. :::
 
 ![Cat](~@images/models/platforms/Cat.png)
-=======
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-申し訳ありませんが、このページは翻訳されていません。
-
-あなたができることは。。。
-
-* 言語メニューから英語版に切り替えます。
-* そのページが翻訳されるまでお待ちください。
-* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
-
-[トップページへ戻る](/ja/)
->>>>>>> master

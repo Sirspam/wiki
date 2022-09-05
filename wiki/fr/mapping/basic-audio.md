@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: auto
 prev: false
 next: ./advanced-audio.md
@@ -354,18 +353,3 @@ lower quality until the file meets the file size limit. ZIP files over 8 MB cann
 
 ## Crédits
 Content on this page is derived from guides by [Kolezan](./mapping-credits.md#kolezan) & [Nik](./mapping-credits.md#nik-n3tman).
-=======
-sidebar: false
----
-
-
-Désolé, cette page n'a pas encore été traduite.
-
-Vous pouvez :
-
-* basculer vers la version anglaise de cette page à partir du sélecteur de langue,
-* attendre que cette page soit traduite,
-* aider à traduire cette page et le reste du wiki depuis l'anglais en postulant [ici](https://forms.gle/e3BqA3poMjESARe76)
-
-[Retourner à la page d'accueil](/fr/)
->>>>>>> master

@@ -2,45 +2,45 @@
 sidebar: auto
 - - -
 
-# Linux Modding Guide
+# Linux Mod 教程
 
-## Preface
-Most Beat Saber mod installers weren't built to run on Linux, so we have to do some small things to get it to work on Linux. It is very similar to a Windows install, but you will need some workarounds.
+## 阅前须知
+大多数 Beat Saber Mod 安装器并不是为了 Linux 而编译的，因此我们需要做一些小改动才能让它在 Linux 上运行。 这非常类似于 Windows 安装，但还需要一些额外工作。
 
-::: warning
-Using mods in Linux isn't supported by mod developers, so you might encounter bugs!
+::: 警告
+大多数 Mod 开发者并不支持在 Linux 中安装 Mod，所以你可能会遇到一些 bug。
 :::
 
-### Using Beataroni
-::: danger **Run the game at least once** before trying to mod the game! This applies to reinstalling your game too. :::
+### 使用 Beataroni
+在安装 Mod 之前，** 至少运行一次游戏 **。 重装游戏后也是这样。 :::
 
-1. Download Beataroni from [GitHub](https://github.com/geefr/beatsaber-linux-goodies/releases) and extract it to a directory on your system.
+1. 从 [GitHub](https://github.com/geefr/beatsaber-linux-goodies/releases) 下载 Beataroni，然后解压到您系统上的某个目录。
 
 ```sh
 tar -xzf Beataroni-linux64-1.0.tar.gz
 ```
 
-2. Run `Beataroni-Linux.sh`.
-3. Type in your Beat Saber installation location and select the correct version then press **continue**.
+2. 运行 `Beataroni-Linux.sh`。
+3. 输入您的 Beat Saber 安装位置，选择正确的版本，然后按 ** Continue **。
 
 ![Beataroni Beat Saber Installation and Version Select Screen](~@images/modding/beataroni-start.png)
 
-4. Select the mods you want to install then press **continue**. You will need `BSIPA` (at the top of the list) as it is a dependency for all other mods.
+4. 选择您想要安装的模组，然后按 **Continue**。 您将需要 `BSIPA`（在列表顶部），因为它是所有其他 Mod 的依赖项。
 
 ![Beataroni Mod List Screen](~@images/modding/beataroni-mod-list.png)
 
-5. Wait for your mods to finish installing.
+5. 等待安装你的 Mod。
 
 ![Beataroni Log Screen](~@images/modding/beataroni-end.png)
 
-6. Start Beat Saber. Your mods should be installed.
+6. 启动节奏光剑。 您的 Mod 应该都安装好了。
 
-### Using Wine and Winetricks
-::: danger **Run the game at least once** before trying to mod the game! This applies to reinstalling your game too. :::
+### 使用 Wine 和 Winetricks
+在安装 Mod 之前，** 至少运行一次游戏 **。 重装游戏后也是这样。 :::
 
-Make sure you have [Wine](https://wiki.winehq.org/Download) and [Winetricks](https://github.com/Winetricks/winetricks/blob/master/README.md) installed before starting.
+请确保您在启动前安装了 [Wine](https://wiki.winehq.org/Download) 和 [Winetricks](https://github.com/Winetricks/winetricks/blob/master/README.md)。
 
-1. Make a new 32-bit Wine prefix.
+1. 创建一个新的 32 位 Wine prefix。
 
 ```bash
 export WINEARCH="win32"
@@ -48,7 +48,7 @@ export WINEPREFIX=~/.winemods
 wineboot -u
 ```
 
-2. Install the dotnet472 and d3dcompiler_47 packages using winetricks. If it asks to restart choose 'Restart later'.
+2. 使用 Winetricks 安装 dotnet472 和 d3dcompiler_47 软件包。 如果它请求重启，请选择“Restart later”。
 
 ```bash
 winetricks dotnet472 d3dcompiler_47
@@ -56,13 +56,13 @@ winetricks dotnet472 d3dcompiler_47
 
 ![dotnet472](https://i.imgur.com/r62nmZW.png)
 
-::: warning
-There will be multiple install prompts you will have to go through, this is normal!
+::: 警告
+你将看到多次安装提示，这是正常的！
 :::
 
-3. Download a [mod installer](/beginners-guide.md#installers) and put it in your [install folder](/faq/install-folder.md). <br/>![Install Folder](https://i.imgur.com/ap2ofvE.png)
-4. Move your Beat Saber folder onto your desktop and open a terminal
-5. Navigate to your Beat Saber folder in a terminal and run your installer in Wine.
+3. 下载 [Mod 安装程序](/beginners-guide.md#installers) 并将其放入您的 [ 游戏文件夹 ](/faq/install-folder.md)。 <br/>![Install Folder](https://i.imgur.com/ap2ofvE.png)
+4. 移动 Beat Saber 文件夹到桌面，并打开一个终端
+5. 在终端中打开到您的 Beat Saber 文件夹，然后在 Wine 中运行安装程序。
 
 ```sh
 cd Desktop
@@ -72,29 +72,29 @@ wine BeatSaberModManager.exe
 
 ![BeatSaberModManager](https://i.imgur.com/sXUhA8x.png)
 
-4. Direct the installer to your Beat Saber directory ![BeatSaberModManager](https://i.imgur.com/DzEaDaI.png)
-5. Install your mods. You should now have a Plugins folder.
-6. Close out of the installer and put the Beat Saber folder back into common. ![Beat Saber folder](https://i.imgur.com/xWeN0TT.png)
-7. Start Beat Saber and check if the mods are installed. If they aren't you may need to [do a DLL override](#dll-override)
+4. 将安装程序引导到您的 Beat Saber 目录 ![BeatSaberModManager](https://i.imgur.com/DzEaDaI.png)
+5. 安装您的 Mod。 您现在应该有一个 Plugins 文件夹。
+6. 关闭安装程序，并把 Beat Saber 文件夹移动回去。 ![Beat Saber folder](https://i.imgur.com/xWeN0TT.png)
+7. 打开 Beat Saber 并检查 Mod 是否已安装。 如果 Mod 未正确安装，你可能将需要[进行 DLL 覆盖](#dll-override)
 
-### Using a Virtual Machine
-::: danger **Run the game at least once** before trying to mod the game! This applies to reinstalling your game too. :::
+### 使用虚拟机
+在安装 Mod 之前，** 至少运行一次游戏 **。 重装游戏后也是这样。 :::
 
-Make sure you have [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads) installed before starting.
+请确保您在启动前安装 [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)。
 
-1. Download a [Windows 10 ISO](https://www.microsoft.com/en-us/software-download/windows10ISO)
-2. Make a new Windows 10 virtual machine and start it. ![VirtualBox](https://i.imgur.com/HJMwMSr.png)
-3. When asked, select the Windows 10 ISO. and start it. ![VirtualBox](https://i.imgur.com/af0ikmV.png)
-4. After you are finished installing Windows, download a [mod installer](/beginners-guide.md#installers) inside the VM. ![Mod Assistant Install](https://i.imgur.com/juZzw1j.png)
-5. Make a shared folder by going to 'Devices > Shared Folders > Shared Folder Settings...'. Make a new shared folder with the common folder `/.local/share/Steam/steamapps/common/` and turn Auto-mount on. ![Shared Folder](https://i.imgur.com/FoV8BE3.png) ![Shared Folder](https://i.imgur.com/rcpnROc.png)
-6. Run the mod installer you have downloaded, and manually select your Beat Saber folder, then install your mods.
-7. Exit the VM and start Beat Saber. Your mods should be installed. If they aren't, go to [DLL Override](./linux.md#dll-override)
+1. [ 下载 Windows 10 ISO](https://www.microsoft.com/en-us/software-download/windows10ISO)。
+2. 创建一个新的 Windows 10 虚拟机并启动。 ![VirtualBox](https://i.imgur.com/HJMwMSr.png)
+3. 当问到时，请选择 Windows 10 ISO。 然后启动它。 ![VirtualBox](https://i.imgur.com/af0ikmV.png)
+4. 安装 Windows 后，请在 VM 中下载 [Mod Assistant](/beginners-guide.md#installers)。 ![Mod Assistant Install](https://i.imgur.com/juZzw1j.png)
+5. 前往 ' 设备 > 共享文件夹 > 共享文件夹...' 创建共享文件夹。 为 `/.local/share/steamapps/common/` 创建一个新共享文件夹，并打开自动挂载。 ![Shared Folder](https://i.imgur.com/FoV8BE3.png) ![Shared Folder](https://i.imgur.com/rcpnROc.png)
+6. 运行您下载的 Mod 安装程序，手动选择您的 Beat Saber 文件夹，然后安装您的 Mod。
+7. 退出虚拟机，并开启节奏光剑。 您的 Mod 应该都安装好了。 如果没有，那你需要[进行 DLL 覆盖](./linux.md#dll-override)
 
-### DLL Override
-Wine doesn’t use DLLs the same way Windows does, so you have to change a few things to make the IPA injection work.
+### 进行 DLL 覆盖
+Wine 不像 Windows 那样使用 DLL，所以您必须修改一些项目才能让 IPA 注入正常工作。
 
-::: danger DANGER Messing with registry files can be dangerous, make sure you don't touch anything besides what the guide tells you to.  
-If you messed up the registry file, either verify your game files or reinstall Beat Saber after backing up your files. :::
+::: danger DANGER 注册表文件可能是危险的，请确保您不触碰任何指南没有告诉您的内容。  
+如果您收到注册表文件，要么验证您的游戏文件，要么在备份文件后重新安装 Beat Saber。 :::
 
 1. Navigate to `/.local/share/Steam/steamapps/compatdata/620980/pfx/` and open `user.reg`
 2. Inside the file, navigate to `[Software\\Wine\\DllOverrides]`. Try <kbd>Ctrl + F</kbd> and type DllOverrides to get there more quickly

@@ -1,13 +1,6 @@
-<<<<<<< HEAD
 - - -
 sidebar: auto description: Ga aan de slag in de juiste richting!
 - - -
-=======
----
-sidebar: auto
-description: Ga aan de slag in de juiste richting!
----
->>>>>>> master
 
 # Gids voor beginners
 

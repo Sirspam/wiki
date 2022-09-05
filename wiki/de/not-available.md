@@ -2,12 +2,8 @@
 sidebar: false
 ---
 
-<<<<<<< HEAD
 <!-- Disable header rule to hide page from search -->
 <!-- markdownlint-disable MD041 -->
-=======
-
->>>>>>> master
 Diese Seite wurde noch nicht übersetzt.
 
 Du kannst:
@@ -17,11 +13,8 @@ Du kannst:
 * Helfen diese Seite und den Rest des Wiki's aus dem englischen zu übersetzten indem du dich [hier bewirbst](https://forms.gle/e3BqA3poMjESARe76)!
 
 [Zurück zur Startseite](/de/)
-<<<<<<< HEAD
 
 Hilf uns die Seite zu verbessern!  
 Zuletzt aktualisiert am  
 Startseite  
 BSMG Discord
-=======
->>>>>>> master

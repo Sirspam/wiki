@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: "false"
 description: The dictionary of most mapping lingo.
 ---
@@ -271,19 +270,3 @@ let us know in #mapping-discussion!
 | **Window Slider**                                                                  | A 3-long [Slider](#s) with the center [Note](#n) removed to allow for better vision.                                                                                                                                                                                     |
 | **WIP**                                                                            | Abbreviation of "Work-In-Progress", meaning not yet finished. WIP maps must be played in either party mode or practice mode until released to prevent stray [ScoreSaber](#s) leaderboards from being created for each revision.                                          |
 | **Wrist Reset**                                                                    | The action of [Resetting](#r) only your wrist due to a sequence of [Notes](#n) that require a large twist of the wrist.                                                                                                                                                  |
-=======
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-申し訳ありませんが、このページは翻訳されていません。
-
-あなたができることは。。。
-
-* 言語メニューから英語版に切り替えます。
-* そのページが翻訳されるまでお待ちください。
-* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
-
-[トップページへ戻る](/ja/)
->>>>>>> master

@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: auto
 prev: ./intermediate-mapping.md
 next: false
@@ -387,18 +386,3 @@ If you’re feeling adventurous, rotation events can be manually edited into you
 
 ## Credits
 Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi), [Bloodcloak](./mapping-credits.md#bloodcloak), [Spooky Ghost](./mapping-credits.md#spooky-ghost), [Caeden117](./mapping-credits.md#caeden117), [Kival Evan](./mapping-credits.md#kival-evan), [Checkthepan](./mapping-credits.md#checkthepan), and [3Stans](./mapping-credits.md#_3stans)
-=======
-sidebar: false
----
-
-
-Diese Seite wurde noch nicht übersetzt.
-
-Du kannst:
-
-* Zur englischen Version vom Sprachenmenü aus wechseln.
-* Warten bis die Seite übersetzt wurde.
-* Helfen diese Seite und den Rest des Wiki's aus dem englischen zu übersetzten indem du dich [hier bewirbst](https://forms.gle/e3BqA3poMjESARe76)!
-
-[Zurück zur Startseite](/de/)
->>>>>>> master

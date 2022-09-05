@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: auto
 prev: ./sabers-guide.md
 next: ./platforms-guide.md
@@ -224,19 +223,3 @@ Here is a video of me making an avatar, narrated by Megalon. [5:57]
 * **Emma**, for making the first guide that led me to figuring this out, and helping with this one.
 * **Megalon**, for providing the ASMR for the video.
 * **Ella**, for making fun of me until I got gud, helping with the website design, parts of this guide, and putting up with all my dumb questions.
-=======
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-Sorry, deze pagina is nog niet vertaald.
-
-Je kan:
-
-* Overschakelen naar de Engelse versie vanuit het taal menu.
-* Wachten totdat deze pagina is vertaald.
-* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
-
-[Ga terug naar de startpagina](/nl/)
->>>>>>> master

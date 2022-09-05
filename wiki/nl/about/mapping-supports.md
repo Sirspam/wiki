@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Mapping Supports
 De Mapping Support rol staat symbool voor dank. Bedankt voor de duizenden berichten die verstuurd zijn in het gesprekskanaal en de tijd die besteed is aan het maken van de nummers en het in stand houden van de middelen die nodig zijn om mensen te helpen om hun eigen nummers te maken. Deze rol word niet vaak uitgegeven, maar als we dat wel doen dan is dat omdat iemand veel tijd heeft besteed aan de server en het helpen van mensen.
 
@@ -46,20 +45,3 @@ Eerste bijdrager aan ChroMapper en MMA2 onderhouder. Zal ooit een keer een level
 **Moderators:** [Pyrowarfare](./moderators.md#pyrowarfare-retired)   
 **Staff:** [Bloodcloak](./staff.md#bloodcloak)   
 :::
-=======
----
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-Sorry, deze pagina is nog niet vertaald.
-
-Je kan:
-
-* Overschakelen naar de Engelse versie vanuit het taal menu.
-* Wachten totdat deze pagina is vertaald.
-* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
-
-[Ga terug naar de startpagina](/nl/)
->>>>>>> master

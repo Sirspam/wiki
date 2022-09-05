@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Supports
 _De Support rol staat symbool voor dank. Bedankt voor de duizenden berichten die via de hulp kanalen zijn verstuurd om mensen te helpen hun mods te regelen, en voor het bouwen van kennis over probleemoplossing via macro's en de wiki. Deze rol word niet vaak uitgegeven, maar als we dat wel doen dan is dat omdat iemand veel tijd heeft besteed aan de server en het helpen van mensen._
 
@@ -28,17 +27,22 @@ Hij speelt graag Beat Saber. Hij houdt er ook van mensen te helpen hun problemen
 
 **Rol:** Support.
 
+## KodenameKRAK
+"Maybe in a couple years I could think of something to put here"
+
+**Roles:** Support
+
 ## Kolezan
-Hij zal je leren om je mods te fixen en je vreselijke allereerste off-beat level te verbeteren. We zijn er allemaal geweest.
+He'll teach you to fix your mods and your terribly off-beat first map. We've all been there.
 
-**Rollen:** Support, Mapping Support, Mapper.
+**Roles:** Support, Mapping Support, Mapper
 
-[Twitch](https://www.twitch.tv/kolezan) | [Doneer](https://paypal.me/kolezan)
+[Twitch](https://www.twitch.tv/kolezan) | [Donate](https://paypal.me/kolezan)
 
 ## Luna
 She's often forgetful, but happy to help
 
-**Rol:** Support.
+**Roles:** Support
 
 ## male
 is too uncreative to think of a bio
@@ -68,11 +72,6 @@ Just your average .saber connoisseur with a knowledge of troubleshooting
 
 ## Rex
 I really like to help people. Yeah that's all.
-
-**Roles:** Support
-
-## rui2015
-Has no creativity and doesn't know what to put here. Is a cool person though.
 
 **Roles:** Support
 
@@ -107,6 +106,11 @@ I decided I wanted to help one day, and have been slightly addicted ever since.
 
 **Roles:** Support
 
+## X
+🐸 🎉 _I don't know what to put here_
+
+**Roles:** Support
+
 ## Channel Monitor Bot
 The bot that holds it all together. Created by Megalon, recreated by lolPants, and personified by Rolo!
 
@@ -119,23 +123,6 @@ A very helpful individual
 ---
 
 ::: tip See Also **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
-**Modders:** [Kyle1413](./modders.md#kyle1413) | [Sirspam](./modders.md#sirspam)  
+**Modders:** [Kyle1413](./modders.md#kyle1413) | [Sirspam](./modders.md#sirspam) | [rui2015](./moderators.md#rui2015)  
 **Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer-retired) | [Chara_](./moderators.md#chara) | [Burrito](./moderators.md#burrito) | [OneEyed](./moderators.md#oneeyed-retired)  
 **Staff:** [Assistant](./staff.md#assistant-retired) | [Eradawn](./staff.md#eradawn) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon) | [Pink](./staff.md#pink) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ) :::
-=======
----
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-Sorry, deze pagina is nog niet vertaald.
-
-Je kan:
-
-* Overschakelen naar de Engelse versie vanuit het taal menu.
-* Wachten totdat deze pagina is vertaald.
-* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
-
-[Ga terug naar de startpagina](/nl/)
->>>>>>> master

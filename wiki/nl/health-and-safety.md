@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 sidebar: auto
 ---
 
@@ -39,19 +38,3 @@ Houd je speelruimte vrij van belemmeringen, laat voldoende ruimte rond je tijden
 Om het risico op lichamelijk letsel te verminderen, vergeet niet te stretchen voor en na het spelen van Beat Saber. Let Op:
 
 ![Wammy](~@images/health-and-safety/wammy.gif "Wammy")
-=======
-sidebar: false
----
-
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-Sorry, deze pagina is nog niet vertaald.
-
-Je kan:
-
-* Overschakelen naar de Engelse versie vanuit het taal menu.
-* Wachten totdat deze pagina is vertaald.
-* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
-
-[Ga terug naar de startpagina](/nl/)
->>>>>>> master

@@ -3,7 +3,7 @@ sidebar: auto
 ---
 
 # 排位 & 打分指南
-Written by Teknoz
+作者：Teknoz
 
 *Big thanks to Flee for correcting grammar mistakes and providing useful information.*
 
@@ -14,38 +14,38 @@ Written by Teknoz
 ### 分数倍乘
 Your score multiplier can be seen below, being surrounded by a outer ring. As said in the name, the multiplier has an effect on your score. You start the song with a multiplier of **1x** and the outer ring shows the progression to the next multiplier. When you hit the note that brings you up to the next multiplier, that note is affected by the new multiplier and not the old one. The different multipliers are : **1x, 2x, 4x and 8x**. Every time you lose combo which involves missing a note, cutting in the wrong direction or the with the wrong saber, hitting a bomb or going through an obstacle, your multiplier will be cut in half.
 
-![Score Multiplier](~@images/ranking-guide/score_multiplier.png "Score Multiplier")
+![分数倍乘](~@images/ranking-guide/score_multiplier.png "分数倍乘")
 
 ### 打分
 Scoring well in Beat Saber isn’t as simple as keeping a high combo and not missing notes, it is also determined by your score per block. The maximum score possible to achieve while slicing a block is **115** (without counting the score multiplier). While cutting a block, you must achieve the correct swing angles and you must slice it in the center to achieve the best score for that cut.
 
 Here is how score is calculated for a cut:
-| Component          | Point Value |
-| ------------------ | ----------- |
-| 100° Approach      | 70 Points   |
-| 60° Follow Through | 30 Points   |
-| Cutting in Half    | 15 Points   |
+| 动作                 | 分值        |
+| ------------------ | --------- |
+| 100° Approach      | 70 Points |
+| 60° Follow Through | 30 Points |
+| Cutting in Half    | 15 Points |
 
 This shows how important it is to do proper swings to get the right angles and the best score possible. Remember, it’s better to get a bad cut than a miss since a miss counts as **0 points** and breaks your combo.
 
 ### 打击区域
 A common misconception in Beat Saber would be that most people think that the hitboxes for the notes are the blocks themselves. While that used to be the case, the hitboxes have changed quite a few times through the different versions of the game and a lot of the pictures out there are mistaken. Here is an image showing the current hitbox. As you can see, the hitbox is pretty big and extends a lot on the sides and the front. With this information, it is recommended to hit with the tip of the saber to maximize the angle and get the best cut possible.
 
-![Hitboxes](~@images/ranking-guide/hitbox.png "Hitboxes")
+![打击区域](~@images/ranking-guide/hitbox.png "打击区域")
 
 ### 准确度
 Accuracy is shown on the left after enabling the **Advanced HUD** option in the Player Settings. Accuracy is shown by a percentage and a letter. While the best "possible" accuracy is **100%**, it is practically impossible since it would require no combo break and 115 cuts on every block. Even then, accuracy is still a great way to measure performance on a map and one’s ability to score properly and avoid missing notes. Accuracy is calculated using information such as the scores per hit, the score multiplier and the amount of miss.
 
 Here is the connection between the letters and accuracy percentage:
-| Letter Grade | Accuracy Percentage |
-| ------------ | ------------------- |
-| SS           | 90-99.99%           |
-| S            | 80-89.99%           |
-| A            | 65-79.99%           |
-| B            | 50-64.99%           |
-| C            | 35-49.99%           |
-| D            | 20-34.99%           |
-| E            | < 19.99%            |
+| 评分等级 | 准确度区间     |
+| ---- | --------- |
+| SS   | 90-99.99% |
+| S    | 80-89.99% |
+| A    | 65-79.99% |
+| B    | 50-64.99% |
+| C    | 35-49.99% |
+| D    | 20-34.99% |
+| E    | < 19.99%  |
 
 ## 排位流程
 
@@ -87,7 +87,7 @@ Here is an example of how the curve works:
 | 244pp  | **219pp**  (89.9% of raw PP) |
 
 ### 为什么我的总PP分没有按照我新分数的加权PP分增加?
-A common question people seem to have when they get a new score worth, for example, **100 weighted PP** is why they are not getting **+100 pp** on their total amount of performance points. As explained earlier, since the effect of the curve on your plays increases the further you go down your list, when you make a new play, it takes the place of an older play which makes all the plays that are under go down 1 place in the list. Even if you are getting **+100 pp** from this new play, all your lower plays are weighed down even more then before so you lose a certain amount of PP on them. This is why when getting a new play or making a better play on a map, you will never (one exception) get the same amount of PP on your total amount of performance points.
+A common question people seem to have when they get a new score worth, for example, **100 weighted PP** is why they are not getting **+100 pp** on their total amount of performance points. As explained earlier, since the effect of the curve on your plays increases the further you go down your list, when you make a new play, it takes the place of an older play which makes all the plays that are under go down 1 place in the list. Even if you are getting **+100 pp** from this new play, all your lower plays are weighed down even more than before so you lose a certain amount of PP on them. This is why when getting a new play or making a better play on a map, you will never (one exception) get the same amount of PP on your total amount of performance points.
 
 The only exception to this is if you get a better accuracy on your current top play. Since your top play is not affected by the curve, meaning that none of your songs will change places in your list, there will be no lost of PP on your other plays. An example would be if your top play is on Avalanche with **250 pp** and you manage to get a better accuracy and that play is now worth **260 pp**, you will then get **+10 pp** on your total amount of PP.
 
@@ -104,23 +104,23 @@ When it comes to ranked maps, all the **Negative Modifiers** such as No Fail app
 With this said, here is a list of all the modifiers in the game, their effects on score and how they affect gameplay:
 
 <!-- markdownlint-disable MD013 -->
-| 修改项                         | 描述                                                                                                                                                                                |
-| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| No Fail (0.00/-0.50)        | Acts as a safety net letting you continue playing if you fail. As of version 1.13.2, this modifier applies the score penalty only if you lose all of your health during the song. |
-| No Walls (-0.05)            | Removes all of the obstacles (walls) from the map.                                                                                                                                |
-| No Bombs (-0.10)            | Removes all of the bombs from the map.                                                                                                                                            |
-| No Arrows (-0.30)           | All notes become dot notes, meaning you can hit them in any direction!                                                                                                            |
-| Slower Song (-0.30)         | Slows down the song to 85% of the original speed.                                                                                                                                 |
-| 1 Life (0.00)               | Makes you fail on the first miss you make.                                                                                                                                        |
-| 4 Lives (0.00)              | Stops the health bar from replenishing. This limits the total amount of misses and bad cuts you can have before failing.                                                          |
-| Disappearing Arrows (+0.07) | Makes the arrows disappear from the note as they approach you. You still need to remember the direction as you need to cut in the correct direction as always.                    |
-| Faster Song (+0.08)         | Speeds up the song to 120% of the original speed.                                                                                                                                 |
-| Super Fast Song (+0.10)     | Speeds up the song to 150% of the original speed.                                                                                                                                 |
-| Ghost Notes (+0.11)         | Notes are invisible and the arrows disappear shortly before you hit them, similarly to Disappearing Arrows.                                                                       |
-| Pro Mode (0.0)              | Changes the hitboxes to match the notes precisely.                                                                                                                                |
-| Strict Angles (0.0)         | Tolarace for a good cut angle is reduced                                                                                                                                          |
-| Small Notes (0.0)           | Changes the notes to 50% normal size                                                                                                                                              |
-| Zen Mode (-100)             | No notes, walls, or bombs. Just the music and the lights!                                                                                                                         |
+| 修改项              | 描述                                                                                                                                                                                |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 无敌模式（0.00/-0.50） | Acts as a safety net letting you continue playing if you fail. As of version 1.13.2, this modifier applies the score penalty only if you lose all of your health during the song. |
+| 无墙模式（-0.05）      | Removes all of the obstacles (walls) from the map.                                                                                                                                |
+| 无弹模式（-0.10）      | Removes all of the bombs from the map.                                                                                                                                            |
+| 无头模式（-0.30）      | All notes become dot notes, meaning you can hit them in any direction!                                                                                                            |
+| 慢一点（-0.30）       | Slows down the song to 85% of the original speed.                                                                                                                                 |
+| 一命模式（0.00）       | Makes you fail on the first miss you make.                                                                                                                                        |
+| 四命模式（0.00）       | Stops the health bar from replenishing. This limits the total amount of misses and bad cuts you can have before failing.                                                          |
+| 消逝的箭头（+0.07）     | Makes the arrows disappear from the note as they approach you. You still need to remember the direction as you need to cut in the correct direction as always.                    |
+| 快一点（+0.08）       | Speeds up the song to 120% of the original speed.                                                                                                                                 |
+| 再快一点（+0.10）      | Speeds up the song to 150% of the original speed.                                                                                                                                 |
+| 消逝的方块（+0.11）     | Notes are invisible and the arrows disappear shortly before you hit them, similarly to Disappearing Arrows.                                                                       |
+| 专家模式（0.0）        | Changes the hitboxes to match the notes precisely.                                                                                                                                |
+| 严格的角度判定（0.0）     | Tolarace for a good cut angle is reduced                                                                                                                                          |
+| 小方块（0.0）         | Changes the notes to 50% normal size                                                                                                                                              |
+| 贤者模式（-1.00）      | No notes, walls, or bombs. Just the music and the lights!                                                                                                                         |
 <!-- markdownlint-enable MD013 -->
 
 ## 握法
